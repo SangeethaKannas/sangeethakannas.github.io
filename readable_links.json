@@ -8,6 +8,13 @@
     "Starter Kits - VOLT",
     "https://www.lynda.com/Web-Design-training-tutorials/1376-0.html"
   ],
+  "Remote Work": [
+    "https://www.youtube.com/watch?v=fSJCcDiD-zw",
+    "https://basecamp.com/books/remote",
+    "https://growth.wingify.com/running-a-profitable-debt-free-and-remote-company-for-17-years-lessons-from-wildbit-c815025a470f",
+    "https://m.signalvnoise.com/dont-solve-the-problem/",
+    "https://www.atlassian.com/blog/inside-atlassian/working-from-home-tips?utm_source=linkedin&utm_medium=social&utm_campaign=atlassian_working-from-home-tips"
+  ],
   "Illustation Websites": [
     "humaaans.com",
     "drawkit.io",
@@ -27,7 +34,11 @@
     "https://github.com/getify/You-Dont-Know-JS",
     "https://github.com/sudheerj/reactjs-interview-questions#what-are-forward-refs",
     "https://github.com/mobxjs/mobx-state-tree",
-    "https://github.com/FontCustom/fontcustom"
+    "https://github.com/FontCustom/fontcustom",
+    "https://github.com/pestotech/curriculum",
+    "https://github.com/ryanmcdermott/clean-code-javascript",
+    "https://github.com/OpenBudget/BudgetKey/issues/321",
+    "https://github.com/ubccsss/ubccsss.org"
   ],
   "Interviews": [
     "https://bit.ly/devtools-yt-ref",
@@ -54,10 +65,16 @@
     "https://www.udemy.com/course/build-your-first-website-in-1-week/?LSNPUBID=QqcN8lE0l0I&ranEAID=QqcN8lE0l0I&ranMID=39197&ranSiteID=QqcN8lE0l0I-FiJluQ5XwSllMxpW2srrsA",
     "https://www.udemy.com/course/learn-javascript-fundamentals-in-an-hour/?LSNPUBID=QqcN8lE0l0I&ranEAID=QqcN8lE0l0I&ranMID=39197&ranSiteID=QqcN8lE0l0I-UEdefnOa5MR_cWmCNRpn2A",
     "https://www.udemy.com/course/learn-html5-programming-from-scratch/?LSNPUBID=QqcN8lE0l0I&ranEAID=QqcN8lE0l0I&ranMID=39197&ranSiteID=QqcN8lE0l0I-b8RZWuELqtNzY2onMPXzcA",
-    "https://www.udacity.com/course/intro-to-html-and-css--ud001"
+    "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    "https://in.udacity.com/course/browser-rendering-optimization--ud860",
+    "https://classroom.udacity.com/courses/ud884",
+    "https://scotch.io/tutorials/web-accessibility-for-beginners?utm_source=newsletter&utm_medium=email&utm_campaign=web_accessibility_for_beginners&utm_term=2019-03-27",
+    "https://acework.io/apply/",
+    "https://docs.google.com/spreadsheets/d/1WJremySzeXVzXSRekVNUEm6RzENjY0Gjb24ixkBqExs/edit#gid=0"
   ],
   "Simply Web Development": [
     "https://css-tricks.com/style-guide-driven-development-atomic-docs/",
+
     "https://css-tricks.com/iterating-a-react-design-with-styled-components/",
     "https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/",
     "https://medium.com/angular-in-depth/get-started-with-cypress-d6ac4b910605",
@@ -79,7 +96,13 @@
     "http://www.studywebdevelopment.com/web-development-basics-for-beginners.html",
     "https://en.wikipedia.org/wiki/Web_developer",
     "https://www.w3schools.com/css/css3_intro.asp",
-    "https://www.w3schools.com/css/"
+    "https://www.w3schools.com/css/",
+    "https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/",
+    "https://stackoverflow.com/questions/18133635/remove-property-for-all-objects-in-array",
+    "https://www.google.com/search?q=amMoment+angularjs&rlz=1C1GCEA_enIN838IN838&oq=amMoment+angularjs&aqs=chrome..69i57j69i59l3j69i60l4.2791j0j7&sourceid=chrome&ie=UTF-8",
+    "https://github.com/michaelbromley/angular-es6/tree/master/src/app",
+    "https://www.sitepoint.com/javascript-private-class-fields/",
+    "https://stackoverflow.com/questions/18607010/accessing-factory-defined-in-another-module-in-angularjs"
   ],
   "Future Reads": [
     "https://www.goskills.com/Office-Productivity/Articles/Tools-for-freelancers?utm_source=goskills&utm_medium=email&utm_campaign=October_Newsletter_04112019&tracking_guid=81e30064-4bcc-48a2-a945-be58c1245a7f&link_index=2",

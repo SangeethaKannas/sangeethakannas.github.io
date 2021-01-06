@@ -11,3 +11,11 @@ Understanding of different CSS architectures that go hand-in-hand with React.js 
 Thorough understanding of Webpack bundler (version 2+). Experience with configuring Webpack   from scratch is a plus
 Hands-on experience with test-driven development using Jest or equivalent. Familiar with snap shot testing, code coverage. Experience working with utilities like Enzyme
 Understanding of universal rendering with React.js. Hands-on experience with different out of the box implementations or custom implementation is a plus
+
+Deep experience with React and Redux - not just for globalizing pieces of sharable data but as a general client-side storage mechanism. When you see API data in a component’s local state, you worry about scalability and MVC overlaps. You red heart JavaScript - it’s robustness, speed, nuances, and capabilities.
+You have built several products that taught you the latest in syntax, best practices, and performance. You’re comfortable building features without component libraries to meet pixel perfect designs. You have a passion for solving complex problems and are motivated to improve healthcare. You enjoy collaborating, learning from, and teaching others to improve engineering culture. You assume good intent in others, and actively do your part to make a positive work environment.
+Regular open-source contributors
+Experience writing JavaScript on several runtimes
+Data visualization experience
+Design capability and a passion for high quality UX
+

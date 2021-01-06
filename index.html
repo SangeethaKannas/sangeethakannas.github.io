@@ -4,123 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sangeetha Kanna S</title>
-    <style>
-      body {
-        background-image: ;
-      }
-
-      .question {
-      }
-
-      .question:before {
-        content: "Question:";
-      }
-
-      .answer {
-      }
-      .answer:before {
-        content: "Answer:";
-      }
-
-      a:link,
-      a:hover {
-        color: black;
-        text-decoration: none;
-        outline: none;
-      }
-
-      a:hover {
-        color: brown;
-        text-decoration: underline;
-      }
-
-      ul {
-        list-style-type: none;
-      }
-
-      .contact {
-      }
-
-      .contact-list {
-        margin: 10;
-        padding: 0;
-      }
-
-      .contact-list li {
-        margin-top: 10px;
-        display: inline;
-      }
-
-      .contact-list li a {
-        background-color: #bbb;
-        padding: 3px;
-        color: #fff;
-        border: 1px solid #222;
-      }
-
-      .contact-list li a:hover {
-        background-color: #ddd;
-      }
-
-      .experience ul ul {
-        display: none;
-      }
-
-      .experience ul li:hover > ul {
-        display: block;
-      }
-
-      input {
-        display: none;
-      }
-
-      input + label {
-        display: inline-block;
-        border: 1px solid #999;
-        background: #eee;
-        padding: 4px 12px;
-        border-radius: 4px 4px 0 0;
-        position: relative;
-        top: 1px;
-      }
-
-      input:checked + label {
-        background: #fff;
-        border-bottom: 1px solid transparent;
-      }
-
-      input ~ .tab {
-        border-top: 1px solid #999;
-        padding: 12px;
-        display: none;
-      }
-
-      .tabs {
-        width: 100%;
-      }
-
-      .tabs .tab-label:hover {
-        text-decoration: underline;
-        background-color: #eee;
-      }
-
-      #summary:checked ~ .summary,
-      #career-highlight:checked ~ .career-highlight,
-      #swot:checked ~ .swot,
-      #questions:checked ~ .questions,
-      #experience:checked ~ .experience,
-      #resources:checked ~ .resources {
-        display: block;
-      }
-
-      .skills-image {
-        min-width: 3rem;
-        min-height: 3rem;
-        max-height: 3rem;
-        max-width: 3rem;
-        margin: 0.3rem 0.1rem;
-      }
-    </style>
+    <link href="/styles.css" rel="stylesheet"></link>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Roboto"
@@ -155,29 +39,7 @@
     </section>
 
     <section class="tabs">
-      <input type="radio" name="tabs" id="summary" checked />
-      <label class="tab-label" for="summary">Summary</label>
-
-      <input type="radio" name="tabs" id="career-highlight" />
-      <label class="tab-label" for="career-highlight">Career Highlight</label>
-
-      <input type="radio" name="tabs" id="swot" />
-      <label class="tab-label" for="swot">SWOT</label>
-
-      <input type="radio" name="tabs" id="questions" />
-      <label class="tab-label" for="questions">Question</label>
-
-      <input type="radio" name="tabs" id="experience" />
-      <label class="tab-label" for="experience">Experience</label>
-
-       <input type="radio" name="tabs" id="resources" />
-      <label class="tab-label" for="resources">Resources</label>
-
-      <input type="radio" name="tabs" id="open-source" />
-      <label class="tab-label" for="open-source">OSS</label>
-
-      <input type="radio" name="tabs" id="blogs" />
-      <label class="tab-label" for="blogs">Blogs</label>
+      <!-- Tab Labels will be added here dynamically -->
 
       <section class="tab summary">
         <h2>Professional Summary</h2>
@@ -374,366 +236,68 @@
       </section>
 
       <section class="tab questions">
-        <article>
-          <ul>
-            <li>
-              <div class="question">Tell me about yourself?</div>
-              <div class="answer">
-                I am a curious and innovative full stack developer
-              </div>
-            </li>
-            <li>
-              <div class="question">Walk me through your resume?</div>
-              <div class="answer">
-                I started my career as a Backend Engineer in a very small called
-                Vida Projects, then I had few gaps when I tried to pursue higher
-                education. Then I joined HCL technologies and continuing here as
-                a Software enginer and I m working here as Technical Lead. I
-                have worked in javascript, jQuery, DOJO, Anguar JS, Angular and
-                React Technologies.
-              </div>
-            </li>
-            <li>
-              <div class="question">
-                Why do you want to apply for this role?
-              </div>
-              <div class="answer">This role gives me ...</div>
-            </li>
-            <li>
-              <div class="question">
-                Do you anticipate any challenges in this role?
-              </div>
-              <div class="answer">Yes.</div>
-            </li>
-            <li>
-              <div class="question">
-                Tell me what does a regular day at work look like for you?
-              </div>
-              <div class="answer">
-                My day will start with checking on the JIRA board for tasks to
-                be completed for me and my team. Then I will start working on
-                the tasks assigned to me and will review and merge the pull
-                requests under my name. Then we have scrum meetings and will
-                discuss on completed tasks and blockers
-              </div>
-            </li>
-            <li>
-              <div class="question">
-                How would your boss describe your strengths?
-              </div>
-              <div class="answer">My Boss would tell me as follows...</div>
-            </li>
-            <li>
-              <div class="question">
-                What are the three qualities your coworkers would say about you?
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">Why are you looking for a new role?</div>
-              <div class="answer">
-                To move on to new challenges and to achieve greater heights
-              </div>
-            </li>
-            <li>
-              <div class="question">
-                How will you work efficiently in a remote working set up?
-              </div>
-              <div class="answer">
-                I have been working in hybrid remote from 2015 to 2019 and in
-                fullly remote for the past six years. So working remotely is not
-                a new experience for me.
-              </div>
-            </li>
-            <li>
-              <div class="question">
-                What are the challenges you anticipate in a remote working set
-                up?
-              </div>
-              <div class="answer">
-                Sometimes the network is not working properly, Initally I found
-                this difficult since I got lot of disturbance and I am not able
-                to work in the flow. Now I m abe to overcome the challenges, as
-                I am following a strict routine.
-              </div>
-            </li>
-            <li>
-              <div class="question">
-                How will you work efficiently in a remote working set up?
-              </div>
-              <div class="answer">
-                I am following a very strict routine of working 3 (9.30 - 1) + 3
-                (2 - 5) + 2 ( 7-9) hours. The latter two hours are mostly
-                reserved for meetings and discussions
-              </div>
-            </li>
-            <li>
-              <div class="question">What motivates you at work?</div>
-              <div class="answer">
-                Solving new challenges, learning new techonologies, meeting with
-                new people
-              </div>
-            </li>
-            <li>
-              <div class="question">
-                How do you ensure an effective work life balance?
-              </div>
-              <div class="answer">
-                By working on strict routines and schedules
-              </div>
-            </li>
-            <li>
-              <div class="question">
-                If you were an animal, which one would you be?
-              </div>
-              <div class="answer">Tiger</div>
-            </li>
-            <li>
-              <div class="question">Do you have any questions for us?</div>
-              <div class="answer">
-                What is your work routine, communication channels, process
-                adhered
-              </div>
-            </li>
-            <li>
-              <div class="question">
-                Where do you see yourself 5 years from now?
-              </div>
-              <div class="answer">
-                As a Technical Architect or CTO of a startup
-              </div>
-            </li>
-            <li>
-              <div class="question">Why should we hire you?</div>
-              <div class="answer">
-                To get your work done in an efficient and effective manner and
-                for luck
-              </div>
-            </li>
-          </ul>
-        </article>
-        <article>
-          <h3>Behavioural Questions</h3>
-
-          <ul>
-            <li>
-              <div class="question">
-                What do you do when priorities change quickly? Give on example
-                of a time this happened?
-              </div>
-              <div class="answer">
-                I understand the new priorities and spontaneously respond as
-                soon as possible. When I was working on CAA project a new
-                security vulnerability came in production which needs to be
-                addressed quickly, so we fixed the security vulnerability issue
-                first and then came to the current working task.
-              </div>
-            </li>
-            <li>
-              <div class="question">
-                Describe the project or situation which best demonstrates your
-                analytical abilities. What was your role?
-              </div>
-              <div class="answer">
-                Cisco Prime Collobaration is the project in which I was working
-                on Analytics Module. This module required a lot of algorithms
-                that needs to be implemented as a huge amount of information
-                have to be processed based on complex business logics
-              </div>
-            </li>
-            <li>
-              <div class="question">
-                Give me an example of when you took a risk to achieve a goal.
-                What was the outcome?
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Tell us about a time when you built rapport quickly with someone
-                under difficult conditions.
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Give me example of a time where your-----
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question"></div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Discuss an important decision you have made regarding a task or
-                project at work. What factors influenced your decision?
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Describe a situation where you felt you had not communicated
-                well. How did you correct the situation?
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Tell us about a situation in which you had to adjust to changes
-                over which you had no control. How did you handle it?
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Give an example of an important goal that you set in the past.
-                Tell about your success in reaching it.
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Tell us about a time when you were particularly effective on
-                prioritizing tasks and completing a project on schedule.
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Tell us how you keep your job knowledge current with the ongoing
-                changes in the industry.
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                When you disagree with your manager, what do you do? Give an
-                example
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                It is very important to build good relationships at work but
-                sometimes it doesn’t always work. If you can, tell about a time
-                when you were not able to build a successful relationship with a
-                difficult person
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Describe a situation when you were able to strengthen a
-                relationship by communicating effectively. What made your
-                communication effective?
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Give me an example of a time when you were able to successfully
-                communicate with another person, even when that individual may
-                not have personally liked you.
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                How do you keep your manager informed about what is being done
-                in your work area?
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Tell us about a time when you and your current/previous
-                supervisor disagreed but you still found a way to get your point
-                across
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Everyone has made some poor decisions or has done something that
-                just did not turn out right. Has this happened to you? What
-                happened?
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Do prefer to work with the “big picture” or the “details” of a
-                situation? Give me an example of an experience that illustrates
-                your preference
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Describe a situation when you demonstrated initiative and took
-                action without waiting for direction. What was the outcome?
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                What time in PST are you comfortable working at?
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                If we were to give you an offer, when can you join?
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                What is your approach when you are trying to learn something
-                new?
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Can you tell me about a time when you introduced something new
-                to the team?
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">How much money do you want to make?</div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Do you want to work from home, from an office or from anywhere?
-                - any where
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Would you prefer to work in a multinational, in a startup, a
-                family business or having your own company?
-              </div>
-              <div class="answer"></div>
-            </li>
-            <li>
-              <div class="question">
-                Which kind of tasks would you enjoy doing?
-              </div>
-              <div class="answer"></div>
-            </li>
-          </ul>
-        </article>
+        <article id="questions"></article>
       </section>
 
       <section class="tab experience">
         <article class="time-line"></article>
-        <article class="simple-view"></article>
+        <article class="simple-view">
+          <h3>
+            <span>HCL Technologies, Chennai</span>
+            <span>Oct’ 2009 to Present</span>
+          </h3>
+          <h3>Responsibilities</h3>
+          <ul>
+            <li>Created the behavior of cutting-edge web applications. Implemented responsive web design using Twitter Bootstrap</li>
+            <li>Created reusable and scalable angular directives with isolated scope</li>
+            <li>Able to create well performing UI architecture by utilizing MVC architecture</li>
+            Coordinated UI engineers and Visual Design engineers, from different time zones, across different cultures as a ‘virtual’ team located both in India and abroad, allocating user stories and tasks, conducting daily standup and retro meetings</li>
+            <li>Improved code quality by conducting code reviews, reducing the LoC, enforcing test-first approach and best practices</li>
+            <li>Provided technical expertise and coaching on technologies which fit the company ecosystem but were only superficially familiar to development teams.</li>
+            <li>Helped team members at all skill levels overcome technical obstacles by pair-programming</li>
+            <li>Performed risk assessments with teams when hard choices had to be made in order to determine whether those choices would accelerate or hinder development efforts and helped mitigate project dependencies on resources using feature rotation
+            <li>Executed well under pressure, fixed all known bugs and issues, and identified potential future problems
+            </ul>
+
+<h4>Projects</h4>
+
+<h5>CiscoActiveAdvisor 	www.ciscoactiveadvisor.com	        	                        May 2015 to Present</h5>
+<code>
+Environment: Angular JS, jQuery, OOJS, Bootstrap, JSON, Tomcat, Jasmine, Protractor, Karma, Nginx, Grunt, wro4j, JS Hint, CSS Lint, brackets.io, Chrome DevTools, TDD (Test Driven Development), Scrum (Ontime), GIT, Jenkins, Windows
+</code>
+
+<h5>Cisco iOS – Web UI - 16.x                           	                                            	            	        May 2014 to April 2014</h5>
+<code>Environment: Angular JS, Kendo UI, jQuery, OOJS, Bootstrap, Lodash, Jasmine, Karma, Grunt, Protractor, Bootstrap, JSON, Nginx, NodeJS, Lua, Webstorm 9, Chrome DevTools, BDD ( Behaviour Driven Development), Scrum (Rally), GIT, Jenkins, Linux</code>
+
+<h5>Cisco Prime Collaboration - 9.5, 10.4                           	      Dec’2012 to April 2014</h5>
+<code>Environment: DOJO, jQuery, Core Java, JSON, Jeresy, Postgres, MDX, SQL, SVN, Maven, Hibernate</code>
+
+<h5>Cisco Security Manager - 4.1 to 4.4      	                    	        Oct’ 2009 to Nov’ 2012</h5>
+<code>Environment: Core Java, Swing, JIDE, Tomcat, Hibernate, jUnit, IBM RFT, Eclipse, SVN, AutoIt, Hibernate, JPA, Spring, Apache PoI, JMeter, Visual VM Profiler</code>
+
+<h3><span>Vida Projects, Neyveli
+            </span><span>Nov 2008 to Sept 2009</span></h3>
+<h3>Responsibilities</h3>
+<ul>
+  <li>Implemented servlets & JSPs for backend and GUI using JavaScript, HTML and CSS</li>
+  <li>Unit testing and deploying of the created projects</li>
+  <li>Utilized various jQuery plugins to build Rich Internet Application</li>
+  <li>Extensively worked with making calls to APIs to fetch the data from the backend as JSON response and parse it on the UI for DOM/CSS Manipulation</li>
+</ul>
+<h5>Environment: Core Java, Swing, Servlets, JSP, Apache Tomcat, Eclipse, Tortoise SVN, XML, Windows, Linux
+</h5>
+
+<h3><span>Trichy City Corporation</span><span>Apr 2005 to May 2006</span>
+</h3>
+<h3>Responsibilities</h3>
+<ul>
+          <li>Involved in fixing the functional implementations, UI design issues, bugs and feature updates.</li>
+  <li>Unit testing and deploying of the created projects</li>
+</ul>
+
+Environment: Core Java, Servlets, JSP, Tortoise SVN, Windows, Linux
+
+        </article>
       </section>
 
       <section class="tab education">
@@ -908,11 +472,43 @@ But, I was wrong! reopened the app and functionalities were not working sometime
 🌟 Using S.T.A.R.S. is a very effective way to pause, consider the challenge you are trying to solve and be intentional about your approach to a successful outcome.
 
 </code>
-</section>
+<code>
+Attitude
+  https://en.wikipedia.org/wiki/The_Five_Dysfunctions_of_a_Team
+●	Absence of trust—unwilling to be vulnerable within the group
+●	Fear of conflict—seeking artificial harmony over constructive passionate debate
+●	Lack of commitment—feigning buy-in for group decisions creates ambiguity throughout the organization
+●	Avoidance of accountability—ducking the responsibility to call peers on counterproductive behavior which sets low standards
+●	Inattention to results—focusing on personal success, status and ego before team success
+
+</code>
+      </section>
+
     </section>
   </body>
 
   <script>
+    //Append tabs
+    const tabsElement = document.querySelector('.tabs');
+
+    ['Blogs', 'OSS', 'Resources', 'Experience', 'Question', 'SWOT', 'Career Highlight', 'Summary']
+      .forEach(currentText => {
+        const currentTextLowerCase = currentText.replace(' ','-').toLowerCase();
+        let input = document.createElement("input");
+        input.setAttribute('type', 'radio');
+        input.setAttribute('name', 'tabs');
+        input.setAttribute('id', currentTextLowerCase);
+        input.setAttribute('checked', '');
+
+        let label = document.createElement("label");
+        label.classList.add('tab-label');
+        label.setAttribute('for', currentTextLowerCase);
+        label.innerText = currentText;
+
+        tabsElement.prepend(label);
+        tabsElement.prepend(input);
+      });
+
     let request = obj => {
       return new Promise((resolve, reject) => {
         let xhr = new XMLHttpRequest();
@@ -953,5 +549,29 @@ But, I was wrong! reopened the app and functionalities were not working sometime
         .catch(error => {
             console.log(error);
         });
+
+      const QUESTIONS_ARTICLE = document.getElementById('questions');
+      request({url: '/questions.json'})
+        .then(questions => {
+
+          const questionKeys = Object.keys(JSON.parse(questions));
+          let appendHtml = '';
+          questionKeys.forEach(questionkey => {
+            appendHtml =  appendHtml + '<h2>' + questionkey + '</h2>';
+            const questionsHtml = JSON.parse(questions)[questionkey]
+            .reduce((accumulator, currentValue) => {
+              return accumulator + '<li>' +
+                  '<span class="question-span">' + currentValue.question + '</span>' +
+                  '<span class="answer-span">' + currentValue.answer + '</span>' +
+                '</li>';
+             }, '');
+            appendHtml += questionsHtml;
+          })
+          QUESTIONS_ARTICLE.innerHTML = appendHtml;
+        })
+        .catch(error => {
+            console.log(error);
+        });
+
   </script>
 </html>

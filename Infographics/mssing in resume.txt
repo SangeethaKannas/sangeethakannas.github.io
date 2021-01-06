@@ -1,4 +1,0 @@
-+ Worked using different development methodologies including SDLC, Scrum, and/or Agile and behavior driven development (TDD/BDD)
-+ Worked closely with customer’s development team to identify APIs, define data schema, and document workflows, business requirements, and domain knowledge
-+ Able to express myself in a clear and concise manner
-+ Strong communication, collaboration & team building skills with proficiency in grasping new technical concepts quickly
