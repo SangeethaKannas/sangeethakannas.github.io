@@ -1,3 +1,0 @@
-#Resumes
-
-Contains Resumes
