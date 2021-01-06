@@ -1,6 +1,39 @@
 ﻿{
+  "Design": [
+    "UX Toast",
+    "Fake Clients",
+    "Checklist Design - Design best practices",
+    "UXcel",
+    "ProdMgmt",
+    "Starter Kits - VOLT"
+  ],
+  "Illustation Websites": [
+    "humaaans.com",
+    "drawkit.io",
+    "products.ls.graphics/wham",
+    "storytale.io/packages/error-404",
+    "opendoodles.com",
+    "mixkit.co/free-stock-art",
+    "icons8.com/illustrations",
+    "iradesign.io"
+  ],
+  "Interviews": [
+    "https://bit.ly/devtools-yt-ref",
+    "https://code.devtools.tech",
+    "https://indemand.devtools.tech",
+    "https://devtools.tech",
+    "https://www.youtube.com/channel/UCtf9NkTbitF05Lap2tragZA",
+    "https://code.devtools.tech/resources/s/om-api-programming-question-or-frontend-interview-questions---rid---AA4msQuDtbwicYNMLOt3",
+    "https://www.notion.so/How-To-Write-A-Resume-21155908c288492ebc4c4850c4fa7a14"
+  ],
   "Simply Web Development": [
+    "https://css-tricks.com/style-guide-driven-development-atomic-docs/",
+    "https://css-tricks.com/iterating-a-react-design-with-styled-components/",
+    "https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/",
+    "https://medium.com/angular-in-depth/get-started-with-cypress-d6ac4b910605",
+    "https://indepth.dev/write-better-automated-tests-with-cypress-in-angular/",
     "https://www.toptal.com/react/navigating-the-react-ecosystem",
+    "https://codefellows.github.io/code-401-javascript-guide/curriculum/prework/",
     "https://blog.risingstack.com/node-hero-node-js-authentication-passport-js/",
     "https://www.udemy.com/course/understand-javascript/?LSNPUBID=QqcN8lE0l0I&ranEAID=QqcN8lE0l0I&ranMID=39197&ranSiteID=QqcN8lE0l0I-Tb1ceaFzrTzIUHlSwXeBrQ",
     "https://www.udemy.com/course/the-complete-web-developer-course-2/?altsc=185774",

@@ -776,12 +776,10 @@
           let appendHtml = '';
           linkKeys.forEach(linkkey => {
             appendHtml =  appendHtml + '<h2>' + linkkey + '</h2>';
-            console.log(JSON.parse(links)[linkkey]);
             const linksHtml = JSON.parse(links)[linkkey]
             .reduce((accumulator, currentValue) => {
               return accumulator + '<li>' + currentValue + '</li>';
              }, '');
-            console.log(appendHtml + linksHtml);
             appendHtml += linksHtml;
           })
           LINKS_ARTICLE.innerHTML = appendHtml;
@@ -790,6 +788,4 @@
             console.log(error);
         });
   </script>
-
-
 </html>
