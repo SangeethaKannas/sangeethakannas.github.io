@@ -1,0 +1,114 @@
+.question-span:before {
+  content: "Question:";
+}
+
+.question-span:after {
+  content: "?";
+}
+
+.answer-span:before {
+  content: "Answer:";
+}
+
+.answer-span:after {
+  content: ".";
+}
+
+a:link,
+a:hover {
+  color: black;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  color: brown;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.contact {
+}
+
+.contact-list {
+  margin: 10;
+  padding: 0;
+}
+
+.contact-list li {
+  margin-top: 10px;
+  display: inline;
+}
+
+.contact-list li a {
+  background-color: #bbb;
+  padding: 3px;
+  color: #fff;
+  border: 1px solid #222;
+}
+
+.contact-list li a:hover {
+  background-color: #ddd;
+}
+
+.experience ul ul {
+  display: none;
+}
+
+.experience ul li:hover > ul {
+  display: block;
+}
+
+input {
+  display: none;
+}
+
+input + label {
+  display: inline-block;
+  border: 1px solid #999;
+  background: #eee;
+  padding: 4px 12px;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  top: 1px;
+}
+
+input:checked + label {
+  background: #fff;
+  border-bottom: 1px solid transparent;
+}
+
+input ~ .tab {
+  border-top: 1px solid #999;
+  padding: 12px;
+  display: none;
+}
+
+.tabs {
+  width: 100%;
+}
+
+.tabs .tab-label:hover {
+  text-decoration: underline;
+  background-color: #eee;
+}
+
+#summary:checked ~ .summary,
+#career-highlight:checked ~ .career-highlight,
+#swot:checked ~ .swot,
+#questions:checked ~ .questions,
+#experience:checked ~ .experience,
+#resources:checked ~ .resources {
+  display: block;
+}
+
+.skills-image {
+  min-width: 3rem;
+  min-height: 3rem;
+  max-height: 3rem;
+  max-width: 3rem;
+  margin: 0.3rem 0.1rem;
+}
