@@ -44,10 +44,7 @@
       <section class="tab summary">
         <h2>Professional Summary</h2>
         <article class="summary-text">
-          A curious and innovative full stack developer with five years of
-          experience in Angular and React. Enforcer of best practices and coding
-          standards. Travel Lover and Remote work Advocate. I would love to work
-          with Startups which creates break though technologies.
+          A curious and innovative full stack developer with five years of experience in Angular and React. Enforcer of best practices and coding standards. Travel Lover and Remote work Advocate. I would love to work with Startups which creates break though technologies.
         </article>
 
         <h2>Skills</h2>
@@ -183,12 +180,10 @@
         <h2>Career Highlight</h2>
         <ul>
           <li>
-            Started a new project in Angular 8 along with two members from
-            scratch
+            Started a new project in Angular 8 along with two members from scratch
           </li>
           <li>
-            Planned and implemented the folder structure, dependencies, Unit
-            testcase coverage
+            Planned and implemented the folder structure, dependencies, Unit testcase coverage
           </li>
           <li>
             Handled scrum ceremonies (Sprint planning, retro and standups)
@@ -196,8 +191,7 @@
           <li>Handled RCAs on major and severe bugs</li>
           <li>Mandated Best practices in code review process and</li>
           <li>
-            Added CSS, ESlinting and prettier formtting as part of CI/CD
-            pipelines.
+            Added CSS, ESlinting and prettier formtting as part of CI/CD pipelines.
           </li>
         </ul>
       </section>
@@ -205,6 +199,7 @@
       <section class="tab swot">
         <h2>SWOT</h2>
         <article class="top-section">
+          <div>
           <h3>Strengths</h3>
           <ul>
             <li>Curiosity</li>
@@ -212,31 +207,36 @@
             <li>Handled Teams across various Geolocations</li>
             <li>Started a lot of projects from scratch</li>
           </ul>
-
+          </div>
+          <div>
           <h3>Weakness</h3>
           <ul>
             <li>Curiosity on non-important things</li>
             <li>Sometimes loosing my patience</li>
           </ul>
+          </div>
         </article>
-        <article>
+        <article class="bottom-section">
+          <div>
           <h3>Oppurtunities</h3>
           <ul>
             <li>Becoming a Technical Arcitect | CTO</li>
             <li>Startups</li>
             <li>My own new side projects</li>
           </ul>
-
+          </div>
+          <div>
           <h3>Threats</h3>
           <ul>
             <li>Not achieved financial freedom</li>
             <li>All risks associated with Global Economics</li>
           </ul>
+          </div>
         </article>
       </section>
 
       <section class="tab questions">
-        <article id="questions"></article>
+        <article id="all-questions"></article>
       </section>
 
       <section class="tab experience">
@@ -306,6 +306,10 @@ Environment: Core Java, Servlets, JSP, Tortoise SVN, Windows, Linux
 
       <section class="tab resources">
         <article id="links"></article>
+      </section>
+
+      <section class="tab projects">
+
       </section>
 
       <section class="tab ideas">
@@ -550,7 +554,7 @@ Attitude
             console.log(error);
         });
 
-      const QUESTIONS_ARTICLE = document.getElementById('questions');
+      const QUESTIONS_ARTICLE = document.getElementById('all-questions');
       request({url: '/questions.json'})
         .then(questions => {
 

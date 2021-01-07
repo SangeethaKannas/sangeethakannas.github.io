@@ -1,67 +1,67 @@
 {
   "Questions": [
     {
-      "question": "Tell me about yourself?",
-      "answer": "I am a curious and innovative full stack developer."
+      "question": "Tell me about yourself",
+      "answer": "I am a curious and innovative full stack developer"
     },
     {
-      "question": "Walk me through your resume? ",
-      "answer": "I started my career as a Backend Engineer in a very small called Vida Projects, then I had few gaps when I tried to pursue higher education. Then I joined HCL technologies and continuing here as a Software enginer and I m working here as Technical Lead. I have worked in javascript, jQuery, DOJO, Anguar JS, Angular and React Technologies."
+      "question": "Walk me through your resume ",
+      "answer": "I started my career as a Backend Engineer in a very small called Vida Projects, then I had few gaps when I tried to pursue higher education. Then I joined HCL technologies and continuing here as a Software enginer and I m working here as Technical Lead. I have worked in javascript, jQuery, DOJO, Anguar JS, Angular and React Technologies"
     },
     {
-      "question": "Why do you want to apply for this role?",
+      "question": "Why do you want to apply for this role",
       "answer": "This role gives me ..."
     },
     {
-      "question": "Do you anticipate any challenges in this role?",
-      "answer": "Yes."
+      "question": "Do you anticipate any challenges in this role",
+      "answer": "Yes"
     },
     {
-      "question": "Tell me what does a regular day at work look like for you?",
+      "question": "Tell me what does a regular day at work look like for you",
       "answer": "My day will start with checking on the JIRA board for tasks to be completed for me and my team. Then I will start working on the tasks assigned to me and will review and merge the pull requests under my name. Then we have scrum meetings and will discuss on completed tasks and blockers"
     },
     {
-      "question": "How would your boss describe your strengths?",
+      "question": "How would your boss describe your strengths",
       "answer": "My Boss would tell me as follows..."
     },
     {
-      "question": "What are the three qualities your coworkers would say about you?",
+      "question": "What are the three qualities your coworkers would say about you",
       "answer": ""
     },
     {
-      "question": "Why are you looking for a new role?",
+      "question": "Why are you looking for a new role",
       "answer": "To move on to new challenges and to achieve greater heights "
     },
     {
-      "question": "How will you work efficiently in a remote working set up?",
-      "answer": "I have been working in hybrid remote from 2015 to 2019 and fullly remote for the past six years. So working remotely is not a new experience for me."
+      "question": "How will you work efficiently in a remote working set up",
+      "answer": "I have been working in hybrid remote from 2015 to 2019 and fullly remote for the past six years. So working remotely is not a new experience for me"
     },
     {
-      "question": "What are the challenges you anticipate in a remote working set up?",
+      "question": "What are the challenges you anticipate in a remote working set up",
       "answer": "Sometimes the network is not working properly, Initally I found this difficult since I got lot of disturbance and I am not able to work in the flow. Now I m abe to overcome the challenges, as I am following a strict routine. "
     },
     {
-      "question": "How will you work efficiently in a remote working set up?",
+      "question": "How will you work efficiently in a remote working set up",
       "answer": "I am following a very strict routine of working 3 (9.30 - 1) + 3 (2 - 5) + 2 ( 7-9) hours. The latter two hours are mostly reserved for meetings and discussions"
     },
     {
-      "question": "What motivates you at work?",
+      "question": "What motivates you at work",
       "answer": "Solving new challenges, learning new techonologies, meeting with new people "
     },
     {
-      "question": "How do you ensure an effective work life balance?",
+      "question": "How do you ensure an effective work life balance",
       "answer": "By working on strict routines and schedules"
     },
     {
-      "question": "If you were an animal, which one would you be?",
+      "question": "If you were an animal, which one would you be",
       "answer": "Tiger"
     },
     {
-      "question": "Do you have any questions for us?",
+      "question": "Do you have any questions for us",
       "answer": "What is your work routine, communication channels, process adhered"
     },
     {
-      "question": "Where do you see yourself 5 years from now?",
+      "question": "Where do you see yourself 5 years from now",
       "answer": "As a Technical Architect or CTO of a startup"
     },
     {
@@ -71,23 +71,23 @@
   ],
   "Behavioural Questions": [
     {
-      "question": " What do you do when priorities change quickly? Give on example  of a time this happened?",
-      "answers": " I understand the new priorities and spontaneously respond as  soon as possible. When I was working on CAA project a new security vulnerability came in production which needs to be  addressed quickly, so we fixed the security vulnerability issue  first and then came to the current working task."
+      "question": "What do you do when priorities change quickly Give on example of a time this happened",
+      "answers": "I understand the new priorities and spontaneously respond as soon as possible. When I was working on CAA project a new security vulnerability came in production which needs to be addressed quickly, so we fixed the security vulnerability issue first and then came to the current working task"
     },
     {
-      "question": " Describe the project or situation which best demonstrates your analytical abilities. What was your role?",
-      "answer": "Cisco Prime Collobaration is the project in which I was working  on Analytics Module. This module required a lot of algorithms that needs to be implemented as a huge amount of information  have to be processed based on complex business logics"
+      "question": "Describe the project or situation which best demonstrates your analytical abilities. What was your role",
+      "answer": "Cisco Prime Collobaration is the project in which I was working on Analytics Module. This module required a lot of algorithms that needs to be implemented as a huge amount of information have to be processed based on complex business logics"
     },
     {
-      "question": " Give me an example of when you took a risk to achieve a goal.  What was the outcome?",
+      "question": "Give me an example of when you took a risk to achieve a goal. What was the outcome",
       "answer": ""
     },
     {
-      "question": "  Tell us about a time when you built rapport quickly with someone under difficult conditions.",
+      "question": "Tell us about a time when you built rapport quickly with someone under difficult conditions",
       "answer": ""
     },
     {
-      "question": " Give me example of a time where your-----",
+      "question": "Give me example of a time where your-----",
       "answer": ""
     },
     {
@@ -95,95 +95,95 @@
       "answer": ""
     },
     {
-      "question": " Discuss an important decision you have made regarding a task or  project at work. What factors influenced your decision?",
+      "question": "Discuss an important decision you have made regarding a task or project at work. What factors influenced your decision",
       "answer": ""
     },
     {
-      "question": "Describe a situation where you felt you had not communicated well. How did you correct the situation?",
+      "question": "Describe a situation where you felt you had not communicated well. How did you correct the situation",
       "answer": ""
     },
     {
-      "question": " Tell us about a situation in which you had to adjust to changes  over which you had no control. How did you handle it?",
+      "question": "Tell us about a situation in which you had to adjust to changes over which you had no control. How did you handle it",
       "answer": ""
     },
     {
-      "question": " Give an example of an important goal that you set in the past.  Tell about your success in reaching it.",
+      "question": "Give an example of an important goal that you set in the past. Tell about your success in reaching it",
       "answer": ""
     },
     {
-      "question": " Tell us about a time when you were particularly effective on  prioritizing tasks and completing a project on schedule.",
+      "question": "Tell us about a time when you were particularly effective on prioritizing tasks and completing a project on schedule",
       "answer": ""
     },
     {
-      "question": " Tell us how you keep your job knowledge current with the ongoing  changes in the industry.",
+      "question": "Tell us how you keep your job knowledge current with the ongoing changes in the industry",
       "answer": ""
     },
     {
-      "question": " When you disagree with your manager, what do you do? Give an example",
+      "question": "When you disagree with your manager, what do you do Give an example",
       "answer": ""
     },
     {
-      "question": "It is very important to build good relationships at work but sometimes it doesn’t always work. If you can, tell about a time when you were not able to build a successful relationship with a  difficult person",
+      "question": "It is very important to build good relationships at work but sometimes it doesn’t always work. If you can, tell about a time when you were not able to build a successful relationship with a difficult person",
       "answer": ""
     },
     {
-      "question": "Describe a situation when you were able to strengthen a  relationship by communicating effectively. What made your communication effective?",
+      "question": "Describe a situation when you were able to strengthen a relationship by communicating effectively. What made your communication effective",
       "answer": ""
     },
     {
-      "question": " Give me an example of a time when you were able to successfully  communicate with another person, even when that individual may not have personally liked you.",
+      "question": "Give me an example of a time when you were able to successfully communicate with another person, even when that individual may not have personally liked you.",
       "answer": ""
     },
     {
-      "question": " How do you keep your manager informed about what is being done in your work area?",
+      "question": "How do you keep your manager informed about what is being done in your work area",
       "answer": ""
     },
     {
-      "question": " Tell us about a time when you and your current/previous supervisor disagreed but you still found a way to get your point across",
+      "question": "Tell us about a time when you and your current/previous supervisor disagreed but you still found a way to get your point across",
       "answer": ""
     },
     {
-      "question": " Everyone has made some poor decisions or has done something that just did not turn out right. Has this happened to you? What happened?",
+      "question": "Everyone has made some poor decisions or has done something that just did not turn out right. Has this happened to you What happened",
       "answer": ""
     },
     {
-      "question": "Do prefer to work with the 'big picture' or the 'details' of a situation? Give me an example of an experience that illustrates  your preference",
+      "question": "Do prefer to work with the 'big picture' or the 'details' of a situation Give me an example of an experience that illustrates your preference",
       "answer": ""
     },
     {
-      "question": " Describe a situation when you demonstrated initiative and took action without waiting for direction. What was the outcome?",
+      "question": "Describe a situation when you demonstrated initiative and took action without waiting for direction. What was the outcome",
       "answer": ""
     },
     {
-      "question": " What time in PST are you comfortable working at?",
+      "question": "What time in PST are you comfortable working at",
       "answer": ""
     },
     {
-      "question": "If we were to give you an offer, when can you join?",
+      "question": "If we were to give you an offer, when can you join",
       "answer": ""
     },
     {
-      "question": " What is your approach when you are trying to learn something new?",
+      "question": "What is your approach when you are trying to learn something new",
       "answer": ""
     },
     {
-      "question": " Can you tell me about a time when you introduced something new to the team?",
+      "question": "Can you tell me about a time when you introduced something new to the team",
       "answer": ""
     },
     {
-      "question": "How much money do you want to make?",
+      "question": "How much money do you want to make",
       "answer": ""
     },
     {
-      "question": " Do you want to work from home, from an office or from anywhere? - any where",
+      "question": "Do you want to work from home, from an office or from anywhere - any where",
       "answer": ""
     },
     {
-      "question": " Would you prefer to work in a multinational, in a startup, a  family business or having your own company?",
+      "question": "Would you prefer to work in a multinational, in a startup, a family business or having your own company",
       "answer": ""
     },
     {
-      "question": "Which kind of tasks would you enjoy doing?",
+      "question": "Which kind of tasks would you enjoy doing",
       "answer": ""
     }
   ]
