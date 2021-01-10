@@ -2,7 +2,7 @@
   "Questions": [
     {
       "question": "Tell me about yourself",
-      "answer": "I am a curious and innovative full stack developer"
+      "answer": "I am a curious and innovative full stack developer. I always like to explore new oppurtunities. I like networking with people. I love to keep things simple. My Hobbies include creating mini projects."
     },
     {
       "question": "Walk me through your resume ",
@@ -22,7 +22,7 @@
     },
     {
       "question": "How would your boss describe your strengths",
-      "answer": "My Boss would tell me as follows..."
+      "answer": "My Boss would tell me as follows Innovative smart work try to attempt at new chalenges, works well under pressure, supportive to team mates in technical issues."
     },
     {
       "question": "What are the three qualities your coworkers would say about you",
@@ -136,7 +136,7 @@
     },
     {
       "question": "How do you keep your manager informed about what is being done in your work area",
-      "answer": ""
+      "answer": "We have daily scrum meetings and we update the user story progress in Jira board"
     },
     {
       "question": "Tell us about a time when you and your current/previous supervisor disagreed but you still found a way to get your point across",
@@ -156,35 +156,35 @@
     },
     {
       "question": "What time in PST are you comfortable working at",
-      "answer": ""
+      "answer": "08AM to 10 PM"
     },
     {
       "question": "If we were to give you an offer, when can you join",
-      "answer": ""
+      "answer": "30 working days"
     },
     {
       "question": "What is your approach when you are trying to learn something new",
-      "answer": ""
+      "answer": "Learn a little -> Apply -> Lean More -> Apply - Repeat"
     },
     {
       "question": "Can you tell me about a time when you introduced something new to the team",
-      "answer": ""
+      "answer": "In 2018, we moved from SVN to Git and GitHub. I gave an short intro about Git to the team."
     },
     {
       "question": "How much money do you want to make",
-      "answer": ""
+      "answer": "A million per year"
     },
     {
       "question": "Do you want to work from home, from an office or from anywhere - any where",
-      "answer": ""
+      "answer": "Anywhere"
     },
     {
       "question": "Would you prefer to work in a multinational, in a startup, a family business or having your own company",
-      "answer": ""
+      "answer": "1. Own Company, 2. Startup"
     },
     {
       "question": "Which kind of tasks would you enjoy doing",
-      "answer": ""
+      "answer": "Coding, Code review"
     }
   ]
 }
