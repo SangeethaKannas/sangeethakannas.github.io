@@ -431,10 +431,8 @@
 😎 arrive at the big thing
 🥳 celebrate the big thing
 🎉 celebrate you!
-
 </code>
 <code>
-
 🛑 Stop – Write out what the problem is
 🤔 Think – What is the one thing holding you back
 🧐 Assess – What are your resources? Mentors, Colleagues, LinkedIn, YouTube, Google, etc.
@@ -462,17 +460,18 @@ Attitude
   </body>
 
   <script>
-    //Append tabs
+    //Append tabs - In Reverse Order
     const tabsElement = document.querySelector('.tabs');
 
     const currentLocation = window.location.href;
     let tabs = [];
     if(currentLocation.indexOf('pesto') > -1) {
-      tabs = ['Ideas', 'Blogs', 'OSS', 'Resources', 'Experience', 'SWOT', 'Questions', 'Projects', 'Summary']
+      tabs = ['SWOT', 'Questions']
+    } else if(currentLocation.indexOf('me') > -1) {
+      tabs = ['Ideas', 'OSS', 'Blogs', 'Resources']
     } else {
-      tabs = [ 'Experience', 'Questions', 'Projects', 'Summary'];
+      tabs = [ 'Experience', 'Projects', 'Summary'];
     }
-
 
     tabs.forEach(currentText => {
         const currentTextLowerCase = currentText.replace(' ','-').toLowerCase();
