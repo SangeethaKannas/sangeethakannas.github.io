@@ -58,63 +58,61 @@ ul {
   padding: 0;
 }
 
-.contact-list li {
-  margin-top: 10px;
-  display: inline;
-}
+  .contact-list li {
+    margin-top: 10px;
+    display: inline;
+  }
 
-.contact-list li a {
-  background-color: #bbb;
-  padding: 3px;
-  color: #fff;
-  border: 1px solid #222;
-}
+    .contact-list li a {
+      padding: 3px;
+    }
 
-.contact-list li a:hover {
-  background-color: #ddd;
-}
+    .contact-list li a:hover {
+      background-color: #ddd;
+    }
+
+    .contact-list li a .fa {
+      padding-right: 3px;
+    }
 
 .experience ul ul {
   display: none;
 }
 
-.experience ul li:hover > ul {
-  display: block;
-}
+  .experience ul li:hover > ul {
+    display: block;
+  }
 
 input {
   display: none;
 }
 
-input + label {
-  display: inline-block;
-  border: 1px solid #999;
-  background: #eee;
-  padding: 4px 12px;
-  border-radius: 4px 4px 0 0;
-  position: relative;
-  top: 1px;
-}
+  input + label {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+  }
 
-input:checked + label {
-  background: #fff;
-  border-bottom: 1px solid transparent;
-}
+  input:checked + label {
+    border-bottom: 2px solid green;
+    margin: 0 0.5rem;
+  }
 
-input ~ .tab {
-  border-top: 1px solid #999;
-  padding: 12px;
-  display: none;
-}
+  input ~ .tab {
+    padding: 12px;
+    display: none;
+  }
 
 .tabs {
   width: 100%;
 }
 
-.tabs .tab-label:hover {
-  text-decoration: underline;
-  background-color: #eee;
-}
+  .tabs .tab-label:hover {
+    border-bottom: 2px solid #ace7ac;
+  }
 
 #summary:checked ~ .summary,
 #swot:checked ~ .swot,
@@ -122,7 +120,8 @@ input ~ .tab {
 #experience:checked ~ .experience,
 #projects:checked ~ .projects,
 #ideas:checked ~ .ideas,
-#resources:checked ~ .resources {
+#resources:checked ~ .resources,
+#requirements:checked ~ .requirements {
   display: block;
 }
 
@@ -139,10 +138,8 @@ input ~ .tab {
   margin: 1rem 0;
 }
 
-
 .top-section div, .bottom-section div {
   max-width: 50%;
   min-width: 50%;
   padding: 1rem;
 }
-
