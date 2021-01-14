@@ -143,3 +143,13 @@ input {
   min-width: 50%;
   padding: 1rem;
 }
+
+
+/** Media queries **/
+
+
+@media only screen and (max-width: 600px) {
+ .skills {
+   display: flex;
+ }
+}
