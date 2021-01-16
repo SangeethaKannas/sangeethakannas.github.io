@@ -221,8 +221,6 @@
             <li>Performed risk assessments with teams when hard choices had to be made in order to determine whether those choices would accelerate or hinder development efforts and helped mitigate project dependencies on resources using feature rotation
             <li>Executed well under pressure, fixed all known bugs and issues, and identified potential future problems
             </ul>
-
-
       <h3>
         <span>Vida Projects, Neyveli</span>
         <span>Nov 2008 to Sept 2009</span>
@@ -235,15 +233,16 @@
         <li>Extensively worked with making calls to APIs to fetch the data from the backend as JSON response and parse it on the UI for DOM/CSS Manipulation</li>
       </ul>
 
-    <h3><span>Trichy City Corporation</span><span>Apr 2005 to May 2006</span>
+    <h3>
+      <span>Trichy City Corporation</span><span>Apr 2005 to May 2006</span>
     </h3>
     <h3>Responsibilities</h3>
     <ul>
       <li>Involved in fixing the functional implementations, UI design issues, bugs and feature updates.</li>
       <li>Unit testing and deploying of the created projects</li>
     </ul>
-        </article>
-      </section>
+  </article>
+</section>
 
       <section class="tab education">
         Bachelor of Engineering (B.E.) Computer Science, 1999 - 2003
@@ -253,28 +252,10 @@
         <article id="links"></article>
       </section>
 
-      <section class="tab projects">
-        <h4>Projects</h4>
-
-        <h5>CiscoActiveAdvisor 	www.ciscoactiveadvisor.com	        	                        May 2015 to Present</h5>
-        <code>
-        Environment: Angular JS, jQuery, OOJS, Bootstrap, JSON, Tomcat, Jasmine, Protractor, Karma, Nginx, Grunt, wro4j, JS Hint, CSS Lint, brackets.io, Chrome DevTools, TDD (Test Driven Development), Scrum (Ontime), GIT, Jenkins, Windows
-        </code>
-
-        <h5>Cisco iOS – Web UI - 16.x                           	                                            	            	        May 2014 to April 2014</h5>
-        <code>Environment: Angular JS, Kendo UI, jQuery, OOJS, Bootstrap, Lodash, Jasmine, Karma, Grunt, Protractor, Bootstrap, JSON, Nginx, NodeJS, Lua, Webstorm 9, Chrome DevTools, BDD ( Behaviour Driven Development), Scrum (Rally), GIT, Jenkins, Linux</code>
-
-        <h5>Cisco Prime Collaboration - 9.5, 10.4                           	      Dec’2012 to April 2014</h5>
-        <code>Environment: DOJO, jQuery, Core Java, JSON, Jeresy, Postgres, MDX, SQL, SVN, Maven, Hibernate</code>
-
-        <h5>Cisco Security Manager - 4.1 to 4.4      	                    	        Oct’ 2009 to Nov’ 2012</h5>
-        <code>Environment: Core Java, Swing, JIDE, Tomcat, Hibernate, jUnit, IBM RFT, Eclipse, SVN, AutoIt, Hibernate, JPA, Spring, Apache PoI, JMeter, Visual VM Profiler</code>
-
-      </section>
+      <section class="tab projects"></section>
 
       <section class="tab ideas">
-        <article id="ideas-article">
-        </article>
+        <article id="ideas-article"></article>
       </section>
 
       <section class="tab requirements">
@@ -284,113 +265,5 @@
     </section>
   </body>
 
-  <script>
-    //Append tabs - In Reverse Order
-    const tabsElement = document.querySelector('.tabs');
-
-    const currentLocation = window.location.href;
-    let tabs = [];
-    if(currentLocation.indexOf('pesto') > -1) {
-      tabs = ['SWOT', 'Questions']
-    } else if(currentLocation.indexOf('me') > -1) {
-      tabs = ['Requirements', 'Ideas', 'OSS', 'Blogs', 'Resources']
-    } else {
-      tabs = [ 'Experience', 'Projects', 'Summary'];
-    }
-
-    tabs.forEach(currentText => {
-        const currentTextLowerCase = currentText.replace(' ','-').toLowerCase();
-        let input = document.createElement("input");
-        input.setAttribute('type', 'radio');
-        input.setAttribute('name', 'tabs');
-        input.setAttribute('id', currentTextLowerCase);
-        input.setAttribute('checked', '');
-
-        let label = document.createElement("label");
-        label.classList.add('tab-label');
-        label.setAttribute('for', currentTextLowerCase);
-        label.innerText = currentText;
-
-        tabsElement.prepend(label);
-        tabsElement.prepend(input);
-      });
-
-    const handleError = (error) => console.error(error);
-
-    const parseData = data => data.json();
-    const requirementsReduceFn = (acc, value) => acc + '<li>' + value + '</li>';
-
-    const parseResourcesFn = data => {
-      const reducerFn = (acc, value) => acc + '<h2>' + value + '</h2>' + data[value].reduce(requirementsReduceFn, '');
-
-      document.getElementById('links')
-        .innerHTML = Object.keys(data).reduce(reducerFn, '')
-    }
-
-    fetch('/readable_links.json')
-      .then(parseData)
-      .then(parseResourcesFn)
-      .catch(handleError);
-
-    const parseQuestionFn = data => {
-      const dataKeys = Object.keys(data);
-      const questionsReduceFn = (acc, value) =>
-        acc + '<li>' +
-            '<span class="question-span">' + value.question + '</span>' +
-            '<span class="answer-span">' + value.answer + '</span>' +
-          '</li>';
-      const reducerFn = (acc, value) => acc + '<h2>' + value + '</h2>' + data[value].reduce(questionsReduceFn, '');
-      document.getElementById('all-questions')
-        .innerHTML = dataKeys.reduce(reducerFn, '')
-    }
-    fetch('/questions.json')
-      .then(parseData)
-      .then(parseQuestionFn)
-      .catch(handleError);
-
-    const parseReqnFn = data => {
-      const reducerFn = (acc, value) => acc + '<h2>' + value + '</h2>' + data[value].reduce(requirementsReduceFn, '');
-
-      document.getElementById('requirements-article')
-        .innerHTML = Object.keys(data).reduce(reducerFn, '')
-    }
-
-    fetch('/requirements.json')
-      .then(parseData)
-      .then(parseReqnFn)
-      .catch(handleError);
-
-    const parseIdeasFn = data => {
-      const reducerFn = (acc, value) => acc + '<h2>' + value + '</h2>' + data[value].reduce(requirementsReduceFn, '');
-
-      document.getElementById('ideas-article')
-        .innerHTML = Object.keys(data).reduce(reducerFn, '')
-    }
-
-    fetch('/ideas.json')
-      .then(parseData)
-      .then(parseIdeasFn)
-      .catch(handleError);
-
-    let myDetails = {};
-    fetch('/me.json')
-      .then(parseData)
-      .then(data => myDetails = data)
-      .then(() => {
-        console.log(myDetails);
-        const swotSection = document.querySelector(".swot");
-        const swot = myDetails['SWOT'];
-        swotSection.innerHTML =
-          `<h2>SWOT</h2>
-            ${Object.keys(swot).reduce((acc, section) => acc + '<article class="' + section + '">' +
-              Object.keys(swot[section]).reduce((accu, val) => accu + '<div><h3>' + val + '</h3><ul>' +
-                swot[section][val].reduce(requirementsReduceFn, '') +
-              '</ul></div>', '') +
-            '</article>', '')
-            }
-          `
-      })
-      .catch(handleError);
-
-  </script>
+  <script src="./scripts.js"></script>
 </html>
