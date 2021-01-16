@@ -117,7 +117,7 @@
 
         projectsSection.innerHTML =
           `<h2>Projects</h2>
-            ${projects.reduce((acc, value) =>
+            ${projects.reduce((acc, value) => acc +
               ` <h5>
                   <a href="${value.link}" target="_blank" rel="noreferrer noopener">${value.name}</a>
                   <span class="duration">${value.duration}
