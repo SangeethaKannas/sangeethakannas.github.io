@@ -30,11 +30,11 @@
       });
 
     const handleError = (error) => console.error(error);
-
     const parseData = data => data.json();
     const requirementsReduceFn = (acc, value) => acc + '<li>' + value + '</li>';
 
-    const parseResourcesFn = data => {
+    //Parse the resources and links
+    const parseGeneralFn = data => {
       const reducerFn = (acc, value) => acc + '<h2>' + value + '</h2>' + data[value].reduce(requirementsReduceFn, '');
 
       document.getElementById('links')
@@ -43,19 +43,28 @@
 
     fetch('/readable_links.json')
       .then(parseData)
-      .then(parseResourcesFn)
+      .then(parseGeneralFn)
       .catch(handleError);
 
     const parseQuestionFn = data => {
-      const dataKeys = Object.keys(data);
       const questionsReduceFn = (acc, value) =>
-        acc + '<li>' +
-            '<span class="question-span">' + value.question + '</span>' +
-            '<span class="answer-span">' + value.answer + '</span>' +
-          '</li>';
+        acc +
+          `<li>
+            <div class="question-answer">
+              <div class="question-span">
+                <h4>${value.question}
+                  <!--<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="question-open-icon">
+                    <path opacity="0" d="M0 0h24v24H0z"></path>
+                    <path d="M20.207 7.043c-.39-.39-1.023-.39-1.414 0L12 13.836 5.207 7.043c-.39-.39-1.023-.39-1.414 0s-.39 1.023 0 1.414l7.5 7.5c.195.195.45.293.707.293s.512-.098.707-.293l7.5-7.5c.39-.39.39-1.023 0-1.414z"></path>
+                  </svg>-->
+                </h4>
+              </div>
+              <span class="answer-span">${value.answer}</span>
+            </div>
+          </li>`;
       const reducerFn = (acc, value) => acc + '<h2>' + value + '</h2>' + data[value].reduce(questionsReduceFn, '');
       document.getElementById('all-questions')
-        .innerHTML = dataKeys.reduce(reducerFn, '')
+        .innerHTML = Object.keys(data).reduce(reducerFn, '')
     }
     fetch('/questions.json')
       .then(parseData)
