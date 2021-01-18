@@ -46,17 +46,26 @@
       .then(parseGeneralFn)
       .catch(handleError);
 
+    const expandListItem = (event) => {
+      console.log(event);
+      const _target = event.currentTarget;
+
+      // Array.from(_target.parentElement.children).forEach(element => {
+      //   element.classList.add('is-closed');
+      // });
+       _target.classList.toggle('is-closed');
+    }
     const parseQuestionFn = data => {
       const questionsReduceFn = (acc, value) =>
         acc +
-          `<li>
+          `<li class="question-list-item is-closed" onclick="expandListItem(event)">
             <div class="question-answer">
               <div class="question-span">
                 <h4>${value.question}
-                  <!--<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="question-open-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="question-open-icon">
                     <path opacity="0" d="M0 0h24v24H0z"></path>
                     <path d="M20.207 7.043c-.39-.39-1.023-.39-1.414 0L12 13.836 5.207 7.043c-.39-.39-1.023-.39-1.414 0s-.39 1.023 0 1.414l7.5 7.5c.195.195.45.293.707.293s.512-.098.707-.293l7.5-7.5c.39-.39.39-1.023 0-1.414z"></path>
-                  </svg>-->
+                  </svg>
                 </h4>
               </div>
               <span class="answer-span">${value.answer}</span>
