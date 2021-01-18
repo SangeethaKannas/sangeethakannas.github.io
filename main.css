@@ -1,7 +1,7 @@
 .user-name {
   color: #209c20;
 }
-.question-span,
+
 .answer-span {
   display: block;
 }
@@ -159,6 +159,10 @@ input ~ .tab {
   display: inline;
   transform: rotate(180deg);
   transition: 0.5s;
+}
+
+.is-closed .answer-span {
+  display: none;
 }
 
 @media only screen and (max-width: 600px) {

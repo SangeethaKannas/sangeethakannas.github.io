@@ -72,7 +72,7 @@
   "Behavioural Questions": [
     {
       "question": "What do you do when priorities change quickly Give on example of a time this happened",
-      "answers": "I understand the new priorities and spontaneously respond as soon as possible. When I was working on CAA project a new security vulnerability came in production which needs to be addressed quickly, so we fixed the security vulnerability issue first and then came to the current working task"
+      "answer": "I understand the new priorities and spontaneously respond as soon as possible. When I was working on CAA project a new security vulnerability came in production which needs to be addressed quickly, so we fixed the security vulnerability issue first and then came to the current working task"
     },
     {
       "question": "Describe the project or situation which best demonstrates your analytical abilities. What was your role",
