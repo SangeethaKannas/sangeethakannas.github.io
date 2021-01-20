@@ -6,14 +6,11 @@
     "UXcel",
     "ProdMgmt",
     "Starter Kits - VOLT",
+    "http://www.rleonardi.com/tutorial/design-portfolio/",
+    "https://www.smashingmagazine.com/2008/03/creating-a-successful-online-portfolio/",
+    "https://www.smashingmagazine.com/2013/06/workflow-design-develop-modern-portfolio-website/",
+    "https://speckyboy.com/tips-for-creating-a-first-class-personal-portfolio/",
     "https://www.lynda.com/Web-Design-training-tutorials/1376-0.html"
-  ],
-  "Remote Work": [
-    "https://www.youtube.com/watch?v=fSJCcDiD-zw",
-    "https://basecamp.com/books/remote",
-    "https://growth.wingify.com/running-a-profitable-debt-free-and-remote-company-for-17-years-lessons-from-wildbit-c815025a470f",
-    "https://m.signalvnoise.com/dont-solve-the-problem/",
-    "https://www.atlassian.com/blog/inside-atlassian/working-from-home-tips?utm_source=linkedin&utm_medium=social&utm_campaign=atlassian_working-from-home-tips"
   ],
   "Illustation Websites": [
     "humaaans.com",
@@ -24,6 +21,13 @@
     "mixkit.co/free-stock-art",
     "icons8.com/illustrations",
     "iradesign.io"
+  ],
+  "Remote Work": [
+    "https://www.youtube.com/watch?v=fSJCcDiD-zw",
+    "https://basecamp.com/books/remote",
+    "https://growth.wingify.com/running-a-profitable-debt-free-and-remote-company-for-17-years-lessons-from-wildbit-c815025a470f",
+    "https://m.signalvnoise.com/dont-solve-the-problem/",
+    "https://www.atlassian.com/blog/inside-atlassian/working-from-home-tips?utm_source=linkedin&utm_medium=social&utm_campaign=atlassian_working-from-home-tips"
   ],
   "GitHub": [
     "https://github.com/pabtab/MERN-AWS/",
@@ -38,6 +42,7 @@
     "https://github.com/pestotech/curriculum",
     "https://github.com/ryanmcdermott/clean-code-javascript",
     "https://github.com/OpenBudget/BudgetKey/issues/321",
+    "https://github.com/michaelbromley/angular-es6/tree/master/src/app",
     "https://github.com/ubccsss/ubccsss.org"
   ],
   "Interviews": [
@@ -48,13 +53,10 @@
     "https://www.youtube.com/channel/UCtf9NkTbitF05Lap2tragZA",
     "https://code.devtools.tech/resources/s/om-api-programming-question-or-frontend-interview-questions---rid---AA4msQuDtbwicYNMLOt3",
     "https://www.notion.so/How-To-Write-A-Resume-21155908c288492ebc4c4850c4fa7a14",
-    "I went through you resume already, can you tell me about yourself?",
-    "Can you tell me about your current role and what your work on?",
-    "What motivates you at work?",
-    "If I were to ask your manager, how would he/she describe you?",
-    "What would he say your strengths are?",
-    "Would he say you belong to top 20% or bottom 80% in the team?",
-    "I saw your assignments, how did you approach them?"
+    "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36",
+    "https://medium.com/javascript-scene/master-the-javascript-interview-soft-skills-a8a5fb02c466",
+    "https://www.freecodecamp.org/news/interviewing-prep-tips-and-tricks/",
+    "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261"
   ],
   "Course": [
     "https://www.udemy.com/course/understand-javascript/?LSNPUBID=QqcN8lE0l0I&ranEAID=QqcN8lE0l0I&ranMID=39197&ranSiteID=QqcN8lE0l0I-Tb1ceaFzrTzIUHlSwXeBrQ",
@@ -72,76 +74,67 @@
     "https://acework.io/apply/",
     "https://docs.google.com/spreadsheets/d/1WJremySzeXVzXSRekVNUEm6RzENjY0Gjb24ixkBqExs/edit#gid=0"
   ],
-  "Simply Web Development": [
-    "https://css-tricks.com/style-guide-driven-development-atomic-docs/",
-
-    "https://css-tricks.com/iterating-a-react-design-with-styled-components/",
-    "https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/",
-    "https://medium.com/angular-in-depth/get-started-with-cypress-d6ac4b910605",
-    "https://indepth.dev/write-better-automated-tests-with-cypress-in-angular/",
-    "https://www.toptal.com/react/navigating-the-react-ecosystem",
-    "https://codefellows.github.io/code-401-javascript-guide/curriculum/prework/",
-    "https://blog.risingstack.com/node-hero-node-js-authentication-passport-js/",
-    "http://www.webdesigndev.com/10-creative-resume-templates-for-web-designers/",
-    "http://www.rleonardi.com/tutorial/design-portfolio/",
-    "https://www.smashingmagazine.com/2008/03/creating-a-successful-online-portfolio/",
-    "https://www.smashingmagazine.com/2013/06/workflow-design-develop-modern-portfolio-website/",
-    "https://speckyboy.com/tips-for-creating-a-first-class-personal-portfolio/",
-    "https://www.wix.com/mystunningwebsites/leader3?utm_source=affiliate&utm_medium=paid_referral&utm_campaign=af_Ko@www.line25.comeh8&experiment_id=cake_55964747^55",
-    "http://thefirehoseproject.com/",
-    "https://www.javascript.com/resources",
-    "https://workspace.thefirehoseproject.com/modules/users/sign-in",
+  "HTML and CSS": [
     "https://www.w3schools.com/html/html5_intro.asp",
     "https://alison.com/topic/learn/24414/learn-basic-html",
     "http://www.studywebdevelopment.com/web-development-basics-for-beginners.html",
     "https://en.wikipedia.org/wiki/Web_developer",
     "https://www.w3schools.com/css/css3_intro.asp",
     "https://www.w3schools.com/css/",
-    "https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/",
-    "https://stackoverflow.com/questions/18133635/remove-property-for-all-objects-in-array",
-    "https://www.google.com/search?q=amMoment+angularjs&rlz=1C1GCEA_enIN838IN838&oq=amMoment+angularjs&aqs=chrome..69i57j69i59l3j69i60l4.2791j0j7&sourceid=chrome&ie=UTF-8",
-    "https://github.com/michaelbromley/angular-es6/tree/master/src/app",
-    "https://www.sitepoint.com/javascript-private-class-fields/",
-    "https://stackoverflow.com/questions/18607010/accessing-factory-defined-in-another-module-in-angularjs"
+    "https://css-tricks.com/style-guide-driven-development-atomic-docs/",
+    "https://blog.risingstack.com/node-hero-node-js-authentication-passport-js/",
+    "https://www.wix.com/mystunningwebsites/leader3?utm_source=affiliate&utm_medium=paid_referral&utm_campaign=af_Ko@www.line25.comeh8&experiment_id=cake_55964747^55",
+    "http://thefirehoseproject.com/",
+    "https://workspace.thefirehoseproject.com/modules/users/sign-in"
   ],
-  "Future Reads": [
-    "https://www.goskills.com/Office-Productivity/Articles/Tools-for-freelancers?utm_source=goskills&utm_medium=email&utm_campaign=October_Newsletter_04112019&tracking_guid=81e30064-4bcc-48a2-a945-be58c1245a7f&link_index=2",
-    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes",
-    "http://chimera.labs.oreilly.com/books/1234000000262/ch03.html#chcsrdou100015eilvj6l9inj",
+  "Javascript": [
+    "https://www.javascript.com/resources",
     "https://davidwalsh.name/javascript-objects",
-    "https://ymedialabs.com/progressive-web-apps?ref=devawesome.io",
-    "https://dzone.com/articles/consuming-rest-api-with-reactjs",
-    "http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/",
-    "https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html",
-    "https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/",
-    "https://ymedialabs.com/progressive-web-apps?ref=devawesome.io",
-    "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36",
-    "https://medium.com/javascript-scene/master-the-javascript-interview-soft-skills-a8a5fb02c466",
-    "https://medium.com/javascript-scene/top-javascript-frameworks-topics-to-learn-in-2017-700a397b711",
-    "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261",
+    "https://codefellows.github.io/code-401-javascript-guide/curriculum/prework/",
+    "https://www.sitepoint.com/javascript-private-class-fields/",
     "https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4",
+    "https://stackoverflow.com/questions/18133635/remove-property-for-all-objects-in-array",
     "https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3",
+    "https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/",
     "https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a",
     "https://medium.com/javascript-scene/the-hidden-treasures-of-object-composition-60cd89480381",
     "https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3",
     "https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a",
-    "https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd",
-    "https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea",
+    "https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd"
+  ],
+  "React": [
+    "https://dzone.com/articles/consuming-rest-api-with-reactjs",
     "https://medium.com/@agoiabeladeyemi/pagination-in-reactjs-36f4a6a6eb43",
-    "https://medium.com/@agoiabeladeyemi/pagination-in-reactjs-36f4a6a6eb43",
+    "https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html",
+    "https://css-tricks.com/iterating-a-react-design-with-styled-components/",
+    "https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/",
+    "https://www.toptal.com/react/navigating-the-react-ecosystem",
+    "http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/"
+  ],
+  "Tools": [
+    "https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/",
+    "https://ymedialabs.com/progressive-web-apps?ref=devawesome.io",
     "https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/",
+    "https://medium.com/angular-in-depth/get-started-with-cypress-d6ac4b910605",
+    "https://indepth.dev/write-better-automated-tests-with-cypress-in-angular/",
     "https://www.freecodecamp.org/news/learn-data-structures-from-a-google-engineer/",
+    "https://www.freecodecamp.org/news/what-is-linting-and-how-can-it-save-you-time/"
+  ],
+
+  "Future Reads": [
+    "http://chimera.labs.oreilly.com/books/1234000000262/ch03.html#chcsrdou100015eilvj6l9inj",
+    "https://ymedialabs.com/progressive-web-apps?ref=devawesome.io",
+    "https://medium.com/javascript-scene/top-javascript-frameworks-topics-to-learn-in-2017-700a397b711",
+    "https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea",
     "https://www.freecodecamp.org/news/learn-graph-theory-algorithms-from-a-google-engineer/",
-    "https://www.freecodecamp.org/news/what-is-linting-and-how-can-it-save-you-time/",
     "https://www.freecodecamp.org/news/how-to-play-and-win-sudoku-using-math-and-machine-learning-to-solve-every-sudoku-puzzle/",
-    "https://www.freecodecamp.org/news/create-cryptocurrency-using-python/",
     "https://www.freecodecamp.org/news/learn-to-develop-neural-networks-using-tensorflow-2-0-in-this-beginners-course/",
     "https://www.freecodecamp.org/news/programmers-you-snooze-you-win/",
-    "https://www.freecodecamp.org/news/interviewing-prep-tips-and-tricks/",
     "https://www.freecodecamp.org/news/secure-application-basics/",
     "https://www.freecodecamp.org/news/how-ruben-harris-used-the-power-of-stories-to-break-into-startups-podcast/",
     "https://www.freecodecamp.org/news/creating-a-random-meal-generator/",
     "https://www.freecodecamp.org/news/how-to-constantly-learn-without-burning-out/",
+    "https://www.goskills.com/Office-Productivity/Articles/Tools-for-freelancers?utm_source=goskills&utm_medium=email&utm_campaign=October_Newsletter_04112019&tracking_guid=81e30064-4bcc-48a2-a945-be58c1245a7f&link_index=2",
     "https://www.freecodecamp.org/news/productivity/",
     "https://www.freecodecamp.org/news/my-first-year-as-a-software-engineer/"
   ]

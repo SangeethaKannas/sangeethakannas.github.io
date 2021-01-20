@@ -76,7 +76,7 @@
     },
     {
       "question": "Describe the project or situation which best demonstrates your analytical abilities. What was your role",
-      "answer": "Cisco Prime Collobaration is the project in which I was working on Analytics Module. This module required a lot of algorithms that needs to be implemented as a huge amount of information have to be processed based on complex business logics"
+      "answer": "Cisco Prime Collobaration is the project in which I was working on Analytics Module. This module required a lot of algorithms that needs to be implemented as a huge amount of information have to be processed based on complex business logic."
     },
     {
       "question": "Give me an example of when you took a risk to achieve a goal. What was the outcome",
@@ -84,14 +84,10 @@
     },
     {
       "question": "Tell us about a time when you built rapport quickly with someone under difficult conditions",
-      "answer": ""
+      "answer": "Our team was under pressure to deliver a build within an very little time and a new resource was added to our team. He was a very shy person and I had to contact him now and then to make sure he understood the requirements correctly and also working on the code as per our best standards"
     },
     {
       "question": "Give me example of a time where your-----",
-      "answer": ""
-    },
-    {
-      "question": "",
       "answer": ""
     },
     {
@@ -185,6 +181,34 @@
     {
       "question": "Which kind of tasks would you enjoy doing",
       "answer": "Coding, Code review"
+    },
+    {
+      "question": "I went through you resume already, can you tell me about yourself?",
+      "answer": ""
+    },
+    {
+      "question": "Can you tell me about your current role and what your work on?",
+      "answer": ""
+    },
+    {
+      "question": "What motivates you at work?",
+      "answer": ""
+    },
+    {
+      "question": "If I were to ask your manager, how would he/she describe you?",
+      "answer": ""
+    },
+    {
+      "question": "What would he say your strengths are?",
+      "answer": ""
+    },
+    {
+      "question": "Would he say you belong to top 20% or bottom 80% in the team?",
+      "answer": ""
+    },
+    {
+      "question": "I saw your assignments, how did you approach them?",
+      "answer": ""
     }
   ]
 }

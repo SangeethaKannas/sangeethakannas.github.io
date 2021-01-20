@@ -48,5 +48,194 @@
       "duration": "Oct’ 2009 to Nov’ 2012",
       "environment": "Core Java, Swing, JIDE, Tomcat, Hibernate, jUnit, IBM RFT, Eclipse, SVN, AutoIt, Hibernate, JPA, Spring, Apache PoI, JMeter, Visual VM Profiler"
     }
+  ],
+  "Career Highlight": [
+    "Started a new project in Angular 8 along with two members from scratch",
+    "Planned and implemented the folder structure, dependencies, Unit testcase coverage",
+    "Handled scrum ceremonies (Sprint planning, retro and standups)",
+    "Handled RCAs on major and severe bugs",
+    "Mandated Best practices in code review process and",
+    "Added CSS, ESlinting and prettier formtting as part of CI/CD pipelines"
+  ],
+  "Skills": {
+    "html": [
+      {
+        "name": "HTML 5",
+        "link": "https://dev.w3.org/html5/html-author/",
+        "image": "<i class='fa fa-html5 logo' aria-hidden='true'></i>"
+      }
+    ],
+    "js": [
+      {
+        "name": "Javascript",
+        "link": "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/",
+        "image": "<img class='logo' src='/assets/images/javascript.jfif'>"
+      },
+      {
+        "name": "",
+        "link": "https://reactjs.org/",
+        "image": "<img class='logo' src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K' alt='React'>"
+      },
+      {
+        "name": "Redux",
+        "link": "https://redux.js.org/",
+        "image": "<svg class='logo' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><g fill='#764ABC'><path d='M65.6 65.4c2.9-.3 5.1-2.8 5-5.8-.1-3-2.6-5.4-5.6-5.4h-.2c-3.1.1-5.5 2.7-5.4 5.8.1 1.5.7 2.8 1.6 3.7-3.4 6.7-8.6 11.6-16.4 15.7-5.3 2.8-10.8 3.8-16.3 3.1-4.5-.6-8-2.6-10.2-5.9-3.2-4.9-3.5-10.2-.8-15.5 1.9-3.8 4.9-6.6 6.8-8-.4-1.3-1-3.5-1.3-5.1-14.5 10.5-13 24.7-8.6 31.4 3.3 5 10 8.1 17.4 8.1 2 0 4-.2 6-.7 12.8-2.5 22.5-10.1 28-21.4z'/><path d='M83.2 53c-7.6-8.9-18.8-13.8-31.6-13.8H50c-.9-1.8-2.8-3-4.9-3h-.2c-3.1.1-5.5 2.7-5.4 5.8.1 3 2.6 5.4 5.6 5.4h.2c2.2-.1 4.1-1.5 4.9-3.4H52c7.6 0 14.8 2.2 21.3 6.5 5 3.3 8.6 7.6 10.6 12.8 1.7 4.2 1.6 8.3-.2 11.8-2.8 5.3-7.5 8.2-13.7 8.2-4 0-7.8-1.2-9.8-2.1-1.1 1-3.1 2.6-4.5 3.6 4.3 2 8.7 3.1 12.9 3.1 9.6 0 16.7-5.3 19.4-10.6 2.9-5.8 2.7-15.8-4.8-24.3z'/><path d='M32.4 67.1c.1 3 2.6 5.4 5.6 5.4h.2c3.1-.1 5.5-2.7 5.4-5.8-.1-3-2.6-5.4-5.6-5.4h-.2c-.2 0-.5 0-.7.1-4.1-6.8-5.8-14.2-5.2-22.2.4-6 2.4-11.2 5.9-15.5 2.9-3.7 8.5-5.5 12.3-5.6 10.6-.2 15.1 13 15.4 18.3 1.3.3 3.5 1 5 1.5-1.2-16.2-11.2-24.6-20.8-24.6-9 0-17.3 6.5-20.6 16.1-4.6 12.8-1.6 25.1 4 34.8-.5.7-.8 1.8-.7 2.9z'/></g></svg>"
+      }
+    ],
+    "css": [
+      {
+        "name": "CSS 3",
+        "link": "https://www.w3.org/Style/CSS/Overview.en.html",
+        "image": "<i class='fa fa-css3 logo' aria-hidden='true'></i>"
+      },
+      {
+        "name": "SASS",
+        "link": "https://sass-lang.com/",
+        "image": "<img class='logo' alt='Sass' src='https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg'>"
+      },
+      {
+        "name": "Bootstrap",
+        "link": "https://getbootstrap.com/",
+        "image": "<svg xmlns='http://www.w3.org/2000/svg' class='logo' viewBox='0 0 118 94' role='img'><title>Bootstrap</title><path fill-rule='evenodd' clip-rule='evenodd' d='M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z' fill='currentColor'></path></svg>"
+      }
+    ],
+    "tools": [
+      {
+        "name": "Babel",
+        "link": "https://babeljs.io/",
+        "image": "<img class='logo' src='https://d33wubrfki0l68.cloudfront.net/7a197cfe44548cc1a3f581152af70a3051e11671/78df8/img/babel.svg' alt='Babel'>"
+      },
+      {
+        "name": "Webpack",
+        "link": "https://webpack.js.org/",
+        "image": "<svg xmlns='http://www.w3.org/2000/svg' class='logo' alt='Web Pack' height='25' wdth='25' viewBox='0 0 650 850'><path d='m704.9 641.7-305.1 172.6v-134.4l190.1-104.6zm20.9-18.9v-360.9l-111.6 64.5v232zm-657.9 18.9 305.1 172.6v-134.4l-190.2-104.6zm-20.9-18.9v-360.9l111.6 64.5v232zm13.1-384.3 312.9-177v129.9l-200.5 110.3-1.6.9zm652.6 0-312.9-177v129.9l200.5 110.2 1.6.9z' fill='#8ed6fb'/><path d='m373 649.3-187.6-103.2v-204.3l187.6 108.3zm26.8 0 187.6-103.1v-204.4l-187.6 108.3zm-201.7-331.1 188.3-103.5 188.3 103.5-188.3 108.7z' fill='#1c78c0'/></svg>"
+      },
+      {
+        "name": "Git",
+        "link": "https://git-scm.com/",
+        "image": "<img src='https://git-scm.com/images/logo@2x.png' class='logo' style='width: 4rem;' alt='Git'>"
+      },
+      {
+        "name": "NPM",
+        "link": "https://www.npmjs.com/",
+        "image": "<svg class='logo' viewBox='0 0 780 250'><path fill='#231F20' d='M240,250h100v-50h100V0H240V250z M340,50h50v100h-50V50z M480,0v200h100V50h50v150h50V50h50v150h50V0H480z M0,200h100V50h50v150h50V0H0V200z'></path></svg>"
+      },
+      {
+        "name": "",
+        "link": "",
+        "image": ""
+      },
+      {
+        "name": "",
+        "link": "",
+        "image": ""
+      }
+    ]
+  },
+  "Experience": [
+    {
+      "organization": "HCL Technologies, Chennai",
+      "duration": "Oct’ 2009 to Present",
+      "responsibilities": [
+        "Created the behavior of cutting-edge web applications. Implemented responsive web design using Twitter Bootstrap",
+        "Created reusable and scalable angular directives with isolated scope",
+        "Able to create well performing UI architecture by utilizing MVC architecture",
+        "Coordinated UI engineers and Visual Design engineers, from different time zones, across different cultures as a ‘virtual’ team located both in India and abroad, allocating user stories and tasks, conducting daily standup and retro meetings",
+        "Improved code quality by conducting code reviews, reducing the LoC, enforcing test-first approach and best practices",
+        "Provided technical expertise and coaching on technologies which fit the company ecosystem but were only superficially familiar to development teams.",
+        "Helped team members at all skill levels overcome technical obstacles by pair-programming",
+        "Performed risk assessments with teams when hard choices had to be made in order to determine whether those choices would accelerate or hinder development efforts and helped mitigate project dependencies on resources using feature rotation",
+        "Executed well under pressure, fixed all known bugs and issues, and identified potential future problems"
+      ]
+    },
+    {
+      "organization": "Vida Projects, Neyveli",
+      "duration": "Nov 2008 to Sept 2009",
+      "responsibilities": [
+        "Implemented servlets & JSPs for backend and GUI using JavaScript, HTML and CSS",
+        "Unit testing and deploying of the created projects",
+        "Utilized various jQuery plugins to build Rich Internet Application",
+        "Extensively worked with making calls to APIs to fetch the data from the backend as JSON response and parse it on the UI for DOM/CSS Manipulation"
+      ]
+    },
+    {
+      "organization" : "Trichy City Corporation",
+      "duration": "Apr 2005 to May 2006",
+      "responsibilities": [
+        "Involved in fixing the functional implementations, UI design issues, bugs and feature updates.",
+        "Unit testing and deploying of the created projects"
+      ]
+     }
+  ],
+  "Timeline": [
+    {
+      "duration": "5-10-2009",
+      "milestonne": "Joined HCL Technologies",
+      "tasks": "Was in bench for six months. Learnt Java, JSP and HTML",
+      "others": "Lost Dad and Changed Room"
+    },
+    {
+      "benchmark": "",
+      "duration": "Cisco Security Manager - First ",
+      "tasks": "Worked as QA for four releases from 4.1 to 4.1.5 and smaller patches 3.1 to 3.9, Learned and trained Rational Functional Testing tool and got Traine awards and Cash prices. Went to Bangalore ( Cient Location ) for a month",
+      "others": "Put paper for the first time and reverted it, Fought with client manager, fist escalation mail from DU Head. Went to Vijaya hospital twice a year. Waste of time and money. First team outing. A simple solution of. Got my bad teeth repaired and replaced with Rs. 10K. Still got that teeth "
+    },
+    {
+      "milestone": "Cisco Prime Colloboration",
+      "tasks": "Worked as Java Full Stack Engineer",
+      "learnt": "DOJO, Java, Jersey, Postgres, Saiku..., First project in Agile methodology, Charts, Analytics based projects",
+      "others": "Got Married"
+    },
+    {
+      "milestone": "Bench",
+      "duration": "Few Months",
+      "tasks": "Enjoyed life, met with an accident"
+    },
+    {
+      "milestone": "Cisco iOS Web 16.x",
+      "duration": "",
+      "First": "First AngularJS 1.x project, Behaviour Driven Development",
+      "learnt": "Bootstrap",
+      "others": "Got laptop and Put paper after fighting with manager again, Got thrown out of project and reverted, Moved to Sholinganallur office. Started work from home, Become Dad"
+    },
+    {
+      "milestone": "Cisco Active Advisor - Worked for many sprints and releases",
+      "duration": "2015 to 2017",
+      "tasks": "First Cloud based project. Worked on various projects. Lot of client based projects",
+      "others": "Attended lot of interviews, Got lot of offers, Put Paper and got awesome increment. Awesome project, clients and managers. Work from home for most of the time. Chennai floods"
+    },
+    {
+      "milestone": "Cisco DNAC Advisor",
+      "duration": "Feb 2018",
+      "tasks": "Went to onsite for a month. "
+    },
+    {
+      "duration": "",
+      "tasks": ""
+    },
+    {
+      "duration": "",
+      "tasks": ""
+    },
+    {
+      "duration": "",
+      "tasks": ""
+    },
+    {
+      "duration": "",
+      "tasks": ""
+    },
+    {
+      "duration": "",
+      "tasks": ""
+    },
+    {
+      "duration": "",
+      "tasks": ""
+    },
+    {
+      "duration": "",
+      "tasks": ""
+    }
   ]
 }

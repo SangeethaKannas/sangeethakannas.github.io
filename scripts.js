@@ -132,7 +132,6 @@
 
         const projectsSection = document.querySelector(".projects");
         const projects = myDetails['Projects'];
-
         projectsSection.innerHTML =
           `<h2>Projects</h2>
             ${projects.reduce((acc, value) => acc +
@@ -143,8 +142,45 @@
                 <code>
                   Environment: ${value.environment}
                 </code>
-              `, '')}
+              `, '')}`;
 
+        const careerHighlightSection = document.querySelector(".career-highlight");
+        careerHighlightSection.innerHTML =
+          `<h2>Career Highlight</h2>
+            <ul>
+              ${myDetails['Career Highlight'].reduce(requirementsReduceFn, '')}
+            </ul>
+          `
+        const skillsReduceFn = (acc, value) => acc +
+            `<code>
+                <a href="${value.link}" title="${value.name}">${value.image}</a>
+             </code>`
+
+        const skilsSection = document.querySelector(".career-highlight");
+        const skills = myDetails['Skills'];
+        careerHighlightSection.innerHTML =
+          `<h2>Skills</h2>
+            ${Object.keys(skills).reduce((acc, value) =>  acc + `<p>${skills[value].reduce(skillsReduceFn,'')}</p>` , '')
+            }
+          `
+
+        const experience = myDetails['Experience'];
+        const simpleViewSection = document.querySelector('.simple-view');
+        simpleViewSection.innerHTML =
+          `<h2>Experience</h2>
+            ${
+              Object.keys(experience)
+                .reduce((acc, value) => acc + `
+                  <h3 class="organization">
+                    <span>${experience[value].organization}</span>
+                    <span>${experience[value].duration}</span>
+                  </h3>
+                  <h3>Responsibilities</h3>
+                  <ul>
+                    ${experience[value].responsibilities.reduce(requirementsReduceFn, '')}
+                  </ul>
+              `, '')
+            }
           `
       })
       .catch(handleError);
