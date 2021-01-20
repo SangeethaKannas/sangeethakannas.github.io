@@ -1,4 +1,16 @@
 {
+  "Contact": [
+    {
+      "link": "https://www.linkedin.com/in/sangeethakannas/",
+      "name": "LinkedIn",
+      "icon": "fa-linkedin-square"
+    },
+    {
+      "link": "https://github.com/SangeethaKannas",
+      "name": "GitHub",
+      "icon": "fa-github"
+    }
+  ],
   "SWOT": {
     "top-section": {
       "Strengths": [
@@ -25,6 +37,12 @@
   },
   "Projects": [
     {
+      "name": "Health Care Based Projects",
+      "link": "To Be Released",
+      "duration": "July 2019 to Present",
+      "environment": "Angular, OOJS, Bootstrap, JSON, Jest, Nginx, Grunt, wro4j, JS Hint, CSS Lint, Chrome DevTools, TDD (Test Driven Development), Scrum, GIT, Jenkins, Node"
+    },
+    {
       "name": "CiscoActiveAdvisor",
       "link": "https://www.ciscoactiveadvisor.com",
       "duration": "May 2015 to Present",
@@ -32,20 +50,25 @@
     },
     {
       "name": "Cisco iOS – Web UI - 16.x ",
-      "link": "https://www.ciscoactiveadvisor.com",
-      "duration": "May 2014 to April 2014",
+      "link": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/fundamentals/configuration/15mt/fundamentals-15-mt-book/cf-web-based-cfg.pdf",
+      "duration": "January 2014 to April 2014",
       "environment": "Angular JS, Kendo UI, jQuery, OOJS, Bootstrap, Lodash, Jasmine, Karma, Grunt, Protractor, Bootstrap, JSON, Nginx, NodeJS, Lua, Webstorm 9, Chrome DevTools, BDD ( Behaviour Driven Development), Scrum (Rally), GIT, Jenkins, Linux"
     },
     {
+      "name": "Bench",
+      "link": "Bench",
+      "duation": "March 2013 to December 2014"
+    }
+    {
       "name": "Cisco Prime Collaboration - 9.5, 10.4",
-      "link": "#",
-      "duration": "Dec’2012 to April 2014",
-      "environment": "DOJO, jQuery, Core Java, JSON, Jeresy, Postgres, MDX, SQL, SVN, Maven, Hibernate"
+      "link": "https://www.cisco.com/c/en/us/support/cloud-systems-management/prime-collaboration/series.html",
+      "duration": "Dec 2012 to February 2013",
+      "environment": "DOJO, jQuery, Core Java, JSON, Jeresy, Postgres, MDX (Query Tool), SQL, SVN, Maven, Hibernate, Eclipse"
     },
     {
       "name": "Cisco Security Manager - 4.1 to 4.4",
-      "link": "#",
-      "duration": "Oct’ 2009 to Nov’ 2012",
+      "link": "https://www.cisco.com/c/en/us/products/security/security-manager/index.html",
+      "duration": "Oct 2009 to Nov 2012",
       "environment": "Core Java, Swing, JIDE, Tomcat, Hibernate, jUnit, IBM RFT, Eclipse, SVN, AutoIt, Hibernate, JPA, Spring, Apache PoI, JMeter, Visual VM Profiler"
     }
   ],
@@ -137,20 +160,30 @@
       "organization": "HCL Technologies, Chennai",
       "duration": "Oct’ 2009 to Present",
       "responsibilities": [
-        "Created the behavior of cutting-edge web applications. Implemented responsive web design using Twitter Bootstrap",
-        "Created reusable and scalable angular directives with isolated scope",
-        "Able to create well performing UI architecture by utilizing MVC architecture",
-        "Coordinated UI engineers and Visual Design engineers, from different time zones, across different cultures as a ‘virtual’ team located both in India and abroad, allocating user stories and tasks, conducting daily standup and retro meetings",
-        "Improved code quality by conducting code reviews, reducing the LoC, enforcing test-first approach and best practices",
-        "Provided technical expertise and coaching on technologies which fit the company ecosystem but were only superficially familiar to development teams.",
-        "Helped team members at all skill levels overcome technical obstacles by pair-programming",
-        "Performed risk assessments with teams when hard choices had to be made in order to determine whether those choices would accelerate or hinder development efforts and helped mitigate project dependencies on resources using feature rotation",
-        "Executed well under pressure, fixed all known bugs and issues, and identified potential future problems"
+        "Created Slave based Jenkins jobs for load sharing among various Jenkins server and resolved dependencies on multiple jobs",
+        " Improved code quality by conducting code reviews, reducing the LoC, enforcing TDD/BDD  methodology and best practices",
+
+        "Creating new end-to-end graphical OLAP based reports using MDX, Saiku, Ajax, Dojo",
+        "Developed MDX queries for better querying of OLAP data",
+        "Unit-tested all backend classes using jUnit",
+        "Reviewed of co-developers code, unit test cases and gave positive comments and feedback",
+        "Developed PL/SQL procedures in postgres database for automated OLAP creation",
+        "Executed well under pressure, fixed all known bugs and issues, and identified potential future problems",
+
+        "Creating BDD specs using jasmine",
+        "Executing them using nodejs, grunt and karma code coverage tools",
+        "Create and develop Controllers, Services and modules in angular js",
+
+        "Wrote Test plans based on the Software requirements and design",
+        "Automated Application test cases using IBM’s Rational Functional Tester (RFT) tool",
+        "Used AutoIT to automation installation/ un installation test cases on windows",
+        "Provided RFT training to teammates and colleagues"
+
       ]
     },
     {
       "organization": "Vida Projects, Neyveli",
-      "duration": "Nov 2008 to Sept 2009",
+      "duration": "Nov 2007 to Sept 2009",
       "responsibilities": [
         "Implemented servlets & JSPs for backend and GUI using JavaScript, HTML and CSS",
         "Unit testing and deploying of the created projects",
@@ -163,7 +196,10 @@
       "duration": "Apr 2005 to May 2006",
       "responsibilities": [
         "Involved in fixing the functional implementations, UI design issues, bugs and feature updates.",
-        "Unit testing and deploying of the created projects"
+        "Participate in full-life cycle development. A key developer from version 1 through version 4 (version 1 was Java Swing based client-server, instead of web-based)",
+        "Unit testing and deploying of the created projects",
+        "Create ASP reports which gave more insights and reduced the accounting time by 20%",
+        "Designed Birth and death software that can be used anywhere, anytime"
       ]
      }
   ],
@@ -177,37 +213,39 @@
     {
       "benchmark": "",
       "duration": "Cisco Security Manager - First ",
-      "tasks": "Worked as QA for four releases from 4.1 to 4.1.5 and smaller patches 3.1 to 3.9, Learned and trained Rational Functional Testing tool and got Traine awards and Cash prices. Went to Bangalore ( Cient Location ) for a month",
-      "others": "Put paper for the first time and reverted it, Fought with client manager, fist escalation mail from DU Head. Went to Vijaya hospital twice a year. Waste of time and money. First team outing. A simple solution of. Got my bad teeth repaired and replaced with Rs. 10K. Still got that teeth "
+      "tasks": "Worked as QA for four releases from 4.1 to 4.1.5 and smaller patches 3.1 to 3.9, Learned and trained Rational Functional Testing tool and got Traine awards and Cash prices. Went to Bangalore ( Cient Location ) for a month and created good Rappo with Client, Created AutoIT based test, Ran new automation tests on router module, did performance testing and autoated performance testing using RFT and gave demo to client and provided cooked up numbers",
+      "others": "Put paper for the first time and reverted it, Fought with client manager, fist escalation mail from DU Head. Went to Vijaya hospital twice a year. Waste of time and money. First team outing. A simple solution of. Got my bad teeth repaired and replaced with Rs. 10K. Still got that teeth, Lost dad and funeral attended by many team members, 15 days leave. Understood that if we take leave nothing bad happens, got extra work from manager and put two days leave, after that got an useless advice fro mentor, due to which I satareted leaing early from office. Mgr understood and got Threshold Performance, Invested money in Vinodhth venture, Gave money to Vinoth and Fought with him, Played lot of carrom boards, Freedom based on Trust, saw many team members got out of proejct, got new team members, Shipped 30 kilos of Cashews to Colleage's Brother marriage"
     },
     {
       "milestone": "Cisco Prime Colloboration",
       "tasks": "Worked as Java Full Stack Engineer",
       "learnt": "DOJO, Java, Jersey, Postgres, Saiku..., First project in Agile methodology, Charts, Analytics based projects",
-      "others": "Got Married"
+      "others": "Got Married, Threshold Performance, Learned DOJO and entire development done in NOtepad++, Solved an critical bug that one of our teammate was not able to solve, heard a sad story with smiles from my collage, lot of tea and teamouting and firn and cricket, ego waste of time, not much improvement, Got in fight with manager and moved as Shadow resource (Lucky for 8 months),Got scolding for entire team from client manager for not attending meeting over time, Understood corprate and city culture, In order to cut costs cient decided to move from Oracle software to open source technologies, scrum calls and everything is completely new, Many left hcl"
     },
     {
       "milestone": "Bench",
       "duration": "Few Months",
-      "tasks": "Enjoyed life, met with an accident"
+      "tasks": "Enjoyed life, met with an accident ( Second chance in life ), was in nativeplace for many months,"
     },
     {
       "milestone": "Cisco iOS Web 16.x",
-      "duration": "",
-      "First": "First AngularJS 1.x project, Behaviour Driven Development",
-      "learnt": "Bootstrap",
-      "others": "Got laptop and Put paper after fighting with manager again, Got thrown out of project and reverted, Moved to Sholinganallur office. Started work from home, Become Dad"
+      "duration": "2014-2015",
+      "First": "First AngularJS 1.x project, ",
+      "learnt": "AnguarJS,Bootstrap,Behaviour Driven Development",
+      "others": "Got laptop and Put paper after fighting with manager again, Got thrown out of project and reverted, Moved to Sholinganallur office. Started work from home, Become Dad. Went to browsing centeres and attended tea meetings. InfoSec, was happy that my old manager project got cosed and pulled up, created lot of issues and as I did not do unit testing, created shell scripts for automation, learned python, went to bangalore ( client ) for a month, got an image of how cisco engineers works, basics and stupidity and politics, Conducted Scrum meetings and started work from home a lot, my manager did not allow me to go to Bangalore for getting KT, karma code coverage, ony my feature had code coverage of > 85%, had discussion with testing team and other managers at night "
     },
     {
       "milestone": "Cisco Active Advisor - Worked for many sprints and releases",
-      "duration": "2015 to 2017",
-      "tasks": "First Cloud based project. Worked on various projects. Lot of client based projects",
+      "duration": "2015 to 2018",
+      "tasks": "First Cloud based project. Worked on various projects. Lot of client based projects. Scrum Calls, daylight savings time. Working on jQuery, Created hybrid stack of using angularjs and jquery, Suggested idea of attaching screenshots with feedback  ( optional ). This saves much time of educing thetime of asking screenshots, Created separate Jenkins Jobs for unit testing, learnt Devops, Jenkins and Automatic build failures, created an XSS filter enginer which intercepts al http XHR requests and replaces folowing hTML characters with corresponding unicode , thereby reducing the attack surface area, Undertook Security Sigma training from Cisco, First time worked on .Net and converted the same project o Java for portability to MACOS for about six months",
       "others": "Attended lot of interviews, Got lot of offers, Put Paper and got awesome increment. Awesome project, clients and managers. Work from home for most of the time. Chennai floods"
     },
     {
-      "milestone": "Cisco DNAC Advisor",
+      "milestone": "Cisco DNAC Advisor - Next Gen network management tool defined using SDNx etc.",
       "duration": "Feb 2018",
-      "tasks": "Went to onsite for a month. "
+      "tasks": "Created new high visibiity module - A plugin for Active Advisor that integrated with APIC em and uploaded the devices from APIC-EM to Actie Advisor cloud, Worked ate nights in order to work in Client timezone, Took interviews for new recruits and mentored them, heard another sad story from Santhosh, understood the UI architecture and suggested ways to improve it, many left HCL Tech, Went to onsite for a month, Understood in detail about docuentation and SQL Injections and other",
+      "learnt": "GitHub Enterprise, moved most of the codebase to GitHub Enterprise, Went to onsite fto help the client team in software deliver, provided necessary details to our offshore team rearding the development happening here and kept them updated, spoke to my Group Project Manager regarding one of colleages who put paper and helped him in his career,",
+      "others": "Created a jenkins job which will check if a build is folowing the coding standards by running JSHInt and CSS int if an issues are found and then build will automatically fail. Never gave any money for birthdays and parting gifts"
     },
     {
       "duration": "",
