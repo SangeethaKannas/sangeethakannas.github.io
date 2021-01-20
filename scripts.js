@@ -182,5 +182,19 @@
               `, '')
             }
           `
+
+        const contacts = myDetails['Contact'];
+        const contactsSection  = document.querySelector('.contact-list');
+        contactsSection.innerHTML = contacts
+            .reduce((acc, value, index, array) => acc +
+            `<li>
+                <a href="${array[index].link}" target="_blank" rel="noopener noreferrer">
+                  <i class="fa ${array[index].icon}"></i>
+                  ${array[index].name}
+                </a>
+              </li>
+            `, '')
+
+
       })
       .catch(handleError);
