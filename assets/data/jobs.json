@@ -1,0 +1,48 @@
+{
+    "To Be classified": [
+        "https://github.com/niimarmah/jobportal - ",
+        "https://github.com/sehannp/jobpostr/ - Full stack application",
+        "https://github.com/ajisaac/job-sorting-backend - Job Sorting api",
+        "https://github.com/devlesedi/jobs-by-lesh - React Redux",
+        "https://github.com/joshamore/applicationtracker_backend - Similar to job tracker",
+        "https://github.com/XSaintX/frontend_references_job - References ideas",
+        "https://github.com/alexgimson86/job-board - Resume upload",
+        "https://github.com/nikhilracha/jobster - React App",
+        "https://github.com/lokesh9460/JobPortalApp - ",
+        "https://github.com/cfinn16/job-search-organizer-frontend - Trello Board for jobs",
+        "https://github.com/jlpchepe/candidates-web-app - React TSX, Data visualization",
+        "https://github.com/aadityac15/Job-Portal-Using-React-Node - Basic app  ",
+        "https://github.com/salvatorelombardo/job_tracker_javasript - Basic Java script"
+    ],
+    "Next" : 
+    {
+        "with wireframes" : [
+            "https://github.com/karimatthews/junior-dev-jobs",
+            "https://github.com/job-seeker/job-seeker-frontend",
+            "https://github.com/hardsmile98/job-frontend",
+            "https://github.com/vuongdieuban/jobs-tracker",
+            "https://github.com/nine2five/nine2five-backend/  - Linked In Access, Create Tables, Auths",
+            "https://github.com/fkotsian/social_jobhunter - User stories",
+            "https://github.com/AsaToburen/jobHunt - Indeed",
+            "https://github.com/SharpQuagga/Job-Search-App - Flutter APP",
+            "https://github.com/saptaksengupta/Job-search-genie/ - Typescript in node | Search",
+            "https://github.com/stephenisau/jobly - Production sample"
+        ],
+        "Chrome Extension":
+            ["https://github.com/vladgr/jobfinde"]
+    },
+    "References": [   
+        "https://github.com/CindyKiran/todo-eleven",
+        "https://github.com/mobilize/mobilize",
+        "https://github.com/alarner/fresh-jobs-backend",
+        "https://github.com/swaglive/dockerfiles",
+        "https://github.com/SingaporeJS/",
+        "https://github.com/perfektio/lambda-sheets-backend",
+        "https://github.com/friskycodeur/friskycodeur",
+        "https://github.com/aosborne17/Final-Project-Frontend - IT Jobs watch stats tools",
+        "https://github.com/DevRappers/JobSeekerAll_Backend/ - DevRapper - Graph QL",
+        "https://github.com/pbrackin/Job-Spider",
+        "https://github.com/SinghTirath/JobSearchApp - Readme.md Good reference",
+        "https://github.com/sehannp/DataStructures/blob/master/Myarray.js"
+    ]
+}
