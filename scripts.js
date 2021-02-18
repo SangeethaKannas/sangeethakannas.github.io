@@ -9,7 +9,7 @@
     } else if(currentLocation.indexOf('me') > -1) {
       tabs = ['Requirements', 'Ideas', 'OSS', 'Blogs', 'Resources']
     } else {
-      tabs = [ 'Experience', 'Projects', 'Summary'];
+      tabs = ['Extras', 'Experience', 'Projects', 'Skills', 'About Me'];
     }
 
     tabs.forEach(currentText => {
@@ -144,26 +144,26 @@
                 </code>
               `, '')}`;
 
-        const careerHighlightSection = document.querySelector(".career-highlight");
-        careerHighlightSection.innerHTML =
-          `<h2>Career Highlight</h2>
-            <ul>
-              ${myDetails['Career Highlight'].reduce(requirementsReduceFn, '')}
-            </ul>
-          `
+        // const careerHighlightSection = document.querySelector(".career-highlight");
+        // careerHighlightSection.innerHTML =
+        //   `<h2>Career Highlight</h2>
+        //     <ul>
+        //       ${myDetails['Career Highlight'].reduce(requirementsReduceFn, '')}
+        //     </ul>
+        //   `
         const skillsReduceFn = (acc, value) => acc +
             `<code>
                 <a href="${value.link}" title="${value.name}">${value.image}</a>
              </code>`
 
-        const skilsSection = document.querySelector(".career-highlight");
+        const skillsSection = document.querySelector(".technical-skills");
         const skills = myDetails['Skills'];
-        careerHighlightSection.innerHTML =
-          `<h2>Skills</h2>
-            ${Object.keys(skills).reduce((acc, value) =>  acc + `<p>${skills[value].reduce(skillsReduceFn,'')}</p>` , '')
+        skillsSection.innerHTML =
+          `${
+            Object.keys(skills)
+              .reduce((acc, value) => acc + `<p>${skills[value].reduce(skillsReduceFn,'')}</p>` , '')
             }
           `
-
         const experience = myDetails['Experience'];
         const simpleViewSection = document.querySelector('.simple-view');
         simpleViewSection.innerHTML =
@@ -184,7 +184,7 @@
           `
 
         const contacts = myDetails['Contact'];
-        const contactsSection  = document.querySelector('.contact-list');
+        const contactsSection = document.querySelector('.social-media-list');
         contactsSection.innerHTML = contacts
             .reduce((acc, value, index, array) => acc +
             `<li>
