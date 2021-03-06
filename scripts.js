@@ -29,26 +29,26 @@
         tabsElement.prepend(input);
       });
 
-    const handleError = (error) => console.error(error);
-    const parseData = data => data.json();
-    const requirementsReduceFn = (acc, value) => acc + '<li>' + value + '</li>';
+    const handleError = error => console.error(error);
+    const parseResponse = response => response.json();
+    const requirementsReduceFn = (acc, value) => `${acc}<li>${value}</li>`;
 
     //Parse the resources and links
     const parseGeneralFn = data => {
-      const reducerFn = (acc, value) => acc + '<h2>' + value + '</h2>' + data[value].reduce(requirementsReduceFn, '');
+      const reducerFn = (acc, value) => `${acc}<h2>${value}</h2>` + data[value].reduce(requirementsReduceFn, '');
 
       document.getElementById('links')
         .innerHTML = Object.keys(data).reduce(reducerFn, '')
     }
 
-    fetch('/readable_links.json')
-      .then(parseData)
+    fetch('/assets/data/readable_links.json')
+      .then(parseResponse)
       .then(parseGeneralFn)
       .catch(handleError);
 
     const expandListItem = (event) => {
-      console.log(event);
-      const _target = event.currentTarget;
+      // console.log(event);
+      // const _target = event.currentTarget;
 
       // Array.from(_target.parentElement.children).forEach(element => {
       //   element.classList.add('is-closed');
@@ -71,50 +71,51 @@
               <span class="answer-span">${value.answer}</span>
             </div>
           </li>`;
-      const reducerFn = (acc, value) => acc + '<h2>' + value + '</h2>' + data[value].reduce(questionsReduceFn, '');
+      const reducerFn = (acc, value) => `${acc}<h2>${value}</h2>` + data[value].reduce(questionsReduceFn, '');
       document.getElementById('all-questions')
         .innerHTML = Object.keys(data).reduce(reducerFn, '')
     }
-    fetch('/questions.json')
-      .then(parseData)
+
+    fetch('/assets/data/questions.json')
+      .then(parseResponse)
       .then(parseQuestionFn)
       .catch(handleError);
 
     const parseReqnFn = data => {
-      const reducerFn = (acc, value) => acc + '<h2>' + value + '</h2>' + data[value].reduce(requirementsReduceFn, '');
+      const reducerFn = (acc, value) => `${acc}<h2>${value}</h2>` + data[value].reduce(requirementsReduceFn, '');
 
       document.getElementById('requirements-article')
         .innerHTML = Object.keys(data).reduce(reducerFn, '')
     }
 
-    fetch('/requirements.json')
-      .then(parseData)
+    fetch('/assets/data/requirements.json')
+      .then(parseResponse)
       .then(parseReqnFn)
       .catch(handleError);
 
     const parseIdeasFn = data => {
-      const reducerFn = (acc, value) => acc + '<h2>' + value + '</h2>' + data[value].reduce(requirementsReduceFn, '');
+      const reducerFn = (acc, value) => `${acc}<h2>${value}</h2>${data[value].reduce(requirementsReduceFn, '')}`;
 
       document.getElementById('ideas-article')
         .innerHTML = Object.keys(data).reduce(reducerFn, '')
     }
 
-    fetch('/ideas.json')
-      .then(parseData)
+    fetch('/assets/data/ideas.json')
+      .then(parseResponse)
       .then(parseIdeasFn)
       .catch(handleError);
 
     let myDetails = {};
-    fetch('/me.json')
-      .then(parseData)
+    fetch('/assets/data/me.json')
+      .then(parseResponse)
       .then(data => myDetails = data)
       .then(() => {
 
         const swotSection = document.querySelector(".swot");
         const swot = myDetails['SWOT'];
         const swotKeys = Object.keys(swot);
-        const swotParseFn = (acc, val) => acc +
-            `<article class="${val}">
+        const swotParseFn = (acc, val) => 
+            `${acc}<article class="${val}">
               <div>
                 <h3>${Object.keys(swot[val])[0]}</h3>
                 <ul>
@@ -170,8 +171,8 @@
           `<h2>Experience</h2>
             ${
               Object.keys(experience)
-                .reduce((acc, value) => acc + `
-                  <h3 class="organization">
+                .reduce((acc, value) => 
+                  `${acc}<h3 class="organization">
                     <span>${experience[value].organization}</span>
                     <span>${experience[value].duration}</span>
                   </h3>
@@ -186,8 +187,8 @@
         const contacts = myDetails['Contact'];
         const contactsSection = document.querySelector('.social-media-list');
         contactsSection.innerHTML = contacts
-            .reduce((acc, value, index, array) => acc +
-            `<li>
+            .reduce((acc, value, index, array) => 
+            `${acc}<li>
                 <a href="${array[index].link}" target="_blank" rel="noopener noreferrer">
                   <i class="fa ${array[index].icon}"></i>
                   ${array[index].name}
