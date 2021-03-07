@@ -168,18 +168,30 @@
         const experience = myDetails['Experience'];
         const simpleViewSection = document.querySelector('.simple-view');
         simpleViewSection.innerHTML =
-          `<h2>Experience</h2>
+          `
             ${
               Object.keys(experience)
                 .reduce((acc, value) => 
-                  `${acc}<h3 class="organization">
-                    <span>${experience[value].organization}</span>
-                    <span>${experience[value].duration}</span>
-                  </h3>
-                  <h3>Responsibilities</h3>
-                  <ul>
-                    ${experience[value].responsibilities.reduce(requirementsReduceFn, '')}
-                  </ul>
+                  `${acc}
+                  <div class="organization">
+                    <div class="job-details">
+                      <div>
+                        <span>${experience[value].organization}, </span>
+                        <span>${experience[value].location} - </span> 
+                        <span class="job-title">${experience[value].title}</span>
+                      </div>                      
+                    </div>
+                    <div class="job-duration">
+                      <span>${experience[value].duration}</span>
+                    </div>
+                    <div class="job-description">
+                    <span>${experience[value].roles}</span>
+                    <!--  <ul>
+                        ${experience[value].responsibilities.reduce(requirementsReduceFn, '')}
+                      </ul>
+                    -->
+                    </div>
+                  </div>
               `, '')
             }
           `
@@ -195,7 +207,6 @@
                 </a>
               </li>
             `, '')
-
 
       })
       .catch(handleError);

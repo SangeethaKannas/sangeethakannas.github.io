@@ -247,7 +247,28 @@ input ~ .tab {
   margin: 3rem 0;
 }
 
-.social-media-list li {
-  margin: 1rem;
+  .social-media-list li {
+    margin: 1rem;
+    font-size: 1rem;
+  }
+
+.job-title {
+  font-style: italic;
+}
+
+.job-duration {
+  color: gray;
+}
+
+.organization {
+  margin-top: 1rem;
+}
+
+.job-details span {
   font-size: 1rem;
+}
+
+.job-details span:first-child {
+  font-weight: bold;
+  
 }

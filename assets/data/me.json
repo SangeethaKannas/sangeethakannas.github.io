@@ -157,8 +157,11 @@
   },
   "Experience": [
     {
-      "organization": "HCL Technologies, Chennai",
+      "organization": "HCL Technologies",
       "duration": "Oct’ 2009 to Present",
+      "title": "Fullstack Lead",
+      "location": "Chennai",
+      "roles": "Started as Lead engineer and Working as team lead and scrum master. Worked in various projects in networking and healthcare domain",
       "responsibilities": [
         "Created Slave based Jenkins jobs for load sharing among various Jenkins server and resolved dependencies on multiple jobs",
         " Improved code quality by conducting code reviews, reducing the LoC, enforcing TDD/BDD  methodology and best practices",
@@ -182,18 +185,23 @@
       ]
     },
     {
-      "organization": "Vida Projects, Neyveli",
+      "organization": "Vida Projects",
       "duration": "Nov 2007 to Sept 2009",
+      "title": "Software Engineer",
+      "location": "Neyveli",
+      "roles": "Developed three applications in Javabased technologies",
       "responsibilities": [
         "Implemented servlets & JSPs for backend and GUI using JavaScript, HTML and CSS",
-        "Unit testing and deploying of the created projects",
-        "Utilized various jQuery plugins to build Rich Internet Application",
+        "Unit testing and deploying of the created projects",        
         "Extensively worked with making calls to APIs to fetch the data from the backend as JSON response and parse it on the UI for DOM/CSS Manipulation"
       ]
     },
     {
       "organization" : "Trichy City Corporation",
       "duration": "Apr 2005 to May 2006",
+      "title": "Asst. System Administrator",
+      "location": "Trichy",
+      "roles": "Developed the nextGen version of accounting and reporting system",
       "responsibilities": [
         "Involved in fixing the functional implementations, UI design issues, bugs and feature updates.",
         "Participate in full-life cycle development. A key developer from version 1 through version 4 (version 1 was Java Swing based client-server, instead of web-based)",
