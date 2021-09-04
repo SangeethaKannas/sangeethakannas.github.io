@@ -155,5 +155,14 @@
     "https://www.goskills.com/Office-Productivity/Articles/Tools-for-freelancers?utm_source=goskills&utm_medium=email&utm_campaign=October_Newsletter_04112019&tracking_guid=81e30064-4bcc-48a2-a945-be58c1245a7f&link_index=2",
     "https://www.freecodecamp.org/news/productivity/",
     "https://www.freecodecamp.org/news/my-first-year-as-a-software-engineer/"
-  ]
+  ],
+   "Others" : [
+   "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness",
+     "https://medium.com/@philip.smalls86/every-day-we-redux-n-3404046e50f8",
+     "https://medium.com/riow/mongodb-data-collection-change-85b63d96ff76",
+     "https://www.mongodb.com/features/database-triggers",
+     "https://aws.amazon.com/getting-started/hands-on/deploy-docker-containers/",
+     "https://dev.to/vuelancer/free-deployment-providers-bk0",
+     "https://aws.amazon.com/getting-started/hands-on/deploy-nodejs-web-app/"     
+   ]
 }
