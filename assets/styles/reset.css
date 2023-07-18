@@ -289,17 +289,6 @@ video {
   text-shadow: none;
 }
 
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  list-style: none;
-}
-
 a:link,
 a:hover {
   color: black;
