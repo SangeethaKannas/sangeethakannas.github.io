@@ -9,7 +9,7 @@ if (currentLocation.indexOf('pesto') > -1) {
 } else if (currentLocation.indexOf('me') > -1) {
   tabs = ['Requirements', 'Ideas', 'OSS', 'Blogs', 'Resources']
 } else {
-  tabs = ['Extras', 'Experience', 'Projects', 'Skills', 'About Me'];
+  tabs = ['Experience', 'Projects', 'Skills', 'About Me'];
 }
 
 tabs.forEach(currentText => {
