@@ -323,3 +323,27 @@ input ~ .tab {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+.accordion h3 {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  padding-left: 1rem;
+}
+
+.company-name {
+  display: flex;
+}
+
+.company-icon {
+  height: 27px;
+  width: 27px;
+}
+
+.duration {
+  min-width: 6.7rem;
+}
