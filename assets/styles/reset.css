@@ -245,6 +245,14 @@ img {
   border-style: none;
 }
 
+ul, li {
+  list-style-type: none;
+}
+
+li {
+
+}
+
 progress {
   vertical-align: baseline;
 }
