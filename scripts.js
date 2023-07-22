@@ -41,7 +41,15 @@ const parseGeneralFn = data => {
     .innerHTML = Object.keys(data).reduce(reducerFn, '')
 }
 
-fetch('/assets/data/readable_links.json')
+const parseSkills = data => {
+  console.log(data)
+}
+
+fetch('./assets/data/skills.json')
+  .then(parseSkills)
+  .catch(handleError)
+
+fetch('./assets/data/readable_links.json')
   .then(parseResponse)
   .then(parseGeneralFn)
   .catch(handleError);
@@ -76,7 +84,7 @@ const parseQuestionFn = data => {
     .innerHTML = Object.keys(data).reduce(reducerFn, '')
 }
 
-fetch('/assets/data/questions.json')
+fetch('./assets/data/questions.json')
   .then(parseResponse)
   .then(parseQuestionFn)
   .catch(handleError);

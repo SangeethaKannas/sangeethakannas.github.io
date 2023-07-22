@@ -1,0 +1,27 @@
+{
+    "Technical": {
+        "Frontend": [
+            {
+                "name": "React",
+                "website": ""
+            },
+            {
+                "name": "Redux",
+                "website": ""
+            },
+            {
+                "name": "Angular",
+                "website": ""
+            },
+            {
+                "name": "JQuery",
+                "website": ""
+            },
+            {
+                "name": "DOJO",
+                "website": ""
+            }
+        ],
+        "backend": {}
+    }
+}
