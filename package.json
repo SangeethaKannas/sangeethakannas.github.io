@@ -1,0 +1,14 @@
+{
+  "name": "sangeethakannas.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio about me",
+  "main": "scripts.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "Sangeetha Kanna",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
