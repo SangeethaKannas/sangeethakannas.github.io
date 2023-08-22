@@ -1,27 +1,71 @@
 {
     "Technical": {
+        "Cloud": [
+            {
+                "name": "",
+                "website": "",
+                "img": ""
+            },
+            {
+                "name": "",
+                "website": "",
+                "img": ""
+            }
+ 
+        ],
         "Frontend": [
             {
                 "name": "React",
-                "website": ""
+                "website": "",
+                "img": ""
             },
             {
                 "name": "Redux",
-                "website": ""
+                "website": "",
+                "img": ""
             },
             {
                 "name": "Angular",
-                "website": ""
+                "website": "",
+                "img": ""
             },
             {
                 "name": "JQuery",
-                "website": ""
+                "website": "",
+                "img": ""
             },
             {
                 "name": "DOJO",
-                "website": ""
+                "website": "",
+                "img": ""
             }
         ],
-        "backend": {}
+        "Backend": [
+            {
+                "name": "",
+                "website": "",
+                "img": ""
+            },
+            {
+                "name": "",
+                "website": "",
+                "img": ""
+            },
+            {
+                "name": "",
+                "website": "",
+                "img": ""
+            },
+            {
+                "name": "",
+                "website": "",
+                "img": ""
+            },
+            {
+                "name": "",
+                "website": "",
+                "img": ""
+            }
+        ]
     }
 }
