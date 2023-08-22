@@ -47,22 +47,22 @@ const parseGeneralFn = data => {
 
 const createProject = project => {
   return `
-    <section classname='project-section'>
-      <div classname='flex'>
-          <span>Project Name</span>
-          <span classname='project-name'><a href=${project.link} target="_blank">${project.name}</a></span>
+    <section class='project-section'>
+      <div class='flex'>
+          <span class='grid-label'>Project Name</span>
+          <span class='project-name'><a href=${project.link} target="_blank">${project.name}</a></span>
       </div>
-      <div className='flex'>
-          <span>Duration</span>
-          <span classname='project-duration'>${project.duration}</span>
+      <div class='flex'>
+          <span class='grid-label'>Duration</span>
+          <span class='project-duration'>${project.duration}</span>
       </div>
-      <div className='flex'>
-          <span>Description</span>
-          <span classname='project-desc'>${project.description}</span>
+      <div class='flex'>
+          <span class='grid-label'>Description</span>
+          <span class='project-desc'>${project.description}</span>
       </div>
-      <div className='flex'>
-          <span>Environment</span>
-          <span classname='project-env'>${project.environment}</span>
+      <div class='flex'>
+          <span class='grid-label'>Environment</span>
+          <span class='project-env'>${project.environment}</span>
       </div>
   </section>`
 }
@@ -250,7 +250,7 @@ fetch('/assets/data/me.json')
   })
   .catch(handleError);
 
-var acc = document.getElementsByClassName("accordion");
+var acc = document.getElementsByclass("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
