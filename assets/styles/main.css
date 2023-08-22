@@ -61,7 +61,7 @@ main {
   display: none;
 }
 
-.experience ul li:hover > ul {
+.experience ul li:hover>ul {
   display: block;
 }
 
@@ -69,7 +69,7 @@ input {
   display: none;
 }
 
-input + label {
+input+label {
   display: inline-block;
   padding: 4px 12px;
   border-radius: 4px 4px 0 0;
@@ -79,18 +79,18 @@ input + label {
   font-size: 0.9rem;
 }
 
-input:checked + label {
+input:checked+label {
   border-bottom: 2px solid green;
   margin: 0 0.5rem;
 }
 
-input ~ .tab {
+input~.tab {
   padding: 12px;
   display: none;
 }
 
 .tabs {
-  width: 100%;  
+  width: 100%;
   height: 90%;
   padding: 0 0.5rem;
 }
@@ -99,15 +99,15 @@ input ~ .tab {
   border-bottom: 2px solid #ace7ac;
 }
 
-#about-me:checked ~ .about-me,
-#swot:checked ~ .swot,
-#skills:checked ~ .skills,
-#questions:checked ~ .questions,
-#experience:checked ~ .experience,
-#projects:checked ~ .projects,
-#ideas:checked ~ .ideas,
-#resources:checked ~ .resources,
-#requirements:checked ~ .requirements {
+#about-me:checked~.about-me,
+#swot:checked~.swot,
+#skills:checked~.skills,
+#questions:checked~.questions,
+#experience:checked~.experience,
+#projects:checked~.projects,
+#ideas:checked~.ideas,
+#resources:checked~.resources,
+#requirements:checked~.requirements {
   display: block;
 }
 
@@ -180,6 +180,7 @@ input ~ .tab {
 }
 
 @media only screen and (max-width: 600px) {
+
   .top-section,
   .bottom-section {
     display: block;
@@ -204,7 +205,7 @@ input ~ .tab {
     padding-left: 0.55rem;
   }
 
-  input + label {
+  input+label {
     font-size: 1.1.rem;
     padding: 4px 10px;
   }
@@ -237,7 +238,7 @@ input ~ .tab {
   font-size: 1.2rem;
 }
 
-.about-me .contents{
+.about-me .contents {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -252,10 +253,10 @@ input ~ .tab {
   margin: 3rem 0;
 }
 
-  .social-media-list li {
-    margin: 1rem;
-    font-size: 1rem;
-  }
+.social-media-list li {
+  margin: 1rem;
+  font-size: 1rem;
+}
 
 .job-title {
   font-style: italic;
@@ -275,13 +276,12 @@ input ~ .tab {
 }
 
 .job-details span:first-child {
-  font-weight: bold; 
+  font-weight: bold;
 }
 
-.technical-skills {
-}
+.technical-skills {}
 
-.technical-skills img{
+.technical-skills img {
   height: 50px;
   margin: 1rem;
 }
@@ -300,7 +300,8 @@ input ~ .tab {
   justify-content: space-between;
 }
 
-.active, .accordion:hover {
+.active,
+.accordion:hover {
   background-color: #ccc;
 }
 
@@ -347,3 +348,24 @@ input ~ .tab {
 .duration {
   min-width: 6.7rem;
 }
+
+.project-section {
+  background: lightgrey;
+  padding: 1rem;
+  padding-left: 1.5rem;
+}
+
+#projects-tab {
+  max-height: 72vw;
+  overflow-y: scroll;
+}
+
+.project-name a {
+  color: blue;
+}
+
+.project-duration {}
+
+.project-desc {}
+
+.project-env {}
