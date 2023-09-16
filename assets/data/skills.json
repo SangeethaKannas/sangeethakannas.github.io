@@ -11,23 +11,22 @@
                 "website": "",
                 "img": ""
             }
- 
         ],
         "Frontend": [
             {
                 "name": "React",
                 "website": "",
-                "img": ""
+                "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
             },
             {
                 "name": "Redux",
                 "website": "",
-                "img": ""
+                "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png"
             },
             {
                 "name": "Angular",
                 "website": "",
-                "img": ""
+                "img": "./assets/icons/angular.jpg"
             },
             {
                 "name": "JQuery",
@@ -42,9 +41,9 @@
         ],
         "Backend": [
             {
-                "name": "",
+                "name": "Node",
                 "website": "",
-                "img": ""
+                "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
             },
             {
                 "name": "",
@@ -66,6 +65,118 @@
                 "website": "",
                 "img": ""
             }
+        ],
+        "DB and API": [
+            {
+                "name": "MongoDB"
+            },
+            {
+                "name": "MySQL"
+            },
+            {
+                "name": "Postgres"
+            }
+        ],
+        "Security": [
+            {
+                "name": "",
+                "website": "",
+                "image": ""
+            },
+            {
+                "name": "",
+                "website": "",
+                "image": ""
+            },
+            {
+                "name": "",
+                "website": "",
+                "image": ""
+            },
+            {},
+            {}
+        ],
+        "Other libraries": [
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "Packaging and IDE": [
+            {
+                "name": "Webpack",
+                "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/webpack/webpack.png"
+            },
+            {
+                "name": "VS Code",
+                "image": ""
+            }
+        ],
+        "Languages": [
+            {
+                "name": "Javascript",
+                "image": "https: //raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+            },
+            {
+                "name": "Typescript",
+                "image": ""
+            }
+        ],
+        "Performance": [
+            {
+                "name": "",
+                "image": ""
+            },
+            {
+                "name": "",
+                "image": ""
+            }
+        ],
+        "Testing": [
+            {
+                "name": "TDD"
+            },
+            {
+                "name": "Jest"
+            },
+            {
+                "name": "Karma"
+            }
+        ],
+        "Tools": [
+            {
+                "name": "Chrome Devtools",
+                "image": ""
+            },
+            {
+                "name": "ESLint",
+                "image": ""
+            },
+            {
+                "name": "Prettier",
+                "image": ""
+            },
+            {
+                "name": "axios",
+                "image": ""
+            },
+            {
+                "name": "D3.js",
+                "image": ""
+            }
         ]
-    }
+    },
+    "Soft Skills": [
+        "Self-motivator and self-starter, Ability to own and drive things without supervision and works collaboratively with the teams across the organization.",
+        "Excellent team player and individual contributor with strong analytical and problem-solving skills",
+        "Able to influence multiple teams on technical considerations, increasing their productivity and effectiveness, by sharing deep knowledge and experience.",
+        "Have excellent interpersonal skills to interact and present the ideas to Senior and Executive management"
+    ],
+    "Functional Skills": [
+        "Experience in following best Coding, Security, Unit testing and Documentation standards and practices",
+        "Experience in Banking, Financial and Fintech experience in an enterprise environment preferred",
+        "Experience in Agile methodology",
+        "Effectively research and benchmark technology against other best in class technologies"
+    ]
 }

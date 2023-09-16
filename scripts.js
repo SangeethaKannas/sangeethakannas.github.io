@@ -1,4 +1,3 @@
-
 //Append tabs - In Reverse Order
 const tabsElement = document.querySelector('.tabs');
 
@@ -73,14 +72,18 @@ const parseProjects = projects => {
     .innerHTML = projects.reduce(reducerFn, '')
 }
 
+const parseSkills = skills => {
+  
+}
+
 fetch('./assets/data/projects.json')
   .then(parseResponse)
   .then(parseProjects)
   .catch(handleError)
 
-// fetch('./assets/data/skills.json')
-//   .then(parseSkills)
-//   .catch(handleError)
+fetch('./assets/data/skills.json')
+  .then(parseSkills)
+  .catch(handleError)
 
 fetch('./assets/data/readable_links.json')
   .then(parseResponse)
