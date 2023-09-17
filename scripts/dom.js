@@ -55,3 +55,21 @@ const createQuestion = value => {
     </div>
   </li>`
 }
+
+
+const createSwot = (swot, value) => {
+  return `<article class="${value}">
+              <div>
+                <h3>${Object.keys(swot[val])[0]}</h3>
+                <ul>
+                  ${Object.values(swot[val])[0].reduce(stringToListItemFn)}
+                </ul>
+              </div>
+              <div>
+                <h3>${Object.keys(swot[val])[1]}</h3>
+                <ul>
+                  ${Object.values(swot[val])[1].reduce(stringToListItemFn)}
+                </ul>
+              </div>
+            </article>`
+}
