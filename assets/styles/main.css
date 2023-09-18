@@ -279,9 +279,7 @@ input~.tab {
   font-weight: bold;
 }
 
-.technical-skills {}
-
-.technical-skills img {
+.skills-icon {
   height: 50px;
   margin: 1rem;
 }

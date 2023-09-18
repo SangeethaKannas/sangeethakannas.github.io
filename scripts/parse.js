@@ -1,33 +1,42 @@
 const arrayToListReducerFn = (acc, value) => `${acc}<li>${value}</li>`;
 
-const commonReducerFn = (acc, value, index, array) =>
-    `${acc}<h2>${value}</h2>` + data[value].reduce(arrayToListReducerFn, '');
+const arrayToListImgReducerFn = (acc, value) =>
+    `${acc}
+    <li className='flex'>
+        ${value.img ? `<img src="${value.img}" class='skills-icon' />`: ""}${value.name || ''}
+    </li>`;
+
+const commonReducerFn = (data, options = {}) => {
+    return Object.keys(data)
+        .reduce((acc, value) => {
+            return `${acc}<h2>${value}</h2>
+            <ul class='flex'>
+                ${data[value].reduce(options.withImg ? arrayToListImgReducerFn : arrayToListReducerFn, '')}
+            </ul>`
+        }, '')
+}
 
 //Parse the resources and links
 const parseGeneralFn = data => {
-    document.getElementById('links')
-        .innerHTML = Object.keys(data).reduce(commonReducerFn, '')
+    document.getElementById('links').innerHTML = commonReducerFn(data)
 }
 
 const parseReqnFn = data => {
-    document.getElementById('requirements-article')
-        .innerHTML = Object.keys(data).reduce(commonReducerFn, '')
+    document.getElementById('requirements-article').innerHTML = commonReducerFn(data)
 }
 
 const parseIdeasFn = data => {
-    document.getElementById('ideas-article')
-        .innerHTML = Object.keys(data).reduce(commonReducerFn, '')
+    document.getElementById('ideas-article').innerHTML = commonReducerFn(data)
 }
 
 const parseSkills = skills => {
     const reducerFn = (acc, skill) => {
         const currentSkill = skills[skill]
-        console.log(currentSkill)
+        console.log(skill)
         if (Array.isArray(currentSkill)) {
-            console.log(currentSkill)
-            return acc + '<ul>' + arrayToListReducerFn(currentSkill) + '</ul>';
+            return acc + `<h2>${skill}</h2>` + '<ul>' + currentSkill.reduce(arrayToListReducerFn, '') + '</ul>';
         } else {
-            return acc + "<span>" + currentSkill + "</span>"
+            return acc + "<article><h2>" + skill + "</h2>" + commonReducerFn(currentSkill, { withImg: true }) + '</article>'
         }
 
     }

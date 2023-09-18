@@ -1,25 +1,25 @@
 function setAttributes(el, attrs = {}) {
-    for (var key in attrs) {
-        el.setAttribute(key, attrs[key]);
-    }
-    return el;
+  for (var key in attrs) {
+    el.setAttribute(key, attrs[key]);
+  }
+  return el;
 }
 
 const createLabelForTab = (tab, lowerCaseTab) => {
-    let label = document.createElement("label");
-    label.classList.add('tab-label');
-    label.setAttribute('for', lowerCaseTab);
-    label.innerText = tab;
-    return label
+  let label = document.createElement("label");
+  label.classList.add('tab-label');
+  label.setAttribute('for', lowerCaseTab);
+  label.innerText = tab;
+  return label
 }
 
 const createInputForTab = (lowerCaseTab) => {
-    let input = document.createElement("input");
-    return setAttributes(input, { 'type': 'radio', 'name': 'tabs', 'id': lowerCaseTab, 'checked': '' });
+  let input = document.createElement("input");
+  return setAttributes(input, { 'type': 'radio', 'name': 'tabs', 'id': lowerCaseTab, 'checked': '' });
 }
 
 const createProject = project => {
-    return `
+  return `
       <section class='project-section'>
         <div class='flex'>
             <span class='grid-label'>Project Name</span>
@@ -41,7 +41,7 @@ const createProject = project => {
 }
 
 const createQuestion = value => {
-    return `<li class="question-list-item is-closed" onclick="expandListItem(event)">
+  return `<li class="question-list-item is-closed" onclick="expandListItem(event)">
     <div class="question-answer">
       <div class="question-span">
         <h4>${value.question}
@@ -55,7 +55,6 @@ const createQuestion = value => {
     </div>
   </li>`
 }
-
 
 const createSwot = (swot, value) => {
   return `<article class="${value}">
