@@ -3,7 +3,7 @@ const arrayToListReducerFn = (acc, value) => `${acc}<li>${value}</li>`;
 const arrayToListImgReducerFn = (acc, value) =>
     `${acc}
     <li className='flex'>
-        ${value.img ? `<img src="${value.img}" class='skills-icon' />`: ""}${value.name || ''}
+        ${value.img ? `<img src="${value.img}" class='skills-icon' />` : ""}${value.name || ''}
     </li>`;
 
 const commonReducerFn = (data, options = {}) => {
@@ -109,7 +109,7 @@ const parseMyDetailsFn = data => () => {
                         <span>${experience[value].organization}, </span>
                         <span>${experience[value].location} - </span> 
                         <span class="job-title">${experience[value].title}</span>
-                      </div>                      
+                      </div>
                     </div>
                     <div class="job-duration">
                       <span>${experience[value].duration}</span>
