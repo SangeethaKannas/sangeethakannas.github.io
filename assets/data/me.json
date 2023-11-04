@@ -11,7 +11,7 @@
       "icon": "fa-github"
     }
   ],
-  "MoreAboutMe" : { 
+  "MoreAboutMe": { 
   Candidate's Full Name	Sangeetha Kanna S
 Nationality	Indian
 Total Experience	12+ years
@@ -194,23 +194,19 @@ Do you have all your educational certificates?	Yes
       "responsibilities": [
         "Created Slave based Jenkins jobs for load sharing among various Jenkins server and resolved dependencies on multiple jobs",
         " Improved code quality by conducting code reviews, reducing the LoC, enforcing TDD/BDD  methodology and best practices",
-
         "Creating new end-to-end graphical OLAP based reports using MDX, Saiku, Ajax, Dojo",
         "Developed MDX queries for better querying of OLAP data",
         "Unit-tested all backend classes using jUnit",
         "Reviewed of co-developers code, unit test cases and gave positive comments and feedback",
         "Developed PL/SQL procedures in postgres database for automated OLAP creation",
         "Executed well under pressure, fixed all known bugs and issues, and identified potential future problems",
-
         "Creating BDD specs using jasmine",
         "Executing them using nodejs, grunt and karma code coverage tools",
         "Create and develop Controllers, Services and modules in angular js",
-
         "Wrote Test plans based on the Software requirements and design",
         "Automated Application test cases using IBM’s Rational Functional Tester (RFT) tool",
         "Used AutoIT to automation installation/ un installation test cases on windows",
         "Provided RFT training to teammates and colleagues"
-
       ]
     },
     {
@@ -221,12 +217,12 @@ Do you have all your educational certificates?	Yes
       "roles": "Developed three applications in Javabased technologies",
       "responsibilities": [
         "Implemented servlets & JSPs for backend and GUI using JavaScript, HTML and CSS",
-        "Unit testing and deploying of the created projects",        
+        "Unit testing and deploying of the created projects",
         "Extensively worked with making calls to APIs to fetch the data from the backend as JSON response and parse it on the UI for DOM/CSS Manipulation"
       ]
     },
     {
-      "organization" : "Trichy City Corporation",
+      "organization": "Trichy City Corporation",
       "duration": "Apr 2005 to May 2006",
       "title": "Asst. System Administrator",
       "location": "Trichy",
@@ -238,7 +234,7 @@ Do you have all your educational certificates?	Yes
         "Create ASP reports which gave more insights and reduced the accounting time by 20%",
         "Designed Birth and death software that can be used anywhere, anytime"
       ]
-     }
+    }
   ],
   "Timeline": [
     {

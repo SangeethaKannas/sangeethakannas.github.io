@@ -43,6 +43,31 @@ const parseSkills = skills => {
     document.getElementById('skills-content').innerHTML = Object.keys(skills).reduce(reducerFn, '')
 }
 
+const parseConfig = config => {
+
+    //Append tabs - In Reverse Order
+    const tabsElement = document.querySelector('.tabs');
+
+    // if (currentLocation.indexOf('pesto') > -1) {
+    //   tabs = ['SWOT', 'Questions']
+    // } else if (currentLocation.indexOf('me') > -1) {
+    //   tabs = ['Requirements', 'Ideas', 'OSS', 'Blogs', 'Resources']
+    // } else {
+    //   tabs = ['Experience', 'Projects', 'Skills', 'About Me'];
+    // }
+
+    // const currentLocation = window.location.href;
+    console.log(config)
+    let tabs = config.tabs;
+
+    tabs
+        .forEach(currentText => {
+            const currentTextLowerCase = currentText.replace(' ', '-').toLowerCase();
+            tabsElement.prepend(createLabelForTab(currentText, currentTextLowerCase));
+            tabsElement.prepend(createInputForTab(currentTextLowerCase));
+        });
+}
+
 const parseProjects = projects => {
     const reducerFn = (acc, project) => acc + createProject(project);
     document.getElementById('projects-tab')
