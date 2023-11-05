@@ -18,23 +18,25 @@ const createInputForTab = (lowerCaseTab) => {
   return setAttributes(input, { 'type': 'radio', 'name': 'tabs', 'id': lowerCaseTab, 'checked': '' });
 }
 
+const STRINGS = ['Name', 'Duration', 'Description', 'Environment'];
+
 const createProject = project => {
   return `
       <section class='project-section'>
         <div class='flex'>
-            <span class='grid-label'>Project Name</span>
+            <span class='grid-label'>${STRINGS[0]}</span>
             <span class='project-name'><a href=${project.link} target="_blank">${project.name}</a></span>
         </div>
         <div class='flex'>
-            <span class='grid-label'>Duration</span>
+            <span class='grid-label'>${STRINGS[1]}</span>
             <span class='project-duration'>${project.duration}</span>
         </div>
         <div class='flex'>
-            <span class='grid-label'>Description</span>
+            <span class='grid-label'>${STRINGS[2]}</span>
             <span class='project-desc'>${project.description}</span>
         </div>
         <div class='flex'>
-            <span class='grid-label'>Environment</span>
+            <span class='grid-label'>${STRINGS[3]}</span>
             <span class='project-env'>${project.environment}</span>
         </div>
     </section>`
@@ -72,3 +74,12 @@ const createSwot = (swot, value) => {
               </div>
             </article>`
 }
+
+const createSocialMediaLink = (value) => `<li>
+    <a href="${value.link}" target="_blank" rel="noopener noreferrer">
+        <i class="fa ${value.icon}"></i>
+        ${value.name}
+    </a>
+</li>`
+
+const createHeader = (key, value) => `<h1 class="${key.toLowerCase()}">${value}</h1>`

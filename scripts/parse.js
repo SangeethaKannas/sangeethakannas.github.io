@@ -18,48 +18,33 @@ const commonReducerFn = (data, options = {}) => {
 
 //Parse the resources and links
 const parseGeneralFn = data => {
-    document.getElementById('links').innerHTML = commonReducerFn(data)
+    links.innerHTML = commonReducerFn(data)
 }
 
 const parseReqnFn = data => {
-    document.getElementById('requirements-article').innerHTML = commonReducerFn(data)
+    requirementsArticle.innerHTML = commonReducerFn(data)
 }
 
 const parseIdeasFn = data => {
-    document.getElementById('ideas-article').innerHTML = commonReducerFn(data)
+    ideasArticle.innerHTML = commonReducerFn(data)
 }
 
 const parseSkills = skills => {
     const reducerFn = (acc, skill) => {
         const currentSkill = skills[skill]
-        console.log(skill)
         if (Array.isArray(currentSkill)) {
-            return acc + `<h2>${skill}</h2>` + '<ul>' + currentSkill.reduce(arrayToListReducerFn, '') + '</ul>';
+            return `${acc}<h2>${skill}</h2><ul>${currentSkill.reduce(arrayToListReducerFn, '')}</ul>`;
         } else {
-            return acc + "<article><h2>" + skill + "</h2>" + commonReducerFn(currentSkill, { withImg: true }) + '</article>'
+            return `${acc}<article><h2>${skill}</h2>${commonReducerFn(currentSkill, { withImg: true })}</article>`
         }
 
     }
-    document.getElementById('skills-content').innerHTML = Object.keys(skills).reduce(reducerFn, '')
+    skillsContent.innerHTML = Object.keys(skills).reduce(reducerFn, '')
 }
 
 const parseConfig = config => {
 
-    //Append tabs - In Reverse Order
-    const tabsElement = document.querySelector('.tabs');
-
-    // if (currentLocation.indexOf('pesto') > -1) {
-    //   tabs = ['SWOT', 'Questions']
-    // } else if (currentLocation.indexOf('me') > -1) {
-    //   tabs = ['Requirements', 'Ideas', 'OSS', 'Blogs', 'Resources']
-    // } else {
-    //   tabs = ['Experience', 'Projects', 'Skills', 'About Me'];
-    // }
-
-    // const currentLocation = window.location.href;
-    console.log(config)
     let tabs = config.tabs;
-
     tabs
         .forEach(currentText => {
             const currentTextLowerCase = currentText.replace(' ', '-').toLowerCase();
@@ -70,97 +55,26 @@ const parseConfig = config => {
 
 const parseProjects = projects => {
     const reducerFn = (acc, project) => acc + createProject(project);
-    document.getElementById('projects-tab')
-        .innerHTML = projects.reduce(reducerFn, '')
+    projectsTab.innerHTML = projects.reduce(reducerFn, '')
 }
 
 const parseQuestionFn = data => {
     const questionsReduceFn = (acc, question) => acc + createQuestion(question);
-    document.getElementById('all-questions')
+    allQuestionsElement
         .innerHTML = Object.keys(data).reduce((acc, value) => `${acc}<h2>${value}</h2>` + data[value].reduce(questionsReduceFn, ''), '')
 }
 
-const parseMyDetailsFn = data => () => {
+const parseMyDetailsFn = myDetails => {
+    const aboutMeDetails = myDetails['AboutMe']
+    meDetailsSection.innerHTML = Object.keys(aboutMeDetails)
+        .reduce((acc, key) => `${acc}${createHeader(key, aboutMeDetails[key])}`, '')
 
-    const swotSection = document.querySelector(".swot");
-    const swot = data['SWOT'];
-    const swotKeys = Object.keys(swot);
-    const swotParseFn = (acc, val) => `${acc}${createSwot(swot, val)}`;
-    swotSection.innerHTML = `<h2>SWOT</h2>${swotKeys.reduce(swotParseFn, '')}`;
+    const contactsList = myDetails['Contacts']
+    contactsSection.innerHTML = contactsList.reduce((acc, value) => `${acc}<div>${value}</div>`, '')
 
-    const projectsSection = document.querySelector(".projects");
-    const projects = myDetails['Projects'];
-    projectsSection.innerHTML =
-        `<h2>Projects</h2>
-            ${projects.reduce((acc, value) => acc +
-            ` <h5>
-                  <a href="${value.link}" target="_blank" rel="noreferrer noopener">${value.name}</a>
-                  <span class="duration">${value.duration}
-                </h5>
-                <code>
-                  Environment: ${value.environment}
-                </code>
-              `, '')}`;
-
-    // const careerHighlightSection = document.querySelector(".career-highlight");
-    // careerHighlightSection.innerHTML =
-    //   `<h2>Career Highlight</h2>
-    //     <ul>
-    //       ${myDetails['Career Highlight'].reduce(stringToListItemFn, '')}
-    //     </ul>
-    //   `
-    const skillsReduceFn = (acc, value) => acc +
-        `<code>
-                <a href="${value.link}" title="${value.name}">${value.image}</a>
-             </code>`
-
-    const skillsSection = document.querySelector(".technical-skills");
-    const skills = myDetails['Skills'];
-    skillsSection.innerHTML =
-        `${Object.keys(skills)
-            .reduce((acc, value) => acc + `<p>${skills[value].reduce(skillsReduceFn, '')}</p>`, '')
-        }
-          `
-    const experience = myDetails['Experience'];
-    const simpleViewSection = document.querySelector('.simple-view');
-    simpleViewSection.innerHTML =
-        `
-            ${Object.keys(experience)
-            .reduce((acc, value) =>
-                `${acc}
-                  <div class="organization">
-                    <div class="job-details">
-                      <div>
-                        <span>${experience[value].organization}, </span>
-                        <span>${experience[value].location} - </span> 
-                        <span class="job-title">${experience[value].title}</span>
-                      </div>
-                    </div>
-                    <div class="job-duration">
-                      <span>${experience[value].duration}</span>
-                    </div>
-                    <div class="job-description">
-                    <span>${experience[value].roles}</span>
-                    <!--  <ul>
-                        ${experience[value].responsibilities.reduce(stringToListItemFn, '')}
-                      </ul>
-                    -->
-                    </div>
-                  </div>
-              `, '')
-        }
-          `
-
-    const contacts = myDetails['Contact'];
-    const contactsSection = document.querySelector('.social-media-list');
-    contactsSection.innerHTML = contacts
-        .reduce((acc, value, index, array) =>
-            `${acc}<li>
-                <a href="${value.link}" target="_blank" rel="noopener noreferrer">
-                  <i class="fa ${value.icon}"></i>
-                  ${value.name}
-                </a>
-              </li>
-            `, '')
+    const socialMediaList = myDetails['SocialMedia'];
+    socialMediaSection.innerHTML = socialMediaList
+        .reduce((acc, value) => `${acc}${createSocialMediaLink(value)}`, '')
 
 }
+

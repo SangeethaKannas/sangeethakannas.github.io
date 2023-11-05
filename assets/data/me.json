@@ -1,5 +1,13 @@
 {
-  "Contact": [
+  "AboutMe": {
+    "Name": "Sangeethakanna Santhanakrishnan",
+    "Role": "Fullstack Developer"
+  },
+  "Contacts": [
+    "+91 90030 25236",
+    "sangeethakannas@gmail.com"
+  ],
+  "SocialMedia": [
     {
       "link": "https://www.linkedin.com/in/sangeethakannas/",
       "name": "LinkedIn",
@@ -11,35 +19,6 @@
       "icon": "fa-github"
     }
   ],
-  "MoreAboutMe": { 
-  Candidate's Full Name	Sangeetha Kanna S
-Nationality	Indian
-Total Experience	12+ years
-Skills Set (Experience) -	"HTML-
-CSS-
-Javascript-
-JQuery-
-React JS"
-Current Salary	13 Lacs
-Expected Salary - Any offer?	20 Lacs | No
-Notice Period-Mandatory	30 days
-Current Company	HCL Technologies
-Current Location	Chennai
-Preferred Location	Chennai
-Educ. Qualification	B.E Computer Science
-Marital Status	Married
-Date of Birth	
-Contact Details	9003025236
-Email ID	sangeethakannas@gmail.com
-Reason for job change:	Career Growth
-If married, number of children and their ages :	Prefer not to say
-Have been interviewed by / applied to Encora:	No
-Has the JD/ role/ position been shared by mail:	No
-Have they visited the Encora website? :	Yes
-If not working, why did they leave her last organisation:	
-If there is a gap in the career, what was the reason:	Pursuing Higher education
-Do you have all your educational certificates?	Yes
-  },
   "SWOT": {
     "top-section": {
       "Strengths": [
@@ -176,11 +155,6 @@ Do you have all your educational certificates?	Yes
         "name": "",
         "link": "",
         "image": ""
-      },
-      {
-        "name": "",
-        "link": "",
-        "image": ""
       }
     ]
   },
@@ -279,26 +253,6 @@ Do you have all your educational certificates?	Yes
       "tasks": "Created new high visibiity module - A plugin for Active Advisor that integrated with APIC em and uploaded the devices from APIC-EM to Actie Advisor cloud, Worked ate nights in order to work in Client timezone, Took interviews for new recruits and mentored them, heard another sad story from Santhosh, understood the UI architecture and suggested ways to improve it, many left HCL Tech, Went to onsite for a month, Understood in detail about docuentation and SQL Injections and other",
       "learnt": "GitHub Enterprise, moved most of the codebase to GitHub Enterprise, Went to onsite fto help the client team in software deliver, provided necessary details to our offshore team rearding the development happening here and kept them updated, spoke to my Group Project Manager regarding one of colleages who put paper and helped him in his career,",
       "others": "Created a jenkins job which will check if a build is folowing the coding standards by running JSHInt and CSS int if an issues are found and then build will automatically fail. Never gave any money for birthdays and parting gifts"
-    },
-    {
-      "duration": "",
-      "tasks": ""
-    },
-    {
-      "duration": "",
-      "tasks": ""
-    },
-    {
-      "duration": "",
-      "tasks": ""
-    },
-    {
-      "duration": "",
-      "tasks": ""
-    },
-    {
-      "duration": "",
-      "tasks": ""
     },
     {
       "duration": "",
