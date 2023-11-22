@@ -1,95 +1,69 @@
-{ 
-    "Cover letter": "",
-Your Full Name:
-
-Your Designation:
-
-Current Company: Current Location :    Pref Location :
-
-Official Notice period:                 How Soon You will join after Selection:     Are you serving Notice(Y/N):…………If Y, Please Mentioned LWD:……………
-
-Reason for change
-
-Current CTC:             Exp CTC:            if You have Offer...Please Mentioned……….
-	
-Available for Virtual interview on Weekday (with Time)
-
-Total Experience:  Relevant Experience:
-
-Highest Education Qualification(Full Time / Distance):
-
-Your Pan Card No(Mandatory) for Process :
-
-Total Exp.IT In years and months:
-   Exp in UI Developer in Years and months:
-   Exp in  Redux/Reflux   Years and Months
-   Exp in Angular in Years and months:
-   Exp in Microservices   in Years and months:
-   Exp. In ReactJs   in years and months :
-   Exp. In AWS/Azure/GCP in Years and months:
-   Exp. In NodeJS  in years and months :
-   Exp. in JavaScript  Years and Months
-   Exp. in Docker/Kubernetes in Years and Months
-
-Are you working Payment/Banking Domain(Y/N):
-
-Your two alternate e-mail ID's :
-
-Your Educational Details( Xth onwards) along with the % of marks & yr of passing :
-
-Your DOB ( DD / MM / YY ) :
-
-
-UI/Front End Architect
-
-Total Exp:  12 years
-Relevant Exp:  5 years
-Reason for job change:  Career Growth  
-
-Official NP:    3 months (90 days ) - Currently Serving Notice
- 
-CTC:   13 LPA
-
-ECTC:  21 LPA
-
-Current Location: Chennai
-
-Adharcard First Name:  Sangeetha Kanna 
-
-Adharcard Last Name:   S
-
-Are you ok with Contract to Hire(C2H):  Yes
-
-Are you ok with Dell In Bangalore:  Yes
-
-Education details (year of passed out/Regular or Correspondence):   Regular, 2003
-Do you have any exp in  UI Developer(How many years):      5 years
-Do you are in to  Java Script  & Css3:  (How many years):    5 years
-Do you have any exp in  HTML5 (How many years):    6 years
-Do you have any exp in  Java (How many years):      5 years
-Do you have any exp in  Angular5 (How many years):     5 years
-Have you attended any interview before with  Dell:    No
-Are you available for F2F/webex/Zoom Interview Weekdays:   Yes  
-What is your payroll company:   HCL Technologies
-What is your last working date:    September 29, 2021
-Do you all Documents:   Yes
-Do you have any offers:   Yes for 19 LPA
-
-Current Domain : Networking Devices
-Current/Preferred Location : Chennai / Any
-Reason for Job Change : Career Enhancement
-
-Best number to reach: +91 90030 25236
-
-Best time to call:       : Morning 10 to 5
-Notice Period:         :   3 Months
-Current CTC:            : 11 lakhs
-Expected CTC:         : 12 lakhs
-Open for relocation:  : yes
-
-Technical Skills in years:
-Total IT Experience:              9 years
-UI Development experience:      5 years
-JavaScript Experience:               2 years
-Angular JS Experience:              2 years
-BootStrap or Node JS Experience:   2 year
+{
+    "MyDetails": {
+        "Your Full Name": "",
+        "Your Designation": "",
+        "Current Company": "",
+        "Reason for change": "",
+        "Your Pan Card No(Mandatory) for Process": "",
+        "Are you working Payment/Banking Domain(Y/N)": "",
+        "Your two alternate e-mail ID's": "",
+        "Your DOB ( DD / MM / YY )": "",
+        "Adharcard First Name": "Sangeetha Kanna",
+        "Adharcard Last Name": "S",
+        "Are you ok with Contract to Hire(C2H)": "Yes"
+    },
+    "Location": {
+        "Current": "",
+        "Prefferred": "",
+        "Open for relocation": "yes"
+    },
+    "Package": {
+        "Current CTC": "",
+        "Expected CTC": ""
+    },
+    "Availability": {
+        "if You have Offer...Please Mentioned……….": "",
+        "Available for Virtual interview on Weekday (with Time)": "",
+        "Official Notice period": "",
+        "How Soon You will join after Selection": "",
+        "Are you serving Notice(Y/N)": "",
+        "If Y, Please Mentioned LWD": "",
+        "Have you attended any interview before with  Dell": "No",
+        "Are you available for F2F/webex/Zoom Interview Weekdays": "Yes"
+    },
+    "Education": {
+        "Highest Education Qualification(Full Time / Distance)": "",
+        "Your Educational Details( Xth onwards) along with the % of marks & yr of passing": "",
+        "Education details (year of passed out/Regular or Correspondence)": "Regular 2003"
+    },
+    "What is your payroll company": "HCL Technologies",
+    "What is your last working date": "September 29, 2021",
+    "Do you all Documents": "Yes",
+    "Do you have any offers": "Yes for 19 LPA",
+    "Current Domain": "Networking Devices",
+    "Best number to reach": "+91 90030 25236",
+    "Best time to call": "Morning 10 to 5",
+    "Experience": {
+        "Technical Skills in years": "",
+        "Total IT Experience": "9 years",
+        "UI Development experience": "5 years",
+        "JavaScript Experience": "2 years",
+        "Angular JS Experience": "2 years",
+        "BootStrap or Node JS Experience": "2 year",
+        "Total Exp.IT In years and months": "",
+        "Exp in UI Developer in Years and months": "",
+        "Exp in  Redux/Reflux Years and Months": "",
+        "Exp in Angular in Years and months": "",
+        "Exp in Microservices in Years and months": "",
+        "Exp. In ReactJs in years and months": "",
+        "Exp. In AWS/Azure/GCP in Years and months": "",
+        "Exp. In NodeJS  in years and months": "",
+        "Exp. in JavaScript  Years and Months": "",
+        "Exp. in Docker/Kubernetes in Years and Months": "",
+        "Do you have any exp in  UI Developer(How many years)": "5 years",
+        "Do you are in to  Java Script  & Css3:  (How many years)": "5 years",
+        "Do you have any exp in  HTML5 (How many years)": "6 years",
+        "Do you have any exp in  Java (How many years)": "5 years",
+        "Do you have any exp in  Angular5 (How many years)": "5 years"
+    }
+}

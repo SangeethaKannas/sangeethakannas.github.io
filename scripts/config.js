@@ -30,5 +30,9 @@ const FETCH_CONFIG = [
   {
     url: '/assets/data/me.json',
     parseFn: parseMyDetailsFn
+  },
+  {
+    url: '/assets/data/coverletter.json',
+    parseFn: parseCoverLetter
   }
 ]

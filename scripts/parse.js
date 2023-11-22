@@ -43,7 +43,6 @@ const parseSkills = skills => {
 }
 
 const parseConfig = config => {
-
     let tabs = config.tabs;
     tabs
         .forEach(currentText => {
@@ -75,6 +74,8 @@ const parseMyDetailsFn = myDetails => {
     const socialMediaList = myDetails['SocialMedia'];
     socialMediaSection.innerHTML = socialMediaList
         .reduce((acc, value) => `${acc}${createSocialMediaLink(value)}`, '')
-
 }
 
+const parseCoverLetter = coverLetter => {
+
+}
