@@ -1,0 +1,40 @@
+/** Media queries **/
+
+@media only screen and (max-width: 600px) {
+    .skills {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .top-section,
+    .bottom-section {
+        display: block;
+    }
+
+    .top-section div,
+    .bottom-section div {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .top-section div h3,
+    .bottom-section div h3 {
+        border-bottom: 1px solid #aabbcc;
+        margin: 0.5rem 0;
+    }
+
+    .top-section div ul,
+    .bottom-section div ul {
+        padding-left: 0.55rem;
+    }
+
+    input+label {
+        font-size: 1.1.rem;
+        padding: 4px 10px;
+    }
+
+}

@@ -9,3 +9,5 @@ const ideasArticle = document.getElementById('ideas-article')
 const linksElement = document.getElementById('links')
 const requirementsArticle = document.getElementById('requirements-article')
 const acc = document.querySelectorAll(".accordion")
+const coverLetterSection = document.querySelector('.cover-letter')
+const swotSection = document.querySelector(".swot");

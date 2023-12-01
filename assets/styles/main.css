@@ -4,7 +4,6 @@ main {
 }
 
 .user-name {
-  /*color: #209c20;*/
   padding: 1rem;
   font-size: 2rem;
 }
@@ -102,7 +101,8 @@ input~.tab {
 #projects:checked~.projects,
 #ideas:checked~.ideas,
 #resources:checked~.resources,
-#requirements:checked~.requirements {
+#requirements:checked~.requirements,
+#cover-letter:checked~.cover-letter {
   display: block;
 }
 
@@ -128,14 +128,6 @@ input~.tab {
   max-width: 50%;
   min-width: 50%;
   padding: 1rem;
-}
-
-/** Media queries **/
-
-@media only screen and (max-width: 600px) {
-  .skills {
-    display: flex;
-  }
 }
 
 .question-open-icon {
@@ -172,39 +164,6 @@ input~.tab {
 
 .is-closed .answer-span {
   display: none;
-}
-
-@media only screen and (max-width: 600px) {
-
-  .top-section,
-  .bottom-section {
-    display: block;
-  }
-
-  .top-section div,
-  .bottom-section div {
-    width: 100%;
-    min-width: 100%;
-    max-width: 100%;
-    padding: 0;
-  }
-
-  .top-section div h3,
-  .bottom-section div h3 {
-    border-bottom: 1px solid #aabbcc;
-    margin: 0.5rem 0;
-  }
-
-  .top-section div ul,
-  .bottom-section div ul {
-    padding-left: 0.55rem;
-  }
-
-  input+label {
-    font-size: 1.1.rem;
-    padding: 4px 10px;
-  }
-
 }
 
 .about-me {
@@ -369,9 +328,3 @@ input~.tab {
   align-items: center;
   justify-content: center;
 }
-
-.project-duration {}
-
-.project-desc {}
-
-.project-env {}

@@ -78,4 +78,79 @@ const parseMyDetailsFn = myDetails => {
 
 const parseCoverLetter = coverLetter => {
 
+    if (
+        typeof yourVariable === 'object' &&
+        !Array.isArray(yourVariable) &&
+        yourVariable !== null
+    ) {
+        executeSomeCode();
+    }
+
+    coverLetterSection.innerHTML = Object.keys(coverLetter)
+        .reduce((acc, key) => `${acc}<li>${key}:${coverLetter[key]}</li>`, '')
 }
+
+const parseSwot = swot => {
+    const swot = data['SWOT'];
+    const swotKeys = Object.keys(swot);
+    const swotParseFn = (acc, val) => `${acc}${createSwot(swot, val)}`;
+    swotSection.innerHTML = `<h2>SWOT</h2>${swotKeys.reduce(swotParseFn, '')}`;
+}
+
+const projectsSection = document.querySelector(".projects");
+const projects = myDetails['Projects'];
+projectsSection.innerHTML =
+    `<h2>Projects</h2>
+        ${projects.reduce((acc, value) => acc +
+        `<h5>
+            <a href="${value.link}" target="_blank" rel="noreferrer noopener">${value.name}</a>
+            <span class="duration">${value.duration}</span>
+        </h5>
+        <code>
+            Environment: ${value.environment}
+        </code>
+        `, '')}`;
+
+const skillsReduceFn = (acc, value) => acc +
+    `<code>
+        <a href="${value.link}" title="${value.name}">${value.image}</a>
+    </code>`
+
+const skillsSection = document.querySelector(".technical-skills");
+const skills = myDetails['Skills'];
+skillsSection.innerHTML =
+    `${Object.keys(skills)
+        .reduce((acc, value) => acc + `<p>${skills[value].reduce(skillsReduceFn, '')}</p>`, '')
+    }
+    `
+
+const experience = myDetails['Experience'];
+const simpleViewSection = document.querySelector('.simple-view');
+simpleViewSection.innerHTML =
+    `
+        ${Object.keys(experience)
+        .reduce((acc, value) =>
+            `${acc}
+              <div class="organization">
+                <div class="job-details">
+                  <div>
+                    <span>${experience[value].organization}, </span>
+                    <span>${experience[value].location} - </span> 
+                    <span class="job-title">${experience[value].title}</span>
+                  </div>
+                </div>
+                <div class="job-duration">
+                  <span>${experience[value].duration}</span>
+                </div>
+                <div class="job-description">
+                <span>${experience[value].roles}</span>
+                <!--  <ul>
+                    ${experience[value].responsibilities.reduce(stringToListItemFn, '')}
+                  </ul>
+                -->
+                </div>
+              </div>
+          `, '')
+    }
+      `
+
