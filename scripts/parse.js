@@ -90,7 +90,7 @@ const parseCoverLetter = coverLetter => {
         .reduce((acc, key) => `${acc}<li>${key}:${coverLetter[key]}</li>`, '')
 }
 
-const parseSwot = swot => {
+const parseSwot = data => {
     const swot = data['SWOT'];
     const swotKeys = Object.keys(swot);
     const swotParseFn = (acc, val) => `${acc}${createSwot(swot, val)}`;
