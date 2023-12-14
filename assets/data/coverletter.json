@@ -1,69 +1,52 @@
 {
-    "MyDetails": {
-        "Your Full Name": "",
-        "Your Designation": "",
-        "Current Company": "",
-        "Reason for change": "",
-        "Your Pan Card No(Mandatory) for Process": "",
-        "Are you working Payment/Banking Domain(Y/N)": "",
-        "Your two alternate e-mail ID's": "",
-        "Your DOB ( DD / MM / YY )": "",
-        "Adharcard First Name": "Sangeetha Kanna",
-        "Adharcard Last Name": "S",
-        "Are you ok with Contract to Hire(C2H)": "Yes"
+    "My Details": {
+        "Current Company": "Not working",
+        "Reason for change": "Caregiving",        
+        "Two alternate e-mail ID's": "",
+        "Job Type": "Fulltime or Contract to hire"
     },
     "Location": {
-        "Current": "",
-        "Prefferred": "",
-        "Open for relocation": "yes"
+        "Current": "Tamilnadu",
+        "Prefferred": "Permenant Remote",
+        "Open for relocation": "Not Yet"
     },
     "Package": {
-        "Current CTC": "",
-        "Expected CTC": ""
+        "Current CTC": "To be shared on call",
+        "Expected CTC": "To be shared on call"
     },
     "Availability": {
-        "if You have Offer...Please Mentioned……….": "",
-        "Available for Virtual interview on Weekday (with Time)": "",
-        "Official Notice period": "",
-        "How Soon You will join after Selection": "",
-        "Are you serving Notice(Y/N)": "",
-        "If Y, Please Mentioned LWD": "",
-        "Have you attended any interview before with  Dell": "No",
-        "Are you available for F2F/webex/Zoom Interview Weekdays": "Yes"
+        "Any offers or interviews": "No Offet yet. Attending second level interviews",
+        "Availability for Virtual interviews": "Weekdays,  Time: 10 AM to 3 PM IST",
+        "Official notice period": "Immediate",
+        "Are you serving Notice(Y/N)": "N",
+        "Time to join after Selection": "Immediate",
+        "All Documents (Exp. and Edu.)": "Yes"
     },
-    "Education": {
-        "Highest Education Qualification(Full Time / Distance)": "",
-        "Your Educational Details( Xth onwards) along with the % of marks & yr of passing": "",
-        "Education details (year of passed out/Regular or Correspondence)": "Regular 2003"
+    "Education Details": {
+        "Highest Education Qualification": "Bachelor of Engineering in Computer Science",
+        "Year of passe and mode": "2003,  Regular   ",
+        "Educational Details( Xth onwards) along with the % of marks & yr of passing": ""
     },
-    "What is your payroll company": "HCL Technologies",
-    "What is your last working date": "September 29, 2021",
-    "Do you all Documents": "Yes",
-    "Do you have any offers": "Yes for 19 LPA",
-    "Current Domain": "Networking Devices",
-    "Best number to reach": "+91 90030 25236",
-    "Best time to call": "Morning 10 to 5",
     "Experience": {
-        "Technical Skills in years": "",
-        "Total IT Experience": "9 years",
-        "UI Development experience": "5 years",
-        "JavaScript Experience": "2 years",
-        "Angular JS Experience": "2 years",
-        "BootStrap or Node JS Experience": "2 year",
-        "Total Exp.IT In years and months": "",
-        "Exp in UI Developer in Years and months": "",
-        "Exp in  Redux/Reflux Years and Months": "",
-        "Exp in Angular in Years and months": "",
-        "Exp in Microservices in Years and months": "",
-        "Exp. In ReactJs in years and months": "",
-        "Exp. In AWS/Azure/GCP in Years and months": "",
-        "Exp. In NodeJS  in years and months": "",
-        "Exp. in JavaScript  Years and Months": "",
-        "Exp. in Docker/Kubernetes in Years and Months": "",
-        "Do you have any exp in  UI Developer(How many years)": "5 years",
-        "Do you are in to  Java Script  & Css3:  (How many years)": "5 years",
-        "Do you have any exp in  HTML5 (How many years)": "6 years",
-        "Do you have any exp in  Java (How many years)": "5 years",
-        "Do you have any exp in  Angular5 (How many years)": "5 years"
+        "Domain Expertise": "Telecom, Healthcare, Logistics",
+        "Total IT Experience": "13 years",
+        "UI Development": "9 years",
+        "Frontend skills": {
+            "JavaScript": "9 years",
+            "HTML5 & CSS3: ": "5 years",
+            "Angular JS and Angular": "4 years",
+            "BootStrap or Node JS": "2 year",
+            "ReactJs": "4 years",
+            "Redux": "3 years"
+        },
+        "Backend": {
+            "NodeJS ": "4 years",
+            "Java": "5 years"
+        },
+        "Cloud": {
+            "Docker/Kubernetes": "2 years",
+            "Microservices": "2 years",
+            "AWS/Azure/GCP": "1 year"
+        }
     }
 }

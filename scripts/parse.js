@@ -78,16 +78,29 @@ const parseMyDetailsFn = myDetails => {
 
 const parseCoverLetter = coverLetter => {
 
-    if (
-        typeof yourVariable === 'object' &&
-        !Array.isArray(yourVariable) &&
-        yourVariable !== null
-    ) {
-        executeSomeCode();
-    }
-
     coverLetterSection.innerHTML = Object.keys(coverLetter)
-        .reduce((acc, key) => `${acc}<li>${key}:${coverLetter[key]}</li>`, '')
+        .reduce((acc, key) => {
+            let value = coverLetter[key]
+            if (
+                typeof value === 'object' &&
+                !Array.isArray(value) &&
+                value !== null
+            ) {
+                value = Object.keys(value).reduce((acc, key) =>
+                    `${acc}
+                    <li class='skill-item'>
+                        <span class='skill-name'>${key}</span>
+                        :
+                        <span class='exp-years'>${value[key]}</span>
+                    </li>
+                    `, '')
+                value = `<ul class='skill-set-list'>${value}</ul>`
+                key = `<h2>${key}</h2>`
+            } else {
+                value = `:${value}`
+            }
+            return `${acc}<li>${key}${value}</li>`
+        }, '')
 }
 
 const parseSwot = data => {

@@ -309,7 +309,7 @@ input~.tab {
   margin-bottom: 1rem;
 }
 
-#projects-tab {
+#projects-tab, .cover-letter {
   max-height: 79vh;
   overflow-y: scroll;
 }
@@ -328,3 +328,22 @@ input~.tab {
   align-items: center;
   justify-content: center;
 }
+
+.skill-set-list {
+  padding-left: 1rem;
+}
+
+  .skill-item {
+    display: flex;
+  }
+
+    .skill-name {
+      min-width: 10rem;
+      display: inline-block;
+    }
+
+.cover-letter {
+  display: flex;
+  padding: 0 1rem;
+}
+
