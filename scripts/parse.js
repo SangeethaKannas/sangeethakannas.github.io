@@ -90,14 +90,13 @@ const parseCoverLetter = coverLetter => {
                     `${acc}
                     <li class='skill-item'>
                         <span class='skill-name'>${key}</span>
-                        :
                         <span class='exp-years'>${value[key]}</span>
                     </li>
                     `, '')
                 value = `<ul class='skill-set-list'>${value}</ul>`
                 key = `<h2>${key}</h2>`
             } else {
-                value = `:${value}`
+                value = `${value}`
             }
             return `${acc}<li>${key}${value}</li>`
         }, '')
