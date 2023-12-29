@@ -126,6 +126,13 @@
     "Hands-on experience with AWS preferred, Azure nice to have"
   ],
   "Non-Technical/ Behavioral competencies required": [
+    "9 + years of experience building large scale distributed data processing systems/application and at least 4 years in AWS Cloud",
+    "Experience with design and deliver of streaming workflows end-to-end using Kafka, Spark Streaming, Flink and other relevant technologies",
+    "Extensive experience with AWS cloud native services like AWS Kinesis Data Analytics, AWS MSK Kafka etc.",
+    "Good hands-on experience with AWS Services like Lambda functions, SQS, SNS and also having good knowledge of MongoDB will be considered big plus point.",
+    "Should have worked in agile development projects and have exposure to DevOps tools (JIRA, Git, Jenkins, SonaQube etc.) - aware of agile and scrum methodologies",
+    "Strong decision-making skills in terms of platform setup, configuration, operations, cost optimization, orchestration, and DevOps",
+    "Very good communication skill and ability to help team members to resolve technical issues",
     "Enjoy collaborating, learning from, and teaching others to improve engineering culture. You assume good intent in others, and actively do your part to make a positive work environment",
     "Regular open-source contributor",
     "Skilled at working in tandem with a team, or unsupervised as required",
@@ -177,5 +184,17 @@
     "Must have hands-on application development in E-commerce domain preferably in Pharma/Medical distribution",
     "Pharma/Healthcare domain experience will be a definite plus"
   ],
-  "others": ["Experience building data analytics interfaces is a plus"]
+  "others": [
+    "Experience building data analytics interfaces is a plus"
+  ],
+  "architect": [
+    {
+      "Backend Development": "Lead the development of robust and scalable backend solutions using Node.js.",
+      "Architecture and Design": "Make critical decisions regarding the architecture and design of Node.js applications, ensuring high performance and maintainability.",
+      "API Development": "Design and implement RESTful APIs to support various front-end functionalities.",
+      "Database Integration": "Collaborate with database administrators and integrate databases into Node.js applications.",
+      "Code Review": "Participate in code reviews to maintain code quality and provide constructive feedback to team members.",
+      "Mentorship": "Provide guidance and mentorship to junior developers, contributing to the growth and skill development of the team."
+    }
+  ]
 }

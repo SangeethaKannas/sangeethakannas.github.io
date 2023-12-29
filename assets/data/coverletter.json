@@ -1,7 +1,7 @@
 {
     "My Details": {
         "Current Company": "Not working",
-        "Reason for change": "Caregiving",        
+        "Reason for change": "Caregiving",
         "Two alternate e-mail ID's": "",
         "Job Type": "Fulltime or Contract to hire"
     },
@@ -48,5 +48,11 @@
             "Microservices": "2 years",
             "AWS/Azure/GCP": "1 year"
         }
+    },
+    "Hidden": {
+        "Contract To Hire Interested(Y/N)": "",
+        "Shall we process with PF (Yes/NO )": "",
+        "PF Account (Y/N)": "",
+        "Mention PF A/C NUMBER": ""
     }
 }
