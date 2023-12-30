@@ -32,11 +32,6 @@
                 "name": "JQuery",
                 "website": "",
                 "img": ""
-            },
-            {
-                "name": "DOJO",
-                "website": "",
-                "img": ""
             }
         ],
         "Backend": [
@@ -46,7 +41,7 @@
                 "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
             },
             {
-                "name": "",
+                "name": "Java",
                 "website": "",
                 "img": ""
             },
@@ -68,13 +63,19 @@
         ],
         "DB and API": [
             {
-                "name": "MongoDB"
+                "name": "MongoDB",
+                "website": "",
+                "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
             },
             {
-                "name": "MySQL"
+                "name": "MySQL",
+                "website": "",
+                "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
             },
             {
-                "name": "Postgres"
+                "name": "Postgres",
+                "website": "",
+                "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
             }
         ],
         "Security": [
