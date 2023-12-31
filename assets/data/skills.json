@@ -1,5 +1,22 @@
 {
     "Technical": {
+        "Languages": [
+            {
+                "name": "Javascript",
+                "website": "",
+                "image": "https: //raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+            },
+            {
+                "name": "",
+                "website": "",
+                "image": ""
+            },
+            {
+                "name": "Typescript",
+                "website": "",
+                "image": ""
+            }
+        ],
         "Cloud": [
             {
                 "name": "",
@@ -22,6 +39,11 @@
                 "name": "Redux",
                 "website": "",
                 "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png"
+            },
+            {
+                "name": "Next JS",
+                "website": "",
+                "img": ""
             },
             {
                 "name": "Angular",
@@ -83,26 +105,10 @@
                 "name": "",
                 "website": "",
                 "image": ""
-            },
-            {
-                "name": "",
-                "website": "",
-                "image": ""
-            },
-            {
-                "name": "",
-                "website": "",
-                "image": ""
-            },
-            {},
-            {}
+            }
         ],
         "Other libraries": [
-            {},
-            {},
-            {},
-            {},
-            {}
+          
         ],
         "Packaging and IDE": [
             {
@@ -111,16 +117,6 @@
             },
             {
                 "name": "VS Code",
-                "image": ""
-            }
-        ],
-        "Languages": [
-            {
-                "name": "Javascript",
-                "image": "https: //raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-            },
-            {
-                "name": "Typescript",
                 "image": ""
             }
         ],

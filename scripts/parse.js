@@ -1,8 +1,8 @@
-const arrayToListReducerFn = (acc, value) => `${acc}<li>${value}</li>`;
+const arrayToListReducerFn = (acc, value, skill) => `${acc}<li class='skill'>${value}</li>`;
 
 const arrayToListImgReducerFn = (acc, value) =>
     `${acc}
-    <li className='flex'>
+    <li class='flex skill'>
         ${value.img ? `<img src="${value.img}" class='skills-icon' />` : ""}${value.name || ''}
     </li>`;
 
@@ -33,13 +33,17 @@ const parseSkills = skills => {
     const reducerFn = (acc, skill) => {
         const currentSkill = skills[skill]
         if (Array.isArray(currentSkill)) {
-            return `${acc}<h2>${skill}</h2><ul>${currentSkill.reduce(arrayToListReducerFn, '')}</ul>`;
+            return `${acc}
+                    <h2 class='skill-header'>${skill}</h2>
+                    <ul>${currentSkill.reduce((arr, value) => {
+                        return arrayToListReducerFn(arr, value, 'skill')
+                    }, '')}</ul>`;
         } else {
-            return `${acc}<article><h2>${skill}</h2>${commonReducerFn(currentSkill, { withImg: true })}</article>`
+            return `<div class='skills-wrapper'>${acc}<article class='skills'><h2>${skill}</h2>${commonReducerFn(currentSkill, { withImg: true })}</article><div>`
         }
 
     }
-    skillsContent.innerHTML = Object.keys(skills).reduce(reducerFn, '')
+    skillsContent.innerHTML = `<div class='skills-container'>${Object.keys(skills).reduce(reducerFn, '')}</div>`
 }
 
 const parseConfig = config => {
