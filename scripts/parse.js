@@ -73,7 +73,7 @@ const parseMyDetailsFn = myDetails => {
         .reduce((acc, key) => `${acc}${createHeader(key, aboutMeDetails[key])}`, '')
 
     const contactsList = myDetails['Contacts']
-    contactsSection.innerHTML = contactsList.reduce((acc, value) => `${acc}<div>${value}</div>`, '')
+    contactsSection.innerHTML = contactsList.reduce((acc, value) => `${acc}<span class='lh-09'>${value}</span>`, '')
 
     const socialMediaList = myDetails['SocialMedia'];
     socialMediaSection.innerHTML = socialMediaList

@@ -9,28 +9,26 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link href="./assets/styles/reset.css" rel="stylesheet" />
   <link href="./assets/styles/main.css" rel="stylesheet" />
+  <link href="./assets/styles/common.css" rel="stylesheet" />
 </head>
 
 <body>
   <main>
     <nav class="top-nav">
-      <header>
-        <h1 class="user-name">Sangeetha Kanna S</h1>
-        <div class="contact-details"></div>
+      <header class="flex sb header">
+        <div class="me-details"></div>
+        <div class="flex column contacts-wrapper">
+          <div class="contacts flex column align-end justify-right"></div>
+          <div class=" flex align-end justify-right jc-end">
+            <ul class="social-media-list flex"></ul>
+          </div>
+        </div>
       </header>
     </nav>
 
     <section class="tabs">
       <!-- Tab Labels will be added here dynamically -->
       <section class="tab about-me">
-        <article class="contents">
-          <div class="me-details"></div>
-          <div class="contacts"></div>
-          <ul class="social-media-list"></ul>
-        </article>
-      </section>
-
-      <section class="tab cover-letter">
         <ul class="cover-letter"></ul>
       </section>
 
