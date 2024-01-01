@@ -39,7 +39,7 @@ const parseSkills = skills => {
                         return arrayToListReducerFn(arr, value, 'skill')
                     }, '')}</ul>`;
         } else {
-            return `<div class='skills-wrapper'>${acc}<article class='skills'><h2>${skill}</h2>${commonReducerFn(currentSkill, { withImg: true })}</article><div>`
+            return `<div class='skills-wrapper'>${acc}<article class='skill'><h2>${skill}</h2>${commonReducerFn(currentSkill, { withImg: true })}</article><div>`
         }
 
     }
