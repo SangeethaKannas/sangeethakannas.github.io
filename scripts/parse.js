@@ -1,4 +1,4 @@
-const arrayToListReducerFn = (acc, value, skill) => `${acc}<li class='skill'>${value}</li>`;
+const arrayToListReducerFn = (acc, value, skill) => `${acc}<li>${value}</li>`;
 
 const arrayToListImgReducerFn = (acc, value) =>
     `${acc}
@@ -10,7 +10,7 @@ const commonReducerFn = (data, options = {}) => {
     return Object.keys(data)
         .reduce((acc, value) => {
             return `${acc}<h2>${value}</h2>
-            <ul class='flex'>
+            <ul class='flex skill-item'>
                 ${data[value].reduce(options.withImg ? arrayToListImgReducerFn : arrayToListReducerFn, '')}
             </ul>`
         }, '')
@@ -30,20 +30,32 @@ const parseIdeasFn = data => {
 }
 
 const parseSkills = skills => {
-    const reducerFn = (acc, skill) => {
-        const currentSkill = skills[skill]
-        if (Array.isArray(currentSkill)) {
-            return `${acc}
-                    <h2 class='skill-header'>${skill}</h2>
-                    <ul>${currentSkill.reduce((arr, value) => {
-                        return arrayToListReducerFn(arr, value, 'skill')
-                    }, '')}</ul>`;
-        } else {
-            return `<div class='skills-wrapper'>${acc}<article class='skill'><h2>${skill}</h2>${commonReducerFn(currentSkill, { withImg: true })}</article><div>`
-        }
+    // const reducerFn = (acc, skill) => {
+    //     const currentSkill = skills[skill]
+    //     if (Array.isArray(currentSkill)) {
+    //         return `${acc}
+    //                 <div>
+    //                     <h2 class='skill-header'>${skill}</h2>
+    //                     <ul>${currentSkill.reduce((arr, value) => {
+    //                         return arrayToListReducerFn(arr, value, 'skill')
+    //                     }, '')}</ul>
+    //                 </div>
+    //                 `;
+    //     } else {
+    //         return `<div class='skills-wrapper'>${acc}<article class='tech-skill'><h2>${skill}</h2>${commonReducerFn(currentSkill, { withImg: true })}</article><div>`
+    //     }
 
-    }
-    skillsContent.innerHTML = `<div class='skills-container'>${Object.keys(skills).reduce(reducerFn, '')}</div>`
+    // }
+    // skillsContent.innerHTML = `<div class='skills-container'>${Object.keys(skills).reduce(reducerFn, '')}</div>`
+    skillsContent.innerHTML = `<div class='skills-container'>
+            <div class='skills-wrapper'>
+
+                    <div class='skill'>
+                        <div>Test 1</div>
+                    </div>
+
+            </div>
+    </div>`
 }
 
 const parseConfig = config => {
