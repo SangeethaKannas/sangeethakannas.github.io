@@ -4,56 +4,67 @@
             {
                 "name": "Javascript",
                 "website": "",
-                "image": "https: //raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-            },
-            {
-                "name": "",
-                "website": "",
-                "image": ""
+                "img": "./assets/icons/javascript.jfif"
             },
             {
                 "name": "Typescript",
-                "website": "",
-                "image": ""
-            }
-        ],
-        "Cloud": [
-            {
-                "name": "",
-                "website": "",
-                "img": ""
+                "website": "https://www.typescriptlang.org/",
+                "img": "./assets/icons/typescript.png"
             },
             {
-                "name": "",
+                "name": "ES6+",
                 "website": "",
-                "img": ""
+                "img": "./assets/icons/"
             }
         ],
         "Frontend": [
             {
-                "name": "React",
+                "name": "HTML 5",
                 "website": "",
-                "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+                "img": "./assets/icons/"
+            },
+            {
+                "name": "CSS 3",
+                "website": "",
+                "img": "./assets/icons/css.png"
+            }
+        ],
+
+        "Frameworks": [
+            {
+                "name": "React",
+                "website": "https://react.dev/",
+                "img": "./assets/icons/react.png"
             },
             {
                 "name": "Redux",
-                "website": "",
+                "website": "https://redux.js.org/",
                 "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png"
             },
             {
                 "name": "Next JS",
                 "website": "",
-                "img": ""
+                "img": "./assets/icons/nextjs.png"
             },
             {
                 "name": "Angular",
-                "website": "",
+                "website": "https://angular.io/",
                 "img": "./assets/icons/angular.jpg"
             },
             {
                 "name": "JQuery",
                 "website": "",
-                "img": ""
+                "img": "./assets/icons/"
+            },
+            {
+                "name": "Redux",
+                "website": "",
+                "img": "./assets/icons/"
+            },
+            {
+                "name": "AngularJS",
+                "website": "",
+                "img": "./assets/icons/"
             }
         ],
         "Backend": [
@@ -65,25 +76,15 @@
             {
                 "name": "Java",
                 "website": "",
-                "img": ""
+                "img": "./assets/icons/"
             },
             {
-                "name": "",
+                "name": "Express",
                 "website": "",
-                "img": ""
-            },
-            {
-                "name": "",
-                "website": "",
-                "img": ""
-            },
-            {
-                "name": "",
-                "website": "",
-                "img": ""
+                "img": "./assets/icons/"
             }
         ],
-        "DB and API": [
+        "Database": [
             {
                 "name": "MongoDB",
                 "website": "",
@@ -98,69 +99,113 @@
                 "name": "Postgres",
                 "website": "",
                 "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
-            }
-        ],
-        "Security": [
-            {
-                "name": "",
-                "website": "",
-                "image": ""
-            }
-        ],
-        "Other libraries": [
-          
-        ],
-        "Packaging and IDE": [
-            {
-                "name": "Webpack",
-                "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/webpack/webpack.png"
             },
             {
-                "name": "VS Code",
-                "image": ""
+                "name": "Mongoose",
+                "website": "",
+                "img": "./assets/icons/"
+            }
+        ],
+        "Platforms": [
+            {
+                "name": "AWS",
+                "website": "",
+                "img": "./assets/icons/"
+            },
+            {
+                "name": "Azure",
+                "website": "",
+                "img": "./assets/icons/"
+            },
+            {
+                "name": "Netlify",
+                "website": "",
+                "img": "./assets/icons/"
             }
         ],
         "Performance": [
             {
-                "name": "",
-                "image": ""
-            },
+                "name": "Lighthouse",
+                "website": "",
+                "img": "./assets/icons/"
+            }
+        ],
+        "Security": [
             {
-                "name": "",
-                "image": ""
+                "name": "OWASP",
+                "website": "",
+                "img": "./assets/icons/"
             }
         ],
         "Testing": [
             {
-                "name": "TDD"
+                "name": "Jest",
+                "website": "",
+                "img": "./assets/icons/"
             },
             {
-                "name": "Jest"
+                "name": "Mocha",
+                "website": "",
+                "img": "./assets/icons/"
             },
             {
-                "name": "Karma"
+                "name": "Karma",
+                "website": "",
+                "img": "./assets/icons/"
+            },
+            {
+                "name": "BDD/TDD",
+                "website": "",
+                "img": "./assets/icons/"
             }
         ],
         "Tools": [
             {
                 "name": "Chrome Devtools",
-                "image": ""
+                "website": "",
+                "img": "./assets/icons/"
             },
             {
                 "name": "ESLint",
-                "image": ""
+                "website": "",
+                "img": "./assets/icons/"
             },
             {
                 "name": "Prettier",
-                "image": ""
+                "website": "",
+                "img": "./assets/icons/"
             },
             {
+                "name": "Webpack",
+                "website": "",
+                "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/webpack/webpack.png"
+            },
+            {
+                "name": "VS Code",
+                "website": "",
+                "img": "./assets/icons/"
+            }
+        ],
+        "Others": [
+            {
                 "name": "axios",
-                "image": ""
+                "website": "",
+                "img": "./assets/icons/"
             },
             {
                 "name": "D3.js",
-                "image": ""
+                "website": "",
+                "img": "./assets/icons/"
+            },
+            {
+                "name": "Sass",
+                "website": "",
+                "img": "./assets/icons/"
+            },
+            {
+                "name": "Tailwind",
+                "website": "",
+                "img": "./assets/icons/"
             }
         ]
     },

@@ -3,6 +3,10 @@
     display: flex;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .column {
     flex-direction: column;
 }
@@ -32,35 +36,32 @@
 .skills-wrapper {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
 }
 
     .skills-wrapper .skill {
         width: 50vw;
-        height: 10vh;
         border-radius: 6px;
         border: 1px solid green;
         padding: 5px 0;
-        position: absolute;
         z-index: 1;
         margin: 1rem;
+        height: auto;
     }
 
-    .skills-wrapper .skill::after {
-        content: "";
-        position: absolute;
-        
-        border-style: solid;
-        border-color: #555 transparent transparent transparent;
-    }
+        /* .skills-wrapper .skill::after {
+            content: "";
+            position: absolute;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+        } */
 
-    .skills-wrapper .skill:nth-child(1) {
+    /* .skills-wrapper .skill:nth-child(1) {
         top: 0;
         left: 0;
-        height: 20vh;
-    }
+        
+    } */
 
-    .skills-wrapper .skill:nth-child(1):after {
+    /* .skills-wrapper .skill:nth-child(1):after {
         top: 47%;
         right: -2rem;
         border-width: 1rem;
@@ -68,8 +69,8 @@
         border-color: #555 transparent transparent transparent;
         transform: rotate(-90deg);
     }
-    
-    .skills-wrapper .skill:nth-child(2) {
+     */
+    /* .skills-wrapper .skill:nth-child(2) {
         top: 0;
         left: 50vw;
     }
@@ -82,7 +83,7 @@
     .skills-wrapper .skill:nth-child(4) {
         left: 50vw;
         top: 10vh;
-    }
+    } */
 
 
 /**  Toolltip top*/
