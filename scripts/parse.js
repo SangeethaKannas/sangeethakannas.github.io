@@ -2,7 +2,7 @@ const arrayToListReducerFn = (acc, value) => `${acc}<li>${value}</li>`;
 
 const arrayToListImgReducerFn = (acc, value) =>
     `${acc}
-    <li class='flex'>
+    <li class='flex skill-list-item'>
         ${value.img ? `<img src="${value.img}" class='skills-icon' />` : ""}${value.name || ''}
     </li>`;
 

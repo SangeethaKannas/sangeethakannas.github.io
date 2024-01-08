@@ -48,6 +48,17 @@
         height: auto;
     }
 
+    .skill-list-item {
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem;
+        height: 2rem;
+        width: 2rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
         /* .skills-wrapper .skill::after {
             content: "";
             position: absolute;

@@ -14,14 +14,24 @@
             {
                 "name": "ES6+",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "./assets/icons/es6.jpeg"
+            },
+            {
+                "name": "HTML 5",
+                "website": "",
+                "img": "./assets/icons/html.png"
+            },
+            {
+                "name": "CSS 3",
+                "website": "",
+                "img": "./assets/icons/css.png"
             }
         ],
         "Frontend": [
             {
                 "name": "HTML 5",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "./assets/icons/html.png"
             },
             {
                 "name": "CSS 3",
