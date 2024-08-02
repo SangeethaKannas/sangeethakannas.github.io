@@ -4,231 +4,308 @@
             {
                 "name": "Javascript",
                 "website": "",
-                "img": "./assets/icons/javascript.jfif"
+                "img": "javascript.jfif",
+                "rating": ""
             },
             {
                 "name": "Typescript",
                 "website": "https://www.typescriptlang.org/",
-                "img": "./assets/icons/typescript.png"
+                "img": "typescript.png",
+                "rating": ""
             },
             {
                 "name": "ES6+",
                 "website": "",
-                "img": "./assets/icons/es6.jpeg"
+                "img": "es6.jpeg",
+                "rating": ""
             },
             {
                 "name": "HTML 5",
                 "website": "",
-                "img": "./assets/icons/html.png"
+                "img": "html.png",
+                "rating": ""
             },
             {
                 "name": "CSS 3",
                 "website": "",
-                "img": "./assets/icons/css.png"
+                "img": "css.png",
+                "rating": ""
             }
         ],
         "Frontend": [
             {
                 "name": "HTML 5",
                 "website": "",
-                "img": "./assets/icons/html.png"
+                "img": "html.png",
+                "rating": ""
             },
             {
                 "name": "CSS 3",
                 "website": "",
-                "img": "./assets/icons/css.png"
+                "img": "css.png",
+                "rating": ""
             }
         ],
-
         "Frameworks": [
             {
                 "name": "React",
                 "website": "https://react.dev/",
-                "img": "./assets/icons/react.png"
+                "img": "react.png",
+                "rating": ""
             },
             {
                 "name": "Redux",
                 "website": "https://redux.js.org/",
-                "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "Next JS",
                 "website": "",
-                "img": "./assets/icons/nextjs.png"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "Angular",
                 "website": "https://angular.io/",
-                "img": "./assets/icons/angular.jpg"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "JQuery",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "Redux",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "AngularJS",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             }
         ],
         "Backend": [
             {
                 "name": "Node",
                 "website": "",
-                "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "Java",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "Express",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             }
         ],
         "Database": [
             {
                 "name": "MongoDB",
                 "website": "",
-                "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "MySQL",
                 "website": "",
-                "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "Postgres",
                 "website": "",
-                "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "Mongoose",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             }
         ],
         "Platforms": [
             {
                 "name": "AWS",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": "",
+                "related": "AWS Cloud technology stacks such as S3, CloudFront, Cloud Formation, AppSycn, API Gateway, DynamoDB, ECS, Lambda and ElasticSearch"
             },
             {
                 "name": "Azure",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "Netlify",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             }
         ],
         "Performance": [
             {
                 "name": "Lighthouse",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             }
         ],
         "Security": [
             {
                 "name": "OWASP",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             }
         ],
         "Testing": [
             {
                 "name": "Jest",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "Mocha",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "Karma",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "BDD/TDD",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             }
         ],
         "Tools": [
             {
                 "name": "Chrome Devtools",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "ESLint",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "Prettier",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "Webpack",
                 "website": "",
-                "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/webpack/webpack.png"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "VS Code",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": ""
             }
         ],
         "Others": [
             {
                 "name": "axios",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "D3.js",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "Sass",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
             },
             {
                 "name": "Tailwind",
                 "website": "",
-                "img": "./assets/icons/"
+                "img": "",
+                "rating": ""
+            },
+            {
+                "name": "Bootstrap",
+                "website": "",
+                "img": "",
+                "rating": "Proficient in CPanel, FTP, Better To Have:,Experience with WebGL / GSAP,Knowledge of Node JS,       Knowledge of Three.js / Canvas,     Knowledge of AWS,     "
             }
         ]
+    },
+    "Communication Skills": {
+        "rating": ""
     },
     "Soft Skills": [
         "Self-motivator and self-starter, Ability to own and drive things without supervision and works collaboratively with the teams across the organization.",
         "Excellent team player and individual contributor with strong analytical and problem-solving skills",
         "Able to influence multiple teams on technical considerations, increasing their productivity and effectiveness, by sharing deep knowledge and experience.",
-        "Have excellent interpersonal skills to interact and present the ideas to Senior and Executive management"
+        "Have excellent interpersonal skills to interact and present the ideas to Senior and Executive management",
+        "Comfort producing at a high level in a work from home and office environment with onshore and offshore development and product teams using collaboration tools such as MS Teams, Zoom, JIRA and Confluence"
     ],
     "Functional Skills": [
         "Experience in following best Coding, Security, Unit testing and Documentation standards and practices",
-        "Experience in Banking, Financial and Fintech experience in an enterprise environment preferred",
         "Experience in Agile methodology",
         "Effectively research and benchmark technology against other best in class technologies"
+    ],
+    "Attitude": [
+        {
+            "Ownership": [
+                "I take the initiative even if it goes beyond my role, and drive things to completion",
+                "I execute with excellence, measure my performance and take ownership of the final delivery"
+            ]
+        },
+        {
+            "Learning": [
+                "As a infinite learner, I have a growth mindset and never settle with the way things are",
+                "I am constantly curious in all that I do. I can learn from anybody regardless of their experience or background"
+            ]
+        },
+        {
+            "Fearless": [
+                "I am brave in the face of uncertainty, relishing the opportunity to solve complex problems. ",
+                "I see challenges and mistakes as opportunities to grow and learn further."
+            ]
+        },
+        {
+            "Right Mentality": [
+                "I work with integrity and take the time to assess whether a decision is in-line with the organizational goals"
+            ]
+        },
+        {
+            "Lead with Compassion and Respect": [
+                "I communicate and act on teams understanding and mutual respect for diverse perspectives that make the team stronger"
+            ]
+        }
     ]
 }
