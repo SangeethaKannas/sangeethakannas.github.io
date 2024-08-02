@@ -206,7 +206,8 @@
         "Participate in full-life cycle development. A key developer from version 1 through version 4 (version 1 was Java Swing based client-server, instead of web-based)",
         "Unit testing and deploying of the created projects",
         "Create ASP reports which gave more insights and reduced the accounting time by 20%",
-        "Designed Birth and death software that can be used anywhere, anytime"
+        "Designed Birth and death software that can be used anywhere, anytime",
+        "Extensively worked with making calls to APIs to fetch the data from the backend as JSON response and parse it on the UI"
       ]
     }
   ],

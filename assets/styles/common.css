@@ -3,6 +3,10 @@
     display: flex;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .column {
     flex-direction: column;
 }
@@ -28,55 +32,76 @@
     line-height: 1.5rem
 }
 
-
+/*** Skills */
 .skills-wrapper {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
 }
 
-.skills-wrapper .skill {
-    width: auto;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    transition: opacity 0.3s;
-}
+    .skills-wrapper .skill {
+        width: 50vw;
+        border-radius: 6px;
+        border: 1px solid green;
+        padding: 5px 0;
+        z-index: 1;
+        margin: 1rem;
+        height: auto;
+    }
 
-.skills-wrapper .skill::after {
-    content: "";
-    position: absolute;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}
+    .skill-list-item {
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem;
+        height: 2rem;
+        width: 2rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 
-.skills-wrapper .skill:nth-child(0) {
-    top: 0;
-    left: 50px;
-}
+        /* .skills-wrapper .skill::after {
+            content: "";
+            position: absolute;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+        } */
 
-.skills-wrapper .skill:nth-child(1) {
-    bottom: 0;
-    right: 50px;
-}
+    /* .skills-wrapper .skill:nth-child(1) {
+        top: 0;
+        left: 0;
+        
+    } */
+
+    /* .skills-wrapper .skill:nth-child(1):after {
+        top: 47%;
+        right: -2rem;
+        border-width: 1rem;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+        transform: rotate(-90deg);
+    }
+     */
+    /* .skills-wrapper .skill:nth-child(2) {
+        top: 0;
+        left: 50vw;
+    }
+
+    .skills-wrapper .skill:nth-child(3) {
+        top: 10vh;
+        left: 0;
+    }
+
+    .skills-wrapper .skill:nth-child(4) {
+        left: 50vw;
+        top: 10vh;
+    } */
+
 
 /**  Toolltip top*/
 .tooltip-top::after {
     top: 100%;
     left: 50%;
     margin-left: -5px;
-}
-
-.tooltip-top {
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
 }
 
 /**  Toolltip bottom*/
