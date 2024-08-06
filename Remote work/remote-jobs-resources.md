@@ -123,6 +123,63 @@ This website lists remote design jobs, like graphic design, product design, and 
 dribbble.com
 
 
+## More websites
+
+1. Jobspresso (Jobspresso.co)
+
+2. SimplyHired (simply hired.com)
+
+3. Angel List (angel.co/Jobs)
+
+4. Virtual Vocations (virtaalvocations.com)
+
+5. Stack Overflow Jobs (Stack Overflow.com/Jobs)
+
+6. Remote co (Remote.co)
+
+7. Dice (dice.com)
+
+8. Working Nomads nomads (workingnomads.com)
+
+9. Upwork (upwork.com)
+
+10. Outsourcely (Outsourcely.com)
+
+11.Toptal (toptal.com)
+
+12. Skip The Drive (skipthechive.com)
+
+13. Guru (quru.com)
+
+14. freelancer (freelancer.com)
+
+15. Remotees (remotees.com)
+
+16. Remote freelance (remotefreelance.com)
+
+17. NoDesk (nodesk.co)
+
+18. Remote Gurus (remotequrus.com)
+
+19. Pangian (Pangian.com)
+
+20. RemoteOK (remoteok.com)
+
+21. Europe Remotely (europeremiely.com)
+
+22. We work Remotely (weworkremotely.com)
+
+23. Remote ok Europe (remoteok.io/Europe)
+
+24. Flex Jobs (flexjobs.com)
+
+25. Remole of Asia (remoteok.io/asia)
+
+26. Indeed (Indeed.com)
+
+27. LinkedIn ( LinkedIn.com)
+
+
 ## Remote job search
 Master Your Remote Job Search 
 If you’ve spent any time looking for a remote job, you’ve likely run into at least one of these problems:
@@ -136,6 +193,7 @@ Being good at your job and being good at the job search are two different skill 
 Most people suck at searching for a remote job because they’ve never been taught how to do it!
 
 My goal is to help you create a system for searching, finding, and getting hired by remote companies, as well as to identify the types of remote companies that will allow you to live your ideal lifestyle.
+
 
 ## Remote working skills
 7 SKILLS
