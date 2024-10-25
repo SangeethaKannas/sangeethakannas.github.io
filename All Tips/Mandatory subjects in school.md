@@ -10,19 +10,16 @@
 
 5. Cooking
 
-
 6. Insurance
 
 7. Self defence
 
 8. Survival Skills
 
-
 9. Social Etiquette
 
 10. Public Speaking
 
 11. Car Maintanence
-
 
 12. Stress Management

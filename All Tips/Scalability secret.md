@@ -1,4 +1,4 @@
-8 reasons they were able to do so:
+## 8 reasons they were able to do so:
 
 1) Single Responsibility Principle:
 - They focused only on the core feature - messaging instead of building a full-fledged social media platform.

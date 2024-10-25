@@ -7,7 +7,6 @@
 
 1. Cinema Starts vs soldiers
 
-
     Factors ( 3 S)
 1. Scale and impact
 	The more people your work impacts, the more likely you will be highly paid for it.

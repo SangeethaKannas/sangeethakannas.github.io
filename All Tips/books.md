@@ -20,7 +20,6 @@ good vibes good life - vex king
 done believe everything you think - joseph nygen
 
 
-
 1. Clean Code by Robert C.Martin
 2. Building Microservices by Sam Newman
 3. Database Internals by Alex Patrov
