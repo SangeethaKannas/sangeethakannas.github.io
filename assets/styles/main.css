@@ -290,14 +290,6 @@ input~.tab {
   min-width: 6.7rem;
 }
 
-.project-section {
-  border: 1px solid lightgrey;
-  border-radius: 0.5rem;
-  padding: 1rem;
-  padding-left: 1.5rem;
-  margin-bottom: 1rem;
-}
-
 #projects-tab,
 .about-me {
   max-height: 79vh;
@@ -328,4 +320,124 @@ input~.tab {
 .skill-name {
   min-width: 10rem;
   display: inline-block;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.single-card {
+  flex-grow: 0;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+}
+
+.card-row {
+  width: calc(33.33% - 40px);
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-grow: 0;
+}
+
+@media (min-width: 992px) {
+  .m-lg-3 {
+    margin: 1rem !important;
+  }
+}
+
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.mb-2, .my-2 {
+  margin-bottom: 0.5rem !important;
+}
+.border-0 {
+  border: 0 !important;
+}
+
+.choose-card {
+  border-radius: 20px !important;
+  height: fit-content;
+}
+
+.card-body {
+  flex-grow: 1;
+  min-height: 150px;
+  border-radius: 20px;
+  padding: 10px 12px;
+  font-weight: 300;
+  line-height: 1.8;
+  font-size: 13px;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.card-body p {
+  text-align: justify;
+}
+
+p {
+  margin-bottom: 0;
+  font-weight: 300;
+  font-family: "Outfit", sans-serif;
+  text-align: justify;
+}
+
+.card-body .content {
+  flex: 1 1 auto;
+}
+
+.card-desc {
+  min-height: 9rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+
+  .pl-lg-5,
+  .px-lg-5 {
+    padding-left: 3rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .pr-lg-5,
+  .px-lg-5 {
+    padding-right: 3rem !important;
+  }
+}
+
+.font-22 {
+  font-size: 22px !important;
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+.justify-between {
+  justify-content: space-between;
 }

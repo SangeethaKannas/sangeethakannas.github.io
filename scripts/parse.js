@@ -92,8 +92,14 @@ const parseConfig = config => {
 }
 
 const parseProjects = projects => {
-    const reducerFn = (acc, project) => acc + createProject(project);
-    projectsTab.innerHTML = projects.reduce(reducerFn, '')
+    const reducerFn = (acc, project) => acc + createProject(project)
+    projectsTab.innerHTML =  `
+        <div class='container-fluid'>
+            <div class='card-container'>
+                ${projects.reduce(reducerFn, '')}
+            </div>
+        </div>
+        `
 }
 
 const parseQuestionFn = data => {

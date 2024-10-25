@@ -43,10 +43,8 @@
 
     .skills-wrapper .skill {
         border-radius: 6px;
-        padding: 5px 0;
         z-index: 1;
         margin: 1rem;
-        padding: 1rem;
         height: auto;
     }
 
