@@ -1,7 +1,7 @@
 # Quotes on Self compare
 1. Dont beg, Dont chanse, Dont be needy. Relax - When you relax, It'll come to you.
 
-2. I hope yo ufind people who show up for your when you cannot shouw up for yousefl
+2. I hope you find people who show up for your when you cannot shouw up for yousefl
 
 3. Someday you will look back on all the progress you made and be so glad that you did'nt give up.
 
