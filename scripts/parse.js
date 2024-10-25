@@ -51,53 +51,34 @@ const skillReducerFn = (acc, skill) => {
     }
 }
 
+const parseWitHeader = (skillName, skills) => {
+
+    return `
+        <div class="flex">
+            <div class='skill'>
+                <h2>${skillName}</h2>
+                <div class='flex flex-wrap'>
+                    ${skills.reduce(arrayToListImgReducerFn, '')}
+                </div>
+            </div>
+        </div>
+    `
+}
+
 const parseSkills = skills => {
     console.log(skills)
     const techSkills = skills['Technical']
+    const techkSkillsKeys = Object.keys(techSkills)
+    console.log(techSkills[techkSkillsKeys[0]])
 
-    skillsContent.innerHTML = `<div class='skills-container'>
+    const reduceSkills = techkSkillsKeys.reduce((concatString, techSkillKey) => {
+        return concatString + parseWitHeader(techSkillKey, techSkills[techSkillKey])
+    }, '')
+
+    skillsContent.innerHTML = `
             <div class='skills-wrapper'>
-                <div class="flex">
-                    <div class='skill'>
-                        <h2>Languages and Frameworks</h2>
-                        <div class='flex flex-wrap'>
-                            ${techSkills['Languages'].reduce(arrayToListImgReducerFn, '')}
-                            ${techSkills['Frameworks'].reduce(arrayToListImgReducerFn, '')}
-                            ${techSkills['Backend'].reduce(arrayToListImgReducerFn, '')}
-                            ${techSkills['Database'].reduce(arrayToListImgReducerFn, '')}
-                        </div>
-                    </div>
-
-                    <div class='skill'>
-                        <h2>Platforms</h2>
-                        <div class='flex flex-wrap'>
-                            ${techSkills['Platforms'].reduce(arrayToListImgReducerFn, '')}
-                        </div>
-                    </div>
-                </div>
-                <div class="flex">
-
-                    <div class='skill'>
-                        <h2>Tools</h2>
-                        <div class='flex flex-wrap'>
-                            ${techSkills['Tools'].reduce(arrayToListImgReducerFn, '')}
-                        </div>
-                    </div>
-
-                    <div class='skill'>
-                        <h2></h2>
-                        <div class='flex flex-wrap'>
-                            ${techSkills['Performance'].reduce(arrayToListImgReducerFn, '')}
-                            ${techSkills['Security'].reduce(arrayToListImgReducerFn, '')}
-                            ${techSkills['Testing'].reduce(arrayToListImgReducerFn, '')}
-                            ${techSkills['Others'].reduce(arrayToListImgReducerFn, '')}
-                            
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-    </div>`
+                ${reduceSkills}
+            </div>`
 }
 
 const parseConfig = config => {

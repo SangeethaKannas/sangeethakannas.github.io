@@ -1,106 +1,49 @@
 {
     "Technical": {
-        "Languages": [
+        "Frontend": [
             {
                 "name": "Javascript",
                 "website": "",
-                "img": "javascript.jfif",
+                "img": "logos/Javascript.png",
                 "rating": ""
             },
             {
                 "name": "Typescript",
                 "website": "https://www.typescriptlang.org/",
-                "img": "typescript.png",
+                "img": "logos/Typescript.png",
                 "rating": ""
             },
             {
-                "name": "ES6+",
+                "name": "HTML5",
                 "website": "",
-                "img": "es6.jpeg",
-                "rating": ""
-            },
-            {
-                "name": "HTML 5",
-                "website": "",
-                "img": "html.png",
+                "img": "logos/html5.webp",
                 "rating": ""
             },
             {
                 "name": "CSS 3",
                 "website": "",
-                "img": "css.png",
-                "rating": ""
-            }
-        ],
-        "Frontend": [
-            {
-                "name": "HTML 5",
-                "website": "",
-                "img": "html.png",
+                "img": "logos/CSS.png",
                 "rating": ""
             },
-            {
-                "name": "CSS 3",
-                "website": "",
-                "img": "css.png",
-                "rating": ""
-            }
-        ],
-        "Frameworks": [
             {
                 "name": "React",
                 "website": "https://react.dev/",
-                "img": "react.png",
-                "rating": ""
-            },
-            {
-                "name": "Redux",
-                "website": "https://redux.js.org/",
-                "img": "",
-                "rating": ""
-            },
-            {
-                "name": "Next JS",
-                "website": "",
-                "img": "",
-                "rating": ""
-            },
-            {
-                "name": "Angular",
-                "website": "https://angular.io/",
-                "img": "",
-                "rating": ""
-            },
-            {
-                "name": "JQuery",
-                "website": "",
-                "img": "",
-                "rating": ""
-            },
-            {
-                "name": "Redux",
-                "website": "",
-                "img": "",
-                "rating": ""
-            },
-            {
-                "name": "AngularJS",
-                "website": "",
-                "img": "",
+                "img": "logos/React.png",
                 "rating": ""
             }
         ],
         "Backend": [
             {
                 "name": "Node",
+                "framework": "Express",
                 "website": "",
-                "img": "",
+                "img": "logos/",
                 "rating": ""
             },
             {
                 "name": "Java",
                 "website": "",
-                "img": "",
+                "img": "logos/Java.png",
                 "rating": ""
             },
             {
@@ -114,62 +57,34 @@
             {
                 "name": "MongoDB",
                 "website": "",
-                "img": "",
+                "img": "logos/MongoDB.webp",
                 "rating": ""
             },
             {
                 "name": "MySQL",
                 "website": "",
-                "img": "",
+                "img": "logos/MySQL.png",
                 "rating": ""
             },
             {
                 "name": "Postgres",
                 "website": "",
-                "img": "",
-                "rating": ""
-            },
-            {
-                "name": "Mongoose",
-                "website": "",
-                "img": "",
+                "img": "logos/Postgres.webp",
                 "rating": ""
             }
         ],
-        "Platforms": [
+        "Cloud": [
             {
                 "name": "AWS",
                 "website": "",
-                "img": "",
+                "img": "logos/AWS.webp",
                 "rating": "",
                 "related": "AWS Cloud technology stacks such as S3, CloudFront, Cloud Formation, AppSycn, API Gateway, DynamoDB, ECS, Lambda and ElasticSearch"
             },
             {
                 "name": "Azure",
                 "website": "",
-                "img": "",
-                "rating": ""
-            },
-            {
-                "name": "Netlify",
-                "website": "",
-                "img": "",
-                "rating": ""
-            }
-        ],
-        "Performance": [
-            {
-                "name": "Lighthouse",
-                "website": "",
-                "img": "",
-                "rating": ""
-            }
-        ],
-        "Security": [
-            {
-                "name": "OWASP",
-                "website": "",
-                "img": "",
+                "img": "logos/Azure.webp",
                 "rating": ""
             }
         ],
@@ -177,88 +92,84 @@
             {
                 "name": "Jest",
                 "website": "",
-                "img": "",
+                "img": "logos/Jest.png",
                 "rating": ""
             },
             {
-                "name": "Mocha",
+                "name": "React Testing Library",
+                "website": "",
+                "img": "logos/RTL.webp",
+                "rating": ""
+            }
+        ],
+        "Non Functional": [
+            {
+                "name": "Lighthouse",
                 "website": "",
                 "img": "",
                 "rating": ""
             },
             {
-                "name": "Karma",
+                "name": "OWASP",
                 "website": "",
-                "img": "",
-                "rating": ""
-            },
-            {
-                "name": "BDD/TDD",
-                "website": "",
-                "img": "",
+                "img": "logos/owasp.png",
                 "rating": ""
             }
         ],
         "Tools": [
             {
-                "name": "Chrome Devtools",
-                "website": "",
-                "img": "",
-                "rating": ""
-            },
-            {
                 "name": "ESLint",
                 "website": "",
-                "img": "",
+                "img": "logos/eslint.webp",
                 "rating": ""
             },
             {
                 "name": "Prettier",
                 "website": "",
-                "img": "",
+                "img": "logos/prettier.webp",
                 "rating": ""
             },
             {
                 "name": "Webpack",
                 "website": "",
-                "img": "",
+                "img": "logos/webpack.webp",
                 "rating": ""
             },
             {
-                "name": "VS Code",
+                "name": "VSCode",
                 "website": "",
-                "img": ""
+                "img": "logos/vscode.webp"
             }
         ],
         "Others": [
             {
                 "name": "axios",
                 "website": "",
-                "img": "",
+                "img": "logos/axios.webp",
                 "rating": ""
             },
             {
                 "name": "D3.js",
                 "website": "",
-                "img": "",
+                "img": "logos/d3js.webp",
                 "rating": ""
             },
             {
                 "name": "Sass",
                 "website": "",
-                "img": "",
+                "img": "logos/sass.webp",
                 "rating": ""
             },
             {
                 "name": "Tailwind",
                 "website": "",
-                "img": "",
+                "img": "logos/tailwind.webp",
                 "rating": ""
             },
             {
                 "name": "Bootstrap",
                 "website": "",
-                "img": "",
+                "img": "logos/bootstrap.webp",
                 "rating": "Proficient in CPanel, FTP, Better To Have:,Experience with WebGL / GSAP,Knowledge of Node JS,       Knowledge of Three.js / Canvas,     Knowledge of AWS,     "
             }
         ]

@@ -35,16 +35,18 @@
 /*** Skills */
 .skills-wrapper {
     position: relative;
-    display: inline-block;
+    display: grid;
+    grid-auto-flow: column;
+    overflow-y: scroll;
+    max-height: 72vh;
 }
 
     .skills-wrapper .skill {
-        width: 50vw;
         border-radius: 6px;
-        border: 1px solid green;
         padding: 5px 0;
         z-index: 1;
         margin: 1rem;
+        padding: 1rem;
         height: auto;
     }
 
