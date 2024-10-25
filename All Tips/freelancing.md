@@ -1,7 +1,7 @@
+## Freelancing Tips
 Month 1 - Forget about degrees
 
 Skills are easier to learn now than ever. Pick a high-value service that interests you, learn for free on YouTube, and find advanced courses online. Do this till you’re confident you can get results.
-
 
 Month 2 - Stop looking for jobs
 
@@ -62,7 +62,7 @@ As long as you're proactive in knowing what you're doing, these freelance platfo
 
 ## Remote job skills
 7 SKILLS Every remote worker should master 
-Be proactive and independent
+0 Be proactive and independent
 1 Communication Learn to communicate asynchronously
 2 Emotional Intelligence        Deploy empathy to colleagues
 3 Digital Proficiency       Adapt to different tool sets easily

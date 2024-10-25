@@ -1,4 +1,4 @@
-Social Rules
+# Social Rules
 
 1. Don’t call someone more than twice continuously. If they don’t pick up your call, presume they have something important to attend to;
 
@@ -42,5 +42,5 @@ Social Rules
 
 21. Never talk about your riches in the midst of the poor. Similarly, don't talk about your children in the midst of the barren.
 
-22.After reading a good message try to say "Thanks for the message".
+22. After reading a good message try to say "Thanks for the message".
 

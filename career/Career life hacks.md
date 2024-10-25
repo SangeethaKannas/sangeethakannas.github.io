@@ -1,79 +1,49 @@
 # LIFE HACKS
 
-01 SCARED OF SAYING NO TO PEOPLE?
-Instead of saying no (or worse, saying
-yes), ask for permission to say no.
+01. SCARED OF SAYING NO TO PEOPLE?
+Instead of saying no (or worse, saying yes), ask for permission to say no.
 "Is it ok if I say no?"
 Most people will accept your no, this way.
-02
-PEOPLE THINK YOU ARE
-SELF OBSESSED?
-Whenever someone shares anything
-about their life, resist the urge to
-share your own experience around
-it, unless asked.
+
+02. PEOPLE THINK YOU ARE SELF OBSESSED?
+Whenever someone shares anything about their life, resist the urge to share your own experience around it, unless asked. 
 Avoid "me too"
 ,
 "I also do this"
 ,
 "I was thinking exactly the same".
-03
-DO NOT DEAL WELL
-WITH FAILURE?
+03. DO NOT DEAL WELL WITH FAILURE?
 Practice failing.
-Everyday, pick up a task that is not
-significant, but has a high chance of
-failure. And do it.
+Everyday, pick up a task that is not significant, but has a high chance of failure. And do it.
 Ask strangers for money.
 Send cold emails.
-Within 30 days, you will start dealing
-with failure a lot better.
-04
-STRUGGLE TO MANAGE YOUR
-DOCS AND THOUGHTS?
-Create a WhatsApp group with
-you and a friend.
+Within 30 days, you will start dealing with failure a lot better.
+
+04. STRUGGLE TO MANAGE YOUR DOCS AND THOUGHTS?
+Create a WhatsApp group with you and a friend.
 Delete the friend.
 Now the group has only you.
 Pin the group to the top.
-Use this group for sharing thoughts,
-capturing images, voice notes to
-yourself, whatever you want it to be!
-05
-STRUGGLE TO EXPRESS
-GRATITUDE?
-Keep a gratitude jar
-Everyday, before going to bed, write
-down something that you are grateful
-for. Anything at all.
+Use this group for sharing thoughts, capturing images, voice notes to yourself, whatever you want it to be!
+
+05. STRUGGLE TO EXPRESS GRATITUDE?
+Keep a gratitude jar. 
+Everyday, before going to bed, write down something that you are grateful for. Anything at all.
 Place it in the jar.
-In moments of weakness,
-go through the notes.
-06
-WANT PEOPLE TO
-LIKE YOU?
+In moments of weakness, go through the notes.
+
+06. WANT PEOPLE TO LIKE YOU?
 Repeat what they said, back to them.
-"To make sure I heard you right,
-you are saying XXX (repeat what
-they said)"
-They feel heard, they respect your
-listening skills - the mirroring helps.
-07
-STRUGGLE TO
-INVEST?
-Whenever you spend on anything
-that is a desire/wish (clothes, phone,
-eating out etc), transfer an
-equivalent amount to a separate
-bank account.
-This way you will enjoy your present,
-while planning for the future.
-08
-WASTE A LOT OF TIME
-ON THE PHONE?
-Schedule "waste" time on your
-calendar, just as you would
-schedule your productive hours.
+"To make sure I heard you right, you are saying XXX (repeat what they said)"
+They feel heard, they respect your listening skills - the mirroring helps.
+
+07. STRUGGLE TO INVEST?
+Whenever you spend on anything that is a desire/wish (clothes, phone, eating out etc), transfer an
+equivalent amount to a separate bank account.
+This way you will enjoy your present, while planning for the future.
+
+08. WASTE A LOT OF TIME ON THE PHONE?
+Schedule "waste" time on your calendar, just as you would schedule your productive hours.
 Your brain anticipates it, looks
 forward to it and treats it as reward.
 + BONUS TIP

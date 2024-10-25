@@ -1,3 +1,4 @@
+# Careeer Advice
 1. Have a firm handshake.
 2. Look people in the eye.
 3. Sing in the shower.
@@ -68,7 +69,7 @@ Finally, the Privileged India that has abundant resources.
 Unlocking India’s human capital needs a different approach for each subgroup. If we catch them young and fix it at school, the $5 trillion goal would be easier to reach.
 
 
-# Career Advice
+## Trial and Error
 The hardest pill to swallow is that the best way to learn isn't from reading books or Linkedin posts... 💊
 
 It's from trial and error. That's especially hard because:

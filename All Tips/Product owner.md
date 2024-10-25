@@ -1,10 +1,10 @@
-32 Skills to Grow As A Product Owner
+## 32 Skills to Grow As A Product Owner
 
-	1) Domain Knowledge to understand the specific industry and niche of the product.
-	2) Visionary Thinking to set a clear and compelling direction for the product.
-	3) Technical Understanding to grasp the technological aspects and constraints of the product.
-	4) Knowledge of UX Best Practices to ensure an intuitive and userfriendly product design.
-	5) Market Analysis to stay updated with market trends, competitors, and opportunities.
+1) Domain Knowledge to understand the specific industry and niche of the product.
+2) Visionary Thinking to set a clear and compelling direction for the product.
+3) Technical Understanding to grasp the technological aspects and constraints of the product.
+4) Knowledge of UX Best Practices to ensure an intuitive and userfriendly product design.
+5) Market Analysis to stay updated with market trends, competitors, and opportunities.
 6) Analytical Skills to dive deep into data and make datadriven product decisions.
 7) Holistic View to see the bigger picture and understand how each decision impacts the overall product.
 8) Stakeholder Management to engage with and manage the expectations of all involved parties.
