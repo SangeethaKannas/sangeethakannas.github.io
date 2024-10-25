@@ -22,24 +22,23 @@ const STRINGS = ['Name', 'Duration', 'Description', 'Environment'];
 
 const createProject = project => {
   return `
-      <section class='project-section'>
-        <div class='flex'>
-            <span class='grid-label'>${STRINGS[0]}</span>
-            <span class='project-name'><a href=${project.link} target="_blank">${project.name}</a></span>
+      <section class='card-row single-card m-lg-3'>
+        <div class='border-0 text-left mb-2'>
+          <div class='card-body choose-card'>
+            <div class='flex justify-between'>
+              <h5 class='font-22 font-weight-bold'>
+                <a href=${project.link} target="_blank" rel="noopener">
+                ${project.name}</a>
+              </h5>
+              <article class='project-duration'>${project.duration}</article>
+            </div>
+            <p class='card-desc'>
+                ${project.description}
+            </p>
+            <div class=''>${project.environment}</div>
+          </div>
         </div>
-        <div class='flex'>
-            <span class='grid-label'>${STRINGS[1]}</span>
-            <span class='project-duration'>${project.duration}</span>
-        </div>
-        <div class='flex'>
-            <span class='grid-label'>${STRINGS[2]}</span>
-            <span class='project-desc'>${project.description}</span>
-        </div>
-        <div class='flex'>
-            <span class='grid-label'>${STRINGS[3]}</span>
-            <span class='project-env'>${project.environment}</span>
-        </div>
-    </section>`
+      </section>`
 }
 
 const createQuestion = value => {

@@ -1,7 +1,7 @@
 [
     {
         "name": "Trial Management Suite",
-        "description": "This project is to unify disparate sources of data, empower CRA’s to perform high-value tasks, and proactively mitigate clinical trial risk to help drive smarter, faster trials.",
+        "description": "Unifies disparate sources of data, empower CRA’s to perform high-value tasks, and proactively mitigate clinical trial risk to help drive smarter, faster trials.",
         "duration": "Sep 22 – Apr 23",
         "domain": "Health care",
         "link": "https://www.iqvia.com/solutions/technologies/orchestrated-clinical-trials/digital-trial-management-suite",
@@ -9,7 +9,7 @@
         "environment": " React, Redux, Node, RestAPI, Swagger"
     },
     {
-        "name": "Siterecon, GIS Platform for Property Maintenance",
+        "name": "Siterecon, GIS",
         "description": "GIS Technology Products, Property Measurements & Mapping Automation for the Landscaping & Facilities Management industries",
         "duration": "Jun 2022 – Aug 2022",
         "domain": "Mapping Software",
@@ -19,7 +19,7 @@
     },
     {
         "name": "TrigsLog Hasta",
-        "description": "Trigslog Hasta is a a cloud-based purchase order management software automates your unique workflows and accelerates purchase requisitions.",
+        "description": "A cloud-based purchase order management software to automates unique workflows and accelerates purchase requisitions.",
         "duration": "Oct 2021 – May 2022",
         "domain": "Logistics",
         "link": "",
@@ -27,8 +27,8 @@
         "environment": "jQuery, Java, Spring Boot, Rest API"
     },
     {
-        "name": "Acumen Analytics - Cloud",
-        "description": "Acumen Analytics software offers you retrospective data analysis and hemodynamic insights into patient perfusion all on your personal computer.",
+        "name": "Acumen Analytics",
+        "description": "Retrospective data analysis and hemodynamic insights software into patient perfusion all on your personal computer.",
         "duration": "Aug 2019 – Sep 2021",
         "domain": "Health care",
         "link": "https://www.edwards.com/devices/hemodynamic-monitoring/acumen-analytics",
@@ -37,25 +37,25 @@
     },
     {
         "name": "Cisco Active Advisor",
-        "description": "Cisco Active Advisor is a free cloud-based service that can scan your network for Cisco enterprise and small business products such as Catalyst switches, routers, wireless access points, wireless controllers, and more.",
-        "duration": "May 2015 to July 2019",
+        "description": "A free cloud-based service that can scan your network for Cisco enterprise and small business products such as Catalyst switches, routers, wireless access points, wireless controllers, and more.",
+        "duration": "May 2015 to Jul 2019",
         "domain": "Telecom",
         "link": "www.ciscoactiveadvisor.com",
         "client": "Cisco Systems, Inc",
         "environment": "jQuery, AngularJS, Bootstrap 4, HTML 5, CSS 3, wro4j, JSHint, CSS Lint, REST, Nodejs, Jenkins, CI/CD, Web Storm, qUnit, SVN, MacOS, Chrome Dev Tools"
     },
     {
-        "name": "Cisco iOS Web UI 16.0.1",
-        "description": "Web user interface enable users to monitor most software processes, including processes related to the IOS and nonIOS subpackages within the Cisco IOS XE consolidated package",
-        "duration": "May 2014 to April 2015",
+        "name": "Cisco iOS Web UI",
+        "description": "Web user interface to enable users to monitor most software processes, including processes related to the IOS and nonIOS subpackages within the Cisco IOS XE consolidated package",
+        "duration": "May 2014 to Apr, 2015",
         "domain": "Telecom",
         "link": "https://content.cisco.com/chapter.sjs?uri=/searchable/chapter/content/en/us/td/docs/routers/asr1000/configuration/guide/chassis/xe-16-6/asr1000-software-config-guide-16-6/webui-asr.html.xml",
         "client": "Cisco Systems, Inc",
         "environment": "AngularJS, Web Sockets, BDD, Jasmine, Karma, Grunt, NGINX, Git, JSON"
     },
     {
-        "name": "Cisco Prime Collaboration",
-        "description": "Cisco Prime Collaboration provides simplified, unified management across voice and video collaboration networks. It offers automated provisioning, real-time monitoring, and proactive troubleshooting, plus long-term trending and analytics - in one integrated product.",
+        "name": "Cisco Prime Collab",
+        "description": "A software which provides simplified, unified management across voice and video collaboration networks. It offers automated provisioning, real-time monitoring, and proactive troubleshooting, plus long-term trending and analytics - in one integrated product.",
         "duration": "Dec 2012 – Apr 2014",
         "domain": "Telecom",
         "link": "",
@@ -63,8 +63,8 @@
         "environment": "Java, Jersey API, Spring, Hibernate, jQuery, D3, DOJO, MDX, Saiku, Eclipse"
     },
     {
-        "name": "Cisco Security Manager ",
-        "description": "Cisco Security Manager helps to enable consistent policy enforcement and rapid troubleshooting of security events, offering summarized reports across the security deployment. Using its centralized interface, organizations can scale efficiently and manage a wide range of Cisco security devices with improved visibility.",
+        "name": "Cisco Security Manager",
+        "description": "Helps to enable consistent policy enforcement and rapid troubleshooting of security events, offering summarized reports across the security deployment. Using its centralized interface, organizations can scale efficiently and manage a wide range of Cisco security devices with improved visibility.",
         "duration": "Oct 2009 – Nov 2012",
         "domain": "Telecom",
         "link": "https://www.cisco.com/c/en/us/products/security/security-manager/index.html",

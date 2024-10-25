@@ -1,0 +1,128 @@
+RESPONSIBILITIES
+    • Experienced UI developer, offers an extensive knowledge base with development for large scale enterprise environments 
+    • Strong hands on experience in latest UI technologies.
+    • Functioning as Scrum master for the past four years. Coordinated UI engineers and Visual Design engineers,  from different time zones, across different cultures as a  ‘virtual’ team located both in India and abroad, allocating user stories and tasks, conducting daily standup and retro meetings
+    • Self-starter with strong communication, collaboration & team building skills with proficiency in grasping new technical concepts quickly
+    • Created the behavior of cutting-edge web applications. Implemented Responsive web design. Created reusable and scalable angular directives with isolated scope
+    • Improved code quality by mandating code reviews, reducing the LoC, enforcing test-first approach and best practices
+    • Provided technical expertise and coaching on technologies which fit the company ecosystem but were only superficially familiar to development teams.
+    • Helped team members at all skill levels overcome technical obstacles by pair-programming
+    • Performed risk assessments with teams when hard choices had to be made in order to determine whether those choices would accelerate or hinder development efforts and helped mitigate project dependencies on resources using feature rotation
+    • Executed well under pressure, fixed all known bugs and issues, and identified potential future problems
+
+SKILLS
+    • Web Frameworks	: jQuery, Angular, Kendo UI, DOJO, React, underscoreJS
+    • Presentation	: 
+    • Data Transfer	: JSON, HTTP, Web-Sockets
+    • Java/J2EE 		: Core Java, Servlets, Spring, Hibernate, JPA, Java FX, Apache PoI
+    • Database		: Postgres, MDX, SQL
+    • Web Servers	: Tomcat 7.0, Nginx, Node JS
+    • TDD/BDD tools	: qUnit, jsunit, Jasmine, Karma, Protractor, grunt, Webpack, AutoIt
+    • Static analysis	: wro4j, JS Hint, CSS Lint
+    • CI & Source 	: SVN, Maven, Jenkins, GitHub, Gradle
+    • IDEs		: Eclipse, Webstorm, brackets.io, Chrome DevTools
+    • Performance 	: JMeter, Visual VM Profiler
+    • SDLC		: Scrum (Rally and Ontime)
+    • Networking	: Wireless, Security, Cisco Devices
+    • OS			: Windows, Linux, Mac OS
+
+
+Projects
+Cisco Active Advisor	  www.ciscoactiveadvisor.com	            May 2015 to Present
+Cisco iOS – Web UI - 16.x				 	          May 2014 to April 2014
+Cisco Prime Collaboration - 9.5, 10.4		       		          Dec’2012 to April 2014
+Cisco Security Manager - 4.1 to 4.4	 		                       Oct’ 2009 to Nov’ 2012
+    • Vida Projects, Neyveli					     Nov 2008 to Sept 2009
+    • Trichy City Corporation, Trichy				     Apr 2005 to May 2006
+
+PERSONAL PROFILE
+Hobbies	: Contributing to Open Source, Tech. Blogs, Learning new technologies
+
+
+HR Recruitments
+Smallpage India pvt ltd
+Hyderabad / Secunderabad
+Follow my job updates
+	
+React UI Web Development Professional
+Experience required for the Job: 8.0 - 12.0 years
+Annual Salary of the Job: Best in the industry
+Keyskills : React.js,Javascript or Typescript,HTML,CS,CSS,Ajax
+
+
+Dear Sangeetha Kanna S,
+
+    Greetings from SmallPage
+
+    We have openings in our client Neo zoom technologies, I?m sending you the job description along with the company details please go through it.
+
+    Neotech Solutions (https://neotechsolutions.co.uk/)
+
+    With over 20 years of industry expertise, our experience allows us to engage with you across a multitude of business sectors and markets enabling your organization to adopt digital processes and offshore models to achieve outstanding results.
+    We help you achieve this through enterprise-wide digital transformation, efficiency and optimization of your IT environment.
+    Working together under the remit of delivering digital solutions combined with our deep domain and strategic knowledge this allows us to offer a highly sophisticated approach to your business no matter the size.
+    The relationship between the founder?s dates back more than a decade, engaged at a global digital communications organization with the remit of delivering data management technical solutions, bespoke analytical tools and agile flow implementation for global clients.
+    Our unique flexible outsourcing model enables seamless integration with your process, bringing significant cost savings, whilst enabling you to focus on your core requirements.
+    See more at: https://neotechsolutions.co.uk/
+
+    Payroll: it?s a permanent position with Neozoom technologies
+    Job Location: Hyderabad/Permanent Work from Home
+
+    JOB PROFILE: React UI Web Development Professional with 8 to 12Years Of Experience
+    React 16+, HTML 5/CSS, JavaScript/TypeScript, Ajax
+
+    If you are interested in this particular position, please send your updated profile with below required details.
+    01. Full Name:
+    02. Total Experience in React:
+    03. Experience in HTML/CSS:
+    04. Experience JavaScript/Typescript:
+    05. Experience in Ajax:
+    06. Current Organization:
+    07. Current ctc:
+    08. Exp ctc:
+    09. Current location:
+    10. Preferred Location (Hyderabad/Permanent Work from Home):
+    11. Notice Period (Looking for who can be able to join immediate only):
+    12. Native Place:
+    13. Contact number:
+    14. Alternate Number(mandatory):
+    15. Qualification:
+    Requesting you to go through the job description and company URL.
+    References would be highly appreciated
+    ------------------------------------------
+    Warm Regards,
+    Satish Boppana | Hr-Recruitments
+    SmallPage India pvt Ltd
+    Voice: (91) - 9052779955
+    Hyderabad | Beside Raheja IT Park | www.smallpage.in |
+
+
+If interested kindly send your updated resume with below-mentioned details on \
+ 9 + years of experience building large scale distributed data processing systems/application and at least 4 years in AWS Cloud
+? Experience with design and deliver of streaming workflows end-to-end using Kafka, Spark Streaming, Flink and other relevant technologies
+? Extensive experience with AWS cloud native services like AWS Kinesis Data Analytics, AWS MSK Kafka etc.
+? Good hands-on experience with AWS Services like Lambda functions, SQS, SNS and also having good knowledge of MongoDB will be considered big plus point.
+? Should have worked in agile development projects and have exposure to DevOps tools (JIRA, Git, Jenkins, SonaQube etc.) - aware of agile and scrum methodologies
+? Strong decision-making skills in terms of platform setup, configuration, operations, cost optimization, orchestration, and DevOps
+? Very good communication skill and ability to help team members to resolve technical issues
+
+
+1. Relieving letter (If Not working)
+2. Provident Fund (PF) Service History In EPFO Portal.
+3. Your Selfie With ID Proof & Updated Resume.
+4. your resignation confirmation mail screenshot
+
+Details
+
+ Vercel Infra Deployment, Unit testing (Jasmine), AWS API Gateway, AWS ECS, Terraform, Authentication / Authorization, Multi-Tenancy, Reporting Frameworks
+
+
+You have eCommerce experience. Youve worked with payment providers like Stripe and PayPal.
+Youve worked with complex systems that require asynchronous processing. Youre comfortable with event buses and queue systems.
+You love producing highly performant applications, both in terms of client-side rendering as well as server-side throughput.
+Good experience modeling data.
+
+
+
+
+
