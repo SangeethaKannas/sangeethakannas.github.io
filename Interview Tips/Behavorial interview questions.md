@@ -1,41 +1,19 @@
 # A complete guide to Behavioral Interviews
  
-Behavioral Interviews are taken to evaluate a
-candidate's past behavior or
-conduct in certain different
-situations to analyze/predict
-their future behavior
-towards the future
-employer.
+Behavioral Interviews are taken to evaluate a candidate's past behavior or conduct in certain different situations to analyze/predict their future behavior towards the future employer.
  
-Introduction
-Common
-Myths
-regarding
-Behavioral
-Interviews
+## Introduction
+
+Common Myths regarding Behavioral Interviews
  
+Many candidates treat Behavioral Interviews to be easy and simple to crack. The reality is these interviews are often complex and very dense
+if not prepared well. 
+
+## Myth #1 - Are Simple Interviews
  
-Many candidates treat
-Behavioral Interviews to be
-easy and simple to crack. The
-reality is these interviews are
-often complex and very dense
-if not prepared well.
-Myth #1 - Are Simple
-Interviews
- 
-Many candidates believe that
-Behavioral Interviews are just
-for formality. The reality is
-these interviews can generate
-red flags based on your
-answers and can reject your
-whole candidature even if
-other interviews have gone
-well.
-Myth #2 - Formality
-/ No Rejection
+Many candidates believe that Behavioral Interviews are just for formality. The reality is these interviews can generate red flags based on your answers and can reject your whole candidature even if other interviews have gone well.
+
+## Myth #2 - Formality/ No Rejection
  
 It is believed that Behavioral
 Interviews can be prepared a
@@ -47,15 +25,15 @@ rejection often come from the
 follow-up questions. Thus,
 sufficient time needs to be
 invested in its preparation.
-Myth #3 - Can be
+
+## Myth #3 - Can be
 prepared in a day
  
 
 channel for behavioral
 interview questions.
-Watch Jeff H Sipe’s YouTube
-channel for behavioral
-interviews.
+Watch Jeff H Sipe’s YouTube channel for behavioral
+interviews. 
 Check out a list of good
 Behavior Interview questions.
 Preparation

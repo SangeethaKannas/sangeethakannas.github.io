@@ -129,8 +129,6 @@ Use these 4 simple steps:
 
 𝗔𝗹𝗴𝗼𝗠𝗮𝘀𝘁𝗲𝗿 Sheet [𝟭𝟮𝟬+ 𝗔𝗹𝗴𝗼𝗿𝗶𝘁𝗵𝗺 𝗣𝗮𝘁𝘁𝗲𝗿𝗻𝘀] - https://bit.ly/3zGu8bL
 
-
-
 ### Interview Rounds
 
 Round 1: Few companies have first written round, comprising of MCQs on core Data Engineering topics like Spark, Hadoop, AWS/Azure/GCP, SQL, Hive, etc. along with a few coding questions.
@@ -339,9 +337,3 @@ You can learn them in 5 minutes:
 
 Bonus: When you are completely stuck, do a Data Structure Brainstorm.
 Run through list of common data structures and algorithms and try to apply each one.
-
--------------------------
-
-
-
-		

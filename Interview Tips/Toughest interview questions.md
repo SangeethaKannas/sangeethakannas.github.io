@@ -1,25 +1,21 @@
-Hardest Interview 
-Using our experience and additional research, we’ve compiled a list of 60 tough interview questions that could come up 
-in your interview. We have added ideas suggesting the interviewers’ issues, and then your best answers for each 
-question. Thes , of course, are general questions. You will likely get some specific to the industry, occupation and position for which you are applying. 
-Question 
+# Hardest Interview ## Questions
+
+## ## Question 
 TRAPS: Bewarc, about 80% of all interviews begin with this "innocent" question. Many candidates, unprepared for 
 the question, skewer themsclves by rambling, recapping their life storics, delving into ancient work history or 
 personal matters. (Note: Do NOT ask “What would you like to know?” Take the initiative, interpret the question for yourself, and go forth.) 
-BESTJANSWER: Start with the present and tell why you are well qualified for the position — and if you wish to add 
-more, mention personal traits you want them to know about (professional, detail-oriented, strong verbal and 
-written skills, get along w/ co-workers well, etc. etc.). Remember, the key to all successful interviewing is to match 
-your qualifications to what the interviewer is looking for. In other words you must sell what the buyer is buying. 
+
+BEST ANSWER: Start with the present and tell why you are well qualified for the position — and if you wish to add more, mention personal traits you want them to know about (professional, detail-oriented, strong verbal and 
+written skills, get along w/ co-workers well, etc. etc.). Remember, the key to all successful interviewing is to match your qualifications to what the interviewer is looking for. In other words you must sell what the buyer is buying. 
 This is the single most important strategy in job hunting, and interviewing. 
-Question 2: What are your 
-TRAPS: This question scems like a softball Tob, but be prepared. You don't want to come across as cgotistical or 
-arrogant. Neither is this a time to be humble. 
+
+## ## Question 2: What are your 
+TRAPS: This question scems like a softball Tob, but be prepared. You don't want to come across as cgotistical or arrogant. Neither is this a time to be humble. 
+
 BESTIANSWER: Prior to any interview, you should have a mentally-prepared list of your greatest strengths. You 
-ould also have a specific example or two illustrating each strength, chosen from your most recent and impressive 
-achievements. Have this list of your greatest strengths and corresponding examples from your achievements so 
-well-committed to memory that you can recite them cold after being shaken awake at 2:30 AM. This is a chance to 
-brag, so make the list as numerous as you’re comfortable with. 
-Question 3: What are your greatest weaknesses? RAPS: Beware - this is an eliminator question, designed to shorten the candidate list. Any admission of a weakness 
+ould also have a specific example or two illustrating each strength, chosen from your most recent and impressive achievements. Have this list of your greatest strengths and corresponding examples from your achievements so well-committed to memory that you can recite them cold after being shaken awake at 2:30 AM. This is a chance to brag, so make the list as numerous as you’re comfortable with. 
+
+## ## Question 3: What are your greatest weaknesses? RAPS: Beware - this is an eliminator question, designed to shorten the candidate list. Any admission of a weakness 
 or fault could earn you an "A" for honesty, but an "F" for the interview. 
 PASSABLE ANSWER: Disguise a strength as a weakness. 
 Example: 
@@ -27,11 +23,11 @@ Example:
 same wavelength." 
 Drawback: This strategy is better than admitting a flaw, but it's so widely used, it is transparent to any experienced 
 interviewer; also, it sounds like working with you is probably difficult. 
-CICODING BUGS EINOTES GALLERY
+ BUGS EINOTES GALLERY
 BESTIANSWER: W hilc acknowledging you're flawed, as we all are, assure the interviewer that you can think of 
 nothing that stands out as a weakness where THIS job is concerned. 
 Example: "I believe we all have weaknesses — [ have some, and most likely you have as well — but based on what you've told me about this position, I believe I'd make an outstanding match, and see no significant weakness where this work is concerned.” 
-Question 4: Tell me about the greatest mistake you ever made in your lfe. 
+## Question 4: Tell me about the greatest mistake you ever made in your lfe. 
 TRAPS: Some interviewers ask this question on the chance you’ll admit to something major and disqualifying, but if 
 not, at least they'll see how you think on your feet. Some unprepared candidates, flustered by this question, 
 unburden themselves of guilt from their personal life or career, perhaps expressing regrets regarding a parent, 
@@ -58,7 +54,7 @@ some cases, the prospective employer can learn the true details, or some of them
 result of a takeover, merger, division wide layoff, etc., that can help. Decide how you wish to proceed. 
 For all prior positions: Make sure you've prepared a brief reason for leaving. Best reasons: more money, 
 opportunity, responsibility, growth, or geography (too-lengthy commute). 
-Question 6: should Why I hire you? 
+## Question 6: should Why I hire you? 
 TRAPS: Believe it or not, this is a killer question because so many candidates are unprepared for it. If you stammer 
 or ad-lib, you've blown it. 
 BESTVANSWER: \Y hether your interviewers ask you this question explicitly or not, this is the most important 
@@ -82,7 +78,7 @@ marketer of scientific and medical books by mail." Etc., etc., etc.
 B 
 Every one of these selling "couplets” (their need matched by your qualifications) is a touchdown that runs up your 
 score. It is your best opportunity to outsell your competition. 
-Question 7: 
+## Question 7: 
 TRAPS: The employer may be concerned that you'll grow dissati ied and leave. 
 BESTVANSWERE A s with any objection, don't view this as a sign of imminent defeat. It's an opportunity to rearrange 
 the interviewer’s thinking about this situation, seeing advantages instead of drawbacks. 
@@ -107,7 +103,7 @@ EICODING BUGS ZINOTES GALLERY 3
 NOTE: The main concern behind the "overqualified" question is that you will leave your new employer as soon as 
 mething better comes your way. Anything you can say to demonstrate the sincerity of your commitment to the 
 cmployer and reassure him that you're looking to stay for the long-term will help you overcome this objection. 
-Question 8: Where do you see yourself five years from now? 
+## Question 8: Where do you see yourself five years from now? 
 TRAPS: One reason interviewers ask this question is to see if you're settling for this position, and using it merely as 
 a stopover until something better comes along. Or they could be trying to gauge your level of ambition. 
 If you're too specific, i.e., naming the promotions you someday hope to win, you'll sound presumptuous. If you're 
@@ -123,7 +119,7 @@ It's always been that way in my career, and I'm confident I'll have similar oppo
 NOTE: This question can also be a probe for learning of “older” workers’ intentions to retire in the near future; if 
 you are within range of retirement age, it is wise to assure the interviewer that you expect to remain with the 
 employer for an indefinite period of time, and certainly for five years, if both parties are happy. 
-Question 9: Describe your ideal company, location and job. [RAPS: This is often asked by experienced interviewers who view you as possibly overqualified, but know better 
+## Question 9: Describe your ideal company, location and job. [RAPS: This is often asked by experienced interviewers who view you as possibly overqualified, but know better 
 than to show their hands by posing a concern directly - so they'll use this question instead, which can often get a 
 candidate to reveal that indeed, he or she is looking for something other than the position at hand. 
 BESTVANSWERE The only right answer is to describe a very close version of what this company is offering, being 
@@ -139,15 +135,15 @@ looking for, providing credible reasons for seeking this opportunity.
 If you do not express genuine enthusiasm for the firm, its culture, location, industry, etc., you may fail to answer 
 this self-esteem issue and, as a result, leave the interviewer suspecting that a hot shot like you, coming from a 
 Fortune 500 company in New York, just wouldn't be happy at an unknown manufacturer based in Podunk 
-Question 10: Why do you want to werk at our company? 
-CICODING BUGS FZINOTES GALLERY 4
+## Question 10: Why do you want to werk at our company? 
+
 TRAPS: This question tests whether you've done any homework about the firm. If you haven't, you lose. If you 
 have, you win big. 
 BESTJANSWER: This qucstion is your opportunity to hit the ball out of the park, thanks to the in-depth rescarch 
 you should do before any interview. Best sources for rescarching your target company: annual reports, the 
 corporate newsletter, contacts you know at the company or its suppliers, advertisements, articles about the 
 company in the trade press, and (absolutely) any company website. 
-Question 11: What are your career options right now? TRAPS: The interviewer is trying to find out, "How desperate are you?" 
+## Question 11: What are your career options right now? TRAPS: The interviewer is trying to find out, "How desperate are you?" 
 BESTANSWER: Prcpare for this question by thinking of how you can position yourself as a desired commodity. If 
 you are still working, describe the possibilities at your present firm and why, though you're greatly appreciated 
 there, you're looking for something more (challenge, money, responsibility, etc.). Also mention that you're 
@@ -155,7 +151,7 @@ seriously exploring opportunities with one or two other firms.
 If you're not working, you can talk about other employment possib s you're actually exploring. But do this with 
 a light and confident touch, speaking only in general terms. You don't want to seem controlling and coy — or 
 desperate. 
-Question 12: Why have you been out of work so long? 
+## Question 12: Why have you been out of work so long? 
 TRAPS: A tough question if you've been on the sidelines a long time. You don't want to seem like “damaged 
 good 
 BESTANSWER: Y ou want to emphasize factors which have prolonged your job search by your own choice. 
@@ -170,15 +166,16 @@ the end, I'm convinced that when I do find the right match, all that careful eva
 worthwhile, both for the company that hires me and myself.” 
 “I’d had a lengthy period of very cons stent hard work, and felt ready for a breather, so | (spent time with 
 family, traveled, built an in-law unit behind the house, etc.) before commencing an active job search.” 
-CICODING BUGS ZINOTES GALLERY 5
-Question 13: Tell me honestly about the strong points and weak points of your (former or 
+
+## Question 13: Tell me honestly about the strong points and weak points of your (former or 
 present) boss (company, management team, etc.). 
 TRAPS: Skillful interviewers sometimes make it almost irresistible to open up and air a little dirty laundry from your previous position. DON'T bitc! 
 BESTJANSWER: R cember the rule: Never be negative. Stress only the good points, no matter how charmingly 
 you're invited to be critical. The interviewer doesn't care a whit about your previous boss. He wants to find ~ out how loyal and positive you are, and whether you'll eriticize co-workers and supervisors if invited to do so by 
 someone in your new workplace. This question is your opportunity to demonstrate your loyalty to those with 
 whom you work. 
-Question 14: What good books have you read lately? 
+
+## Question 14: What good books have you read lately? 
 TRAPS: As in all matters of your interview, never fake familiarity you don't have. Yet you don't want to seem like a 
 dim bulb who hasn't read a book since high school English. 
 BESTIANSWERE Unlcss you're up for a position in academia or as book critic for The New York Times, you're not 
@@ -187,7 +184,8 @@ your profession and/or on management. Consider it part of the work of your job s
 these, but make sure they are quality books that reflect favorably upon you, nothing far out of date or considered 
 within the field to be unworthy. Finally, add a recently published bestselling work of fiction by a world-class 
 author and you'll pass this question with flying colors. 
-Question 15: Tell me about a n when your work was ¢ 
+
+## Question 15: Tell me about a n when your work was ¢ 
 TRAPS: This is a tough question because it's a more clever and subtle way to get you to admit to a weakness or past 
 mistake. You can't dodge it by pretending you've never been criticized; we all have. Yet it can be damaging to admit 
 potential faults and failures that you'd just as soon leave buried. This question is also intended to probe how well 
@@ -195,29 +193,24 @@ you accept criticism and direction.
 BESTIANSWERS: Bcgin by emphasizing the extremely positive feedback you've gotten throughout your career and 
 if it's true) that your performance reviews have been uniformly excellent. y P Y 
 Mention that of course, no one is perfect, and you always welcome suggestions on improving your performance. 
-Then, give an example of a not-too-damaging learning experience from early in your career and relate the ways this 
-lesson has since helped you. This demonstrates that you learned from the experience, and the lesson is now one of 
-your strongest assets. 
-If you are pressed for a recent criticism, choose something fairly trivial that in no way is essential to your successful 
-performance. Add that you've learned from this, too, and over the past several years/months, it's no longer an area 
-of concern because you now make it a regular practice to...etc. 
+Then, give an example of a not-too-damaging learning experience from early in your career and relate the ways this lesson has since helped you. This demonstrates that you learned from the experience, and the lesson is now one of your strongest assets. 
+If you are pressed for a recent criticism, choose something fairly trivial that in no way is essential to your successful performance. Add that you've learned from this, too, and over the past several years/months, it's no longer an area of concern because you now make it a regular practice to...etc. 
+
 Another way to answer this question would be to describe your intention to broaden your mastery of an arca of 
 growing importance in your field. For example, this might be a computer program you've been meaning to sit 
 down and learn... a new management technique you've read about...or perhaps attending a seminar on some 
 cutting-edge branch of your profession. Again, the key is to focus on something not essential to your brilliant 
 performance and usual excellence, but which adds yet another dimension to your already solid knowledge base.
-Question 16: What are your outside interests? 
-TRAPS: This question is usually about balance and quality of life: you want to be well-rounded, not a complete 
-workaholic. But your potential employer could also be concerned that a heavy extracurricular load will interfere 
+## Question 16: What are your outside interests? 
+TRAPS: This question is usually about balance and quality of life: you want to be well-rounded, not a complete workaholic. But your potential employer could also be concerned that a heavy extracurricular load will interfere 
 with your commitment to work duties. 
-Try to gauge how this company's culture would look upon your favorite outside activities and be 
-guided accordingly. (Probably best to avoid sky diving, bungee jumping, and motocross, for example.) 
+Try to gauge how this company's culture would look upon your favorite outside activities and be guided accordingly. (Probably best to avoid sky diving, bungee jumping, and motocross, for example.) 
 You can also use this question to shatter any stereotypes that could limit your chances. If you're over 50, for 
-example, describe pursuits that enhance physical health. If younger, mention an activity that connotes wisdom and 
-institutional trust (serving on the board of a popular charity). 
+example, describe pursuits that enhance physical health. If younger, mention an activity that connotes wisdom and institutional trust (serving on the board of a popular charity). 
 But above all, remember that your employer is hiring you based on what you can do for the company, not your 
 family, yourself or outside organizations, no matter how admirable those activities may be. 
-Question 17: How do you feel about reporting to a younger person (minority, woman, etc)? 
+
+## Question 17: How do you feel about reporting to a younger person (minority, woman, etc)? 
 TRAPS: It's a shame that some interviewers feel the need to ask this question, but many understand the reality that 
 prejudi till exist among some job candidates, and it's better to try to flush them out beforehand; it could also 
 reflect the fact that the company harbors some prejudicial attitudes of a particular nature. 
@@ -229,7 +222,7 @@ just automatic. If the firm is wise enough to have promoted peopled on the basis
 proud of it, and prefer to hire others who will wholeheartedly share their strong sense of fair play. 
 BESTIANSWER: Y ou greatly admire a company that hires and promotes on merit, and you couldn't agree more with 
 that philosophy. The age (gender, race, etc.) of the person you report to would certainly make no difference to you. 
-Question 18: On confidential matters... 
+## Question 18: On confidential matters... 
 TRABS: When an interviewer presses you to reveal confidential information about a present or former employer, 
 you may feel it's a no-win situation. If you cooperate, you could be judged untrustworthy. If you don't, you may 
 irritate the interviewer and seem obstinate, uncooperative or overly suspicious. 
@@ -253,7 +246,7 @@ you.
 Oceasionally an interviewer will press candidates unmercifully for confidential information. If he doesn't get it, he 
 grows visibly annoyed, relentlessly inquisitive, yet it's all an act. He couldn't care less about the information. This is 
 his way of testing the candidate's moral fiber. Only those who hold fast are hired. 
-Question 19: Looking back, what would you do differently in your life? 
+## Question 19: Looking back, what would you do differently in your life? 
 TRAPS: This qucstion is another usually asked to uncover any life-influencing mistakes, regrets, disappointments or 
 problems that may continuc to affcct your personality and performance. 
 You do not want to give the interviewer anything negative to remember you by, such as some great personal or 
@@ -263,7 +256,7 @@ However, if there was a crossroads moment in life that you can use here without 
 and use it — just think carefully beforehand. 
 BESTANSWER: Indicate that you are a person who sees the bright side of just about everything, and that in general, 
 you wouldn't change a thing. 
-Question 20: Could you have done better in your last job? 
+## Question 20: Could you have done better in your last job? 
 TRAPS: This is no time for true confessions of major or even minor problems. 
 BESTIANSWER: Again, never be negative. 
 Example: 
@@ -275,24 +268,24 @@ For example, describe the disappointment you felt with a test campaign, new prod
 looked promising at first, but led to underwhelming results. "I wish we could have known at the start what we later 
 found out (about the cconomy turning, the marketplace changing, ctc.), but since we couldn't, we just had to go 
 for it. And we did lcarn from it..."
-Question 21: Can you work under pressure? 
+## Question 21: Can you work under pressure? 
 TRAPS: An casy question, but you want to make your answer believable. Have a success-oriented anecdote 
 prepared. 
 BESTIANSWERE Absolutely! (...and then prove it with a vivid example or two of a goal or project accomplished 
 under severe pressure.) 
-Question 22: Who has inspired you in your life and why? RAPS: The two traps here are unpreparedness and irrelevance. If you grope for an answer, it seems you've never 
+## Question 22: Who has inspired you in your life and why? RAPS: The two traps here are unpreparedness and irrelevance. If you grope for an answer, it seems you've never 
 been inspired. If you ramble about your high school basketball coach, you've wasted an opportunity to present 
 qualities of great value to the company. 
 BESTVANSWERE Have a few heroes in mind, from your mental "Board of Directors" - Leaders in your industry, from 
 history, or anyone who has been your mentor — work-related when possible. 
 Be prepared to give examples of how their words, actions or teachings have helped inspire your achievements. As 
 always, prepare an answer which highlights qualities that would be highly valuable in the position you are secking. 
-Question 23: What was the toughest decision you ever had to make? 
+## Question 23: What was the toughest decision you ever had to make? 
 TRAPS: Giving an unprepared or irrelevant answer. 
 BESTIANSWER: Bc prepared with a good example, explaining why the decision was difficult...the process you 
 followed in reaching it...the courageous or effective way you carried it out...and the beneficial results. (And again: 
 work-related is best.) 
-Question 24: Tell me about the most boring job you've ever had. 
+## Question 24: Tell me about the most boring job you've ever had. 
 TRAPS: You give a very memorable description of a very boring job. Result? You become associated with this 
 boring job in the interviewer's mind. 
 BESTIANSWER: Y ou have never allowed yourself to grow bored with a job, because there’s always a way to keep it 
@@ -302,7 +295,7 @@ Example:
 hard work. As with actors who feel there are no small parts, I also believe that in every company or department 
 there are exciting challenges and intriguing problems needful of energetic and enthusiastic solutions — one just has 
 to look for them.” 
-Question 25: Have you been absent from work more than a few days in any previous 
+## Question 25: Have you been absent from work more than a few days in any previous 
 position? [ERABS: 1f you've had a problem, lying could result in the interviewer discovering the truth; you could be found out. 
 Yet admitting an attendance problem could raise many flags. 
 BEST ANSWER: If you have had no problem, emphasize your excellent and consistent attendance record throughout 
@@ -315,7 +308,7 @@ To do this, give the same answer as above but preface it with something like, "O
 whenever) because of (your reason, which is now in the past), I have never had a problem and have enjoyed an 
 excellent attendance record throughout my career. Furthermore, I believe, consistent attendance is important 
 because..." (Pick up the rest of the answer as outlined above.). 
-Question 26: What changes would you expect to make if you came on board? 
+## Question 26: What changes would you expect to make if you came on board? 
 TRAPS: Watch out! This question can derail your candidacy just as you are about to be hired. 
 Reason: No matter how bright you are, you cannot know the right actions to take in a position before you settle in 
 and get to know the operation's strengths, weaknesses, key people, financial condition, methods of operation, etc. 
@@ -335,7 +328,7 @@ First, ask if these are in fact the major concerns. If so, then reaffirm how you
 clsewhere might prove very helpful). 
 NOTE: This kind of question can be related to 30-60-90 day planning; if appropriate, share your first-three-month 
 concept after deciding how best to create such plans. 
-“ Question 27: I'm concerned that you don't have ... (“x” college degree/ “x” X certification or 
+“ ## Question 27: I'm concerned that you don't have ... (“x” college degree/ “x” X certification or 
 licensure/ as much experience as we'd like in “x” area...) TRAPS: This could be a make-or-break question. The interviewer is mostly pleased, but has doubts over one area or qualification lacking. If you can be reassuring on this point, the job may be yours. 
 BESTISTRATEGY: Bcfore going into any interview, identify the weakest aspects and/or missing qualifications from 
 this company's point of view. Then prepare the best approach possible to shore up your defenses. To get past this 
@@ -353,7 +346,7 @@ NOTE: This is a powerful way to handle this question for two reasons. First, you
 your interviewer’s area of concern. But more importantly, you're then shifting the focus away from this one 
 isolated area and putting it on the unique combination of strengths you offer, strengths which tie in perfectly with 
 the employer’s greatest needs. 
-Question 28: How do you feel about working nights and weekends? 
+## Question 28: How do you feel about working nights and weekends? 
 TRAPS: Blurt out "no way, Jose" and you can kiss the job offer goodbye. But what if you have a family and want to 
 work a reasonably normal schedule? s there a way to get both the job and the schedule you want? 
 BESTIANSWERE First, if you're a confirmed workaholic, this question is a softball lob. Whack it out of the park on 
@@ -377,7 +370,7 @@ happy and productive at work. If I could handle some of the extra work at home i
 that would be ideal. You'd be getting a person of exceptional productivity who meets your needs with strong 
 credentials. And I'd be able to handle some of the heavy workload at home, allowing the family to see me a bit 
 more. Everybody would win.” 
-Question 29: Are you willing to relocate or travel? 
+## Question 29: Are you willing to relocate or travel? 
 TRAPS: Answer with a flat "no" and you may slam the door shut on this opportunity. But what if you'd really 
 prefer not to relocate or travel, yet wouldn't want to lose the job offer over it? 
 BESTVANSWERE First find out where you may have to relocate and how much travel may be involved. Then respond 
@@ -395,7 +388,7 @@ that if you must relocate or travel, they will have to ante up significantly to 
 The answering strategy you choose depends on how cager you are for the job. If you want to leave no opening for 
 moving and travel, choose the first approach. If you want to play a little harder-to-get in hopes of generating a 
 more enticing offer, choose the second. 
-Question 30: Do you have the stomach to fire people? Have you had experience 
+## Question 30: Do you have the stomach to fire people? Have you had experience 
 people when necessary? 
 TRAPS: This "innocent" question could be a trap door which sends you down a chute and lands you in a heap of 
 dust outside the front door. Why? Because its real intent is not just to see if you've got the stomach to fire, but also 
@@ -411,7 +404,7 @@ accomplished, especially choosing the right people, I've found you don't have to
 better. A poor employee can wreak terrible damage in undermining the morale of an entire team of good people. 
 When there's no other way, I've found it's better for all concerned to act decisively in severing relationships that 
 aren’t working out." 
-Question 31: Why have you had so many jobs? 
+## Question 31: Why have you had so many jobs? 
 TRAPS: Your interviewer fears you may leave this position quickly, as you have others. He's concerned you may be 
 unstable, or a "problem person" who has had trouble succeeding with others in past jobs. 
 BESTIANSWERE First, before you even get to the interview stage, you should try to minimize your image as a job 
@@ -423,7 +416,7 @@ Instead of showing three positions this way:
 4/2014 - 12/2015, Position B; 
 1/2015 - 8/2015, Position C 
 12
-Question 32: What do you see as the proper role/mi 
+## Question 32: What do you see as the proper role/mi 
 ...it would be better to show simply: 
 2013 - 2014, Position A; 
 2014 - 2015 Position C. 
@@ -453,7 +446,7 @@ to success in each role. Then commit your response to memory. Here, again, the m
 the position’s requirements, the wants and needs of the interviewer, and the more homework you've done to 
 identify the culture of the firm, the more on-target your answer will be. 
 NOTE: Those encountering these kinds of questions are likely candidates for high positions in an organization. 
-Question 33: What would you say to your boss if he's crazy about an idea, but you think it 
+## Question 33: What would you say to your boss if he's crazy about an idea, but you think it 
 stinks? 
 TRAPS: This is another question that pits two values, in this case loyalty and honesty, against one another. 
 BESTIANSWER: R cmember the rule stated carlier: In any conflict between values, always choose integrity. 
@@ -469,7 +462,7 @@ So, the goal in this case would be to see if you and the boss could make this id
 in ways that might effectively overcome any initial reservation you or others may have about it. 
 Of course, if you're overruled and the boss says, “No, let's do it my way,” then you must give your full and 
 enthusiastic support to make it work as well as possible. 
-Question 34: How could you have improved your career progress? 
+## Question 34: How could you have improved your career progress? 
 TRAPS: This is another variation on the q question, "If you b could, how would you ¥ live y your life over?" Remember, 
 you're not going to fall for any such invitations to rewrite personal history. It can be a mistake if you do. 
 BESTIANSWER: Y ou're generally quite happy with your career progress. Maybe, if you had known something 
@@ -481,7 +474,7 @@ NOTE: A natural next step once you address “how you’ve gotten here” would 
 moving forward” — but that’s outside the scope of THIS question, and can lead to further discussion of “five years 
 cte. from now™ — which you might already have answered, or wish to avoid, unless you’re ready to address 
 enthusiastically where you wish to take your carcer from here — choices to make. 
-Question 35: What would you do if a colleague at your level wasn't pulling his/her 
+## Question 35: What would you do if a colleague at your level wasn't pulling his/her 
 weight..and this was hurting your department? 
 TRAPS: This question and other hypothetical ones test your sense of human relations and how you might handle 
 office politics. 
@@ -499,7 +492,7 @@ and the situation would inevitably worsen. I would try over and again, in whatev
 problem, involving wider and wider circles of people, both above and below the offending individual and including 
 my own boss if necessary, so that everyone involved can see the rewards for teamwork and the drawbacks of noncooperation. [ might add that in my experience, it’s very rare that this persistent and constructive approach hasn’t 
 resolved things successfully." 
-Question 36: You were with your former employer a long time. Won't it be hard switching 
+## Question 36: You were with your former employer a long time. Won't it be hard switching 
 to a new company? 
 TRAPS: Your interviewer is worried that this old dog will find it hard to learn new tricks. 
 BEST ANSWER: To overcome this concern, you must point to the many ways you have grown and adapted to 
@@ -508,7 +501,7 @@ As a result, you've learned to adapt quickly to whatever is thrown at you, and y
 challenges. To further assure the interviewer, describe any similarities between the new position and your prior 
 one. Return to the point that their needs and your skills are such a close match, you expect to be completely 
 comfortable in this new environment. 
-Question 37: May | contact your present employer for a reference? 
+## Question 37: May | contact your present employer for a reference? 
 TRAPS: If you're trying to keep your job search private, this is the last thing you want. But if you don't cooperate, 
 won't you scem as if you're trying to hide something? 
 BEST ANSWER: Express your concern that you'd like to keep your job scarch private, but that in time, it will be 
@@ -519,20 +512,20 @@ be most appreciative if we kept our discussion confidential for now. At the poin
 candidate, and have tendered a job offer, then by all means you should contact them. I'm very proud of my record 
 there.” 
 15
-Question 38: Give me an example of your creativity (analytical skill..managing ability, etc.) 
+## Question 38: Give me an example of your creativity (analytical skill..managing ability, etc.) 
 TRAPS: The worst offense here is simply being unprepared. Your hesitation may seem as if you're havinga hard 
 time remembering the last time you were creative, analytical, etc. 
-BEST ANSWER: Remember from Question 2 that you should commit to memory a list of your greatest and most 
+BEST ANSWER: Remember from ## Question 2 that you should commit to memory a list of your greatest and most 
 recent achievements, ever ready on the tip of your tongue. 
 If you have such a list, it's easy to present any of your achievements in light of the quality the interviewer is asking 
 about. For example, the smashing success you orchestrated at last year's trade show could be used as an example of 
 creativity, or analytical ability, or your ability to manage. 
-Question 39: Where could you use some improvement? 
+## Question 39: Where could you use some improvement? 
 TRAPS: Another tricky way to get you to admit weaknesses. Don't fall for it. 
 BEST ANSWER: Keep this answer, like all your answers, positive. A good way to answer this question is to identify 
 a cutting-edge branch of your profession (one that's not essential to your employer's needs) as an area you're very 
 excited about and want to explore more fully over the next six months. 
-Question 40: What do you worry about? 
+## Question 40: What do you worry about? 
 TRAPS: Admit to worrying and you could sound preoccupied. Saying you never worry doesn't sound credible. 
 TWO POSSIBLE GOOD ANSWERS: Redefine the word 'worry' so that it does not reflect negatively on you. 
 Example: 
@@ -540,7 +533,7 @@ Example:
 seems to be keeping me from achieving those goals, until I find a solution. That's part of my tenacity, I suppose." 
 OR: “P've never been much of a worrier. What I try to do instead is I focus on whatever issues are before me, and 
 put my energy into finding positive solutions for the tasks at hand.” 
-Question 41: Could you be considered a workaholic? (or) How many hours a week do you 
+## Question 41: Could you be considered a workaholic? (or) How many hours a week do you 
 normally work? 
 TRAPS: You don't want to give a specific number to the latter question. Make it too low, and you may not measure 
 up. Too high, and you'll forever feel guilty about sneaking out the door at 5: 
@@ -551,7 +544,7 @@ If you are not a workaholic: “I wouldn’t call myself a workaholic, but I hav
 hours when necessary. It goes with the territory. I don’t generally keep track of hours, because my work is a labor 
 of love, and I enjoy nothing more than solving problems.” 
 16
-Question 42: What's the most difficult part of being a (your job title)? 
+## Question 42: What's the most difficult part of being a (your job title)? 
 TRAPS: Unless you phrase your answer properly, your interviewer may conclude that whatever you identify as 
 "difficult" is where you are weak. 
 BEST ANSWER: First, redefine "difficult" as "challenging," which is more positive. Then, identify an area everyone 
@@ -563,7 +556,7 @@ strongest test of a top sales manager. I feel this is one area where I excel."
 "When I see the first sign that sales may slip or that sales force motivation is flagging because of a downturn in the 
 economy, here's the plan I put into action immediately..." (followed by a description of each step in the 
 process...and most importantly, the exceptional results you've achieved). 
-Question 43: The "Hypothetical Problem" 
+## Question 43: The "Hypothetical Problem" 
 TRAPS: Sometimes an interviewer will describe a difficult situation and ask, "How would you handle this?" Since it 
 is virtually impossible to have all the facts in front of you from such a short presentation, don't fall into the trap of 
 trying to solve this problem and giving your verdict on the spot. It will make your decision-making process scem 
@@ -573,7 +566,7 @@ whom you’d consult, generating possible solutions, choosing the best course of
 results. 
 Remember, in all such "What would you do?" questions, always describe your process or working methods, and 
 you'll never go wrong. 
-Question 44: The Behavioral Question (“Tell About a Time When....”) 
+## Question 44: The Behavioral ## Question (“Tell About a Time When....”) 
 TRAPS: Behavioral interview questions — designed to learn how you behaved in certain situations in the past, 
 predictive of how you’ll behave in similar scenarios in the future - arc seductive in terms of length; if not prepared, 
 the interviewee often goes on and on, telling everything in order to cover all bases. 
@@ -581,7 +574,7 @@ BEST ANSWER: A P-A-R approach to these answers is recommended: Briefly describe 
 you were facing; describe the Action (A) you took to address it; and always finish with how things turned out — the 
 Result (R). Anticipate the types of behavioral questions you may face in your area of work, and practice keeping 
 the answers to a reasonable length. 
-Question 45: What was the toughest challenge you've ever faced? 
+## Question 45: What was the toughest challenge you've ever faced? 
 TRAPS: Being unprepared or citing an example from so carly in your life that it doesn't score many points for you at 
 this stage of your career. 
 BEST ANSWER: Be prepared for this question, and have a (preferably) recent example that’s job-related; this could 
@@ -590,7 +583,7 @@ also make use of the P-A-R approach mentioned just above.
 Example: 
 “Bringing the last project we managed in under budget and on time was truly difficult ... (tell why, what was done 
 to make a success, and spell out the end result).” 
-Question 46: Would you consider starting your own business? 
+## Question 46: Would you consider starting your own business? 
 TRAPS: If you say "yes" and elaborate enthusiastically, you could be perceived as a loose cannon in a larger 
 company, too entrepreneurial to make a good team player...or someone who had to settle for the corporate life 
 because you couldn't make a go of your own business. 
@@ -614,7 +607,7 @@ show are part of your past, not the present or future. The last thing you want t
 dreamer who failed and is now settling for the corporate cocoon...or the restless maverick who will fly out the 
 door with key accounts, contacts and trade secrets under his arms just as soon as his bankroll has gotten rebuilt. 
 Always remember: Match what you want with what the position offers. 
-Question 47: What are your goals? W Not having any...or having only vague generalities, not highly specific goals; and not being prepared for 
+## Question 47: What are your goals? W Not having any...or having only vague generalities, not highly specific goals; and not being prepared for 
 this question. 
 BESTIANSWER: Many employers in a position to hire you are strong believers in goal-setting. (It's one of the 
 reasons they've been high achievers.) They like to hire in kind. If you're vague about your career and personal 
@@ -626,14 +619,14 @@ Be prepared to describe each goal in terms of specific milestones you wish to ac
 periods you're allotting for accomplishment, why the goal is important to you, and the specific steps you're taking 
 to bring it about. (But be mindful of length - do this as concisely as possible.) 
 18
-Question 48: What do you look for when you hire people? 
+## Question 48: What do you look for when you hire people? 
 TRAPS: Being unprepared for the question. 
 BESTANSWER: Spcak your own thoughts here, but for the best answer weave them around the three most 
 important qualifications for any position. 
 1. Can the person do the work (qualifications)? 
 2. Will the person do the work (motivation)? 
 3. Will the person fit in (company culture/ team considerations, positive attitude)? 
-Question 49: Sell me this stapler (or this pencil...this clock...or other object on the desk). 
+## Question 49: Sell me this stapler (or this pencil...this clock...or other object on the desk). 
 TRAPS: Some interviewers, especially business owners and hard-charging executives in marketing-driven 
 companies, feel that good salesmanship is essential for any key position and ask for an instant demonstration of 
 your skill. Be ready. 
@@ -662,7 +655,7 @@ everyone's time if we try to force it on those who don't. And I certainly wouldn
 sell many items. Is there any product on this desk you would very much like to own...just one item?" When he 
 points something out, repeat the process above. If he knows anything about selling, he may give you a standing 
 ovation. 
-Question 50: Looking back on your last position, have you done your best work? 
+## Question 50: Looking back on your last position, have you done your best work? 
 TRAPS: Tricky question. Answer "absolutely” and it can seem like your best work is behind you. Answer, "no, my 
 best work is ahead of me," and it can suggest you didn't give it your all. 
 19
@@ -670,7 +663,7 @@ BESTVANSWERE To cover both possible paths this question can take, your answer sh
 given your best in the past. but you expect the best is yet to be done, because a new position usually presents new and intriguing challenges. (Then be prepared for a follow-up question about what you perceive to be the new and cxciting challenges.) 
 ALSO: You can suggest that, like an athlete at the top of his/her game, you are just hitting your career stride thanks 
 to several factors. Then, recap those factors, highlighting your strongest qualifications. 
-Question 51: What was the toughest part of your last job? 
+## Question 51: What was the toughest part of your last job? 
 TRAPS: This is slightly different from question 42 carlier, "What's the most difficult part of being a (job title...)", 
 because it focuses specifically on the most recent position. Your interviewer will assume that whatever you found 
 toughest may give you a problem in your new position. 
@@ -681,7 +674,7 @@ If that’s not possible, state that there was nothing in your prior position th
 your answer go at that. If pressed to expand your answer, you could state that all aspects of the position were 
 enjoyable, and pinpoint those you enjoyed the most — and in the best case, these are aspects important to the 
 upcoming position, as well. 
-Question 52: How do you define success..and how do you measure up to your own 
+## Question 52: How do you define success..and how do you measure up to your own 
 definition? 
 TRAPS: Scems like an obvious enough question. Yet many interviewees, unprepared for it, fumble the ball. 
 achievements. 
@@ -691,7 +684,7 @@ Example:
 "As to how I would measurc up to that definition, I would consider mysclf both successful and fortunate..." (Then 
 summarize your career goals and how your achievements have indeed represented a progressive path toward 
 realization of your goals.) 
-Question 53: Tell me something negative you've heard about our company. (A variation on 
+## Question 53: Tell me something negative you've heard about our company. (A variation on 
 “What do you know about our company?”’) 
 TRAPS: This is a common fishing expedition to see what the industry grapevine may be saying about the company. 
 But it's also a trap because as an outsider, you never want to be the bearer of unflattering news or gossip about the 
@@ -701,7 +694,7 @@ learned through your researching the organization — reasons to want to join th
 BESTIANSWER: Nothing negative! Present the GOOD things you’ve heard, and/or the (laudatory) facts and 
 conclusions drawn from the research you’ve done on them that make you excited about the position. 
 20
-Question 54: Why should | hire you from the outside when | could promote someone from 
+## Question 54: Why should | hire you from the outside when | could promote someone from 
 within? 
 TRAPS: This question isn't as aggressive as it sounds. It represents the interviewer's own dilemma over what may be 
 a common problem. He's hopefully leaning toward you alrcady, and for reassurance, wants to hear what you have 
@@ -712,7 +705,7 @@ In general, I think it can be a good policy to hire from within - although bring
 outside, someone like myself who can strengthen the team with qualities and qualifications that may not currently 
 be present, may be the best solution. I feel that I can fill that bill because...(then recap your strongest qualifications 
 that match up with his greatest needs).” 
-Question 55: The Illegal Question TRAPS: llcgal questions include any regarding your age...number and ages of your children or other 
+## Question 55: The Illegal ## Question TRAPS: llcgal questions include any regarding your age...number and ages of your children or other 
 dependents...marital status...maiden name...religion...political affiliation...ancestry... national 
 origin...birthplace...naturalization of your parents, spouse or children...disease... disabilities...clubs...or spouse's 
 occupation...unless any of the above are in some way directly related to your performance of the job. You also 
@@ -741,8 +734,8 @@ answer a question of that nature, because it doesn’t address my ability to do 
 Most importantly, remember that illegal questions arise from fear that you won't perform or fit in well. The best 
 answer of all is to get the job and perform brilliantly. All concerns and fears will then varnish, replaced by respect 
 and appreciation for your work. 
-Question 56: The Unasked lllegal Question 
-TRAPS: Much more frequent than the illegal question (see Question 55) is the unasked illegal question. It's asked 
+## Question 56: The Unasked lllegal ## Question 
+TRAPS: Much more frequent than the illegal question (see ## Question 55) is the unasked illegal question. It's asked 
 only in the interviewer's mind. Because it’s illegal, it's won’t be expressed to you, so you have no chance to respond 
 to it - but it doesn’t mean the interviewer doesn’t have it. 
 Example: 

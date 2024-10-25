@@ -2,7 +2,6 @@
 
 Leave 5 targeteds comments on LinkedIn every single day as a job seeker or professional looking to level up...
 
-
 ## Methods
 Target company social profiles, groups, a.arget company social profiles, groups, and people
 - Focus on relevance, target personas, and intention

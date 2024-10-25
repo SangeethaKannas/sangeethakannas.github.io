@@ -551,42 +551,17 @@ Long-term goals + short-term actions.
 
 # By Age 22
 1. Your 9-5 is someone's passive income. Find new ways to make money and create yours. 
-2. Your diet isn't just what you eat but also what you watch, read, who you 
-follow & spend your time with. 
-3. You shouldn't take advice from 
-people who aren't where you want to 
-be.
-4. No one is coming to save your 
-problems. Your life's 100% your 
-responsibility. 
-5. You don't need 100 self-help books, 
-all you need is action and self 
-discipline. 
-6. College is a waste of time for 
-99% of people. You can learn 10x 
-faster from the internet if you use it 
-right.
-7. No one cares about you. So stop 
-being shy, go out and create your 
-chances. 
-8. If you find someone smarter than 
-you, work with them, don't compete. 
-9. Your job controls your SALARY. 
-It doesn't control your INCOME. 
-YOU control your income.
-10. Comfort is the worst addiction 
-and cheap ticket to depression. 
-11. Don't tell people more than they 
-need to know, respect your privacy. 
-12. Avoid alcohol at all cost. 
-Nothing worse than losing your 
-senses and acting a fool.
-13. Keep your standards high and 
-don't settle for something because it's 
-available. 
-14. The family you create is more 
-important than the family you come 
-from. 
-15. Train yourself to take nothing 
-personally to save yourself from 
-99% of mental problems.
+2. Your diet isn't just what you eat but also what you watch, read, who you follow & spend your time with. 
+3. You shouldn't take advice from people who aren't where you want to be.
+4. No one is coming to save your problems. Your life's 100% your responsibility. 
+5. You don't need 100 self-help books, all you need is action and self discipline. 
+6. College is a waste of time for 99% of people. You can learn 10x faster from the internet if you use it right.
+7. No one cares about you. So stop being shy, go out and create your chances. 
+8. If you find someone smarter than you, work with them, don't compete. 
+9. Your job controls your SALARY. It doesn't control your INCOME. YOU control your income.
+10. Comfort is the worst addiction and cheap ticket to depression. 
+11. Don't tell people more than they need to know, respect your privacy. 
+12. Avoid alcohol at all cost. Nothing worse than losing your senses and acting a fool.
+13. Keep your standards high and don't settle for something because it's available. 
+14. The family you create is more important than the family you come from. 
+15. Train yourself to take nothing personally to save yourself from 99% of mental problems.
