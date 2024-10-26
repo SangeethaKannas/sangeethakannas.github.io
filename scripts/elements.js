@@ -13,3 +13,5 @@ const requirementsArticle = document.getElementById('requirements-article')
 const acc = document.querySelectorAll(".accordion")
 const coverLetterSection = document.querySelector('.about-me')
 const swotSection = document.querySelector(".swot");
+const projectsSection = document.querySelector(".projects");
+const simpleViewSection = document.querySelector('.simple-view');

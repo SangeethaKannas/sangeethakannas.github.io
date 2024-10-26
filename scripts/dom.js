@@ -10,15 +10,11 @@ const createLabelForTab = (tab, lowerCaseTab) => {
   label.classList.add('tab-label');
   label.setAttribute('for', lowerCaseTab);
   label.innerText = tab;
+  label.onclick = function (event) {
+    openTab(event, lowerCaseTab)
+  }
   return label
 }
-
-const createInputForTab = (lowerCaseTab) => {
-  let input = document.createElement("input");
-  return setAttributes(input, { 'type': 'radio', 'name': 'tabs', 'id': lowerCaseTab, 'checked': '' });
-}
-
-const STRINGS = ['Name', 'Duration', 'Description', 'Environment'];
 
 const createProject = project => {
   return `
@@ -89,3 +85,36 @@ const createHeader = (key, value, index) => {
   }
 
 }
+
+
+
+// const createExperience = (experience) {
+
+//   simpleViewSection.innerHTML =
+//       `
+//       ${Object.keys(experience)
+//           .reduce((acc, value) =>
+//               `${acc}
+//             <div class="organization">
+//               <div class="job-details">
+//                 <div>
+//                   <span>${experience[value].organization}, </span>
+//                   <span>${experience[value].location} - </span> 
+//                   <span class="job-title">${experience[value].title}</span>
+//                 </div>
+//               </div>
+//               <div class="job-duration">
+//                 <span>${experience[value].duration}</span>
+//               </div>
+//               <div class="job-description">
+//               <span>${experience[value].roles}</span>
+//               <!--  <ul>
+//                   ${experience[value].responsibilities.reduce(stringToListItemFn, '')}
+//                 </ul>
+//               -->
+//               </div>
+//             </div>
+//         `, '')
+//       }
+//     `
+// }
