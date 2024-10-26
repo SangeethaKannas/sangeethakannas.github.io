@@ -96,7 +96,7 @@
                 "rating": ""
             }
         ],
-        "Non-Functional": [
+        "NF": [
             {
                 "name": "OWASP",
                 "website": "",
