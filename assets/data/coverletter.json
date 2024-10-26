@@ -15,44 +15,28 @@
         "Expected CTC": "To be shared on call"
     },
     "Availability": {
-        "Any offers or interviews": "No Offet yet. Attending second level interviews",
-        "Availability for Virtual interviews": "Weekdays,  Time: 10 AM to 3 PM IST",
-        "Official notice period": "Immediate",
+        "Any offers or interviews": "No Offers yet. Attending second level interviews",
+        "Availability for Virtual interviews": "Weekdays, Time: 10 AM to 8 PM IST",
+        "Official notice period": "Immediate Joiner",
         "Are you serving Notice(Y/N)": "N",
-        "Time to join after Selection": "Immediate",
         "All Documents (Exp. and Edu.)": "Yes"
     },
     "Education Details": {
         "Highest Education Qualification": "Bachelor of Engineering in Computer Science",
-        "Year of passe and mode": "2003,  Regular   ",
-        "Educational Details( Xth onwards) along with the % of marks & yr of passing": ""
+        "Year of passed and mode": "2003, Regular"
     },
     "Experience": {
         "Domain Expertise": "Telecom, Healthcare, Logistics",
         "Total IT Experience": "13 years",
-        "UI Development": "9 years",
-        "Frontend skills": {
-            "JavaScript": "9 years",
-            "HTML5 & CSS3: ": "5 years",
-            "Angular JS and Angular": "4 years",
-            "BootStrap or Node JS": "2 year",
-            "ReactJs": "4 years",
-            "Redux": "3 years"
-        },
-        "Backend": {
-            "NodeJS ": "4 years",
-            "Java": "5 years"
-        },
-        "Cloud": {
-            "Docker/Kubernetes": "2 years",
-            "Microservices": "2 years",
-            "AWS/Azure/GCP": "1 year"
-        }
+        "UI Development": "9 years"
     },
     "Hidden": {
         "Contract To Hire Interested(Y/N)": "",
         "Shall we process with PF (Y/N)": "",
         "PF Account (Y/N)": "",
-        "Mention PF A/C NUMBER": ""
+        "Mention PF A/C NUMBER": "",
+        "HSC ( 12th )": "1999, 82%",
+        "SSLC ( 10th )": "1997, 89% ( CBSE )"
+        
     }
 }

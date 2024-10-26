@@ -93,7 +93,7 @@ const parseConfig = config => {
 
 const parseProjects = projects => {
     const reducerFn = (acc, project) => acc + createProject(project)
-    projectsTab.innerHTML =  `
+    projectsTab.innerHTML = `
         <div class='container-fluid'>
             <div class='card-container'>
                 ${projects.reduce(reducerFn, '')}
@@ -114,7 +114,8 @@ const parseMyDetailsFn = myDetails => {
         .reduce((acc, key) => `${acc}${createHeader(key, aboutMeDetails[key])}`, '')
 
     const contactsList = myDetails['Contacts']
-    contactsSection.innerHTML = contactsList.reduce((acc, value) => `${acc}<span class='lh-09'>${value}</span>`, '')
+    contactsSection.innerHTML = contactsList
+        .reduce((acc, value) => `${acc}<span class='lh-09'>${value}</span>`, '')
 
     const socialMediaList = myDetails['SocialMedia'];
     socialMediaSection.innerHTML = socialMediaList
@@ -123,7 +124,10 @@ const parseMyDetailsFn = myDetails => {
 
 const parseCoverLetter = coverLetter => {
 
-    coverLetterSection.innerHTML = Object.keys(coverLetter)
+    const filteredKeys = Object.keys(coverLetter)
+        .filter(key => key.toLowerCase() !== 'hidden')
+
+    const reducedValue = filteredKeys
         .reduce((acc, key) => {
             let value = coverLetter[key]
             if (
@@ -133,18 +137,21 @@ const parseCoverLetter = coverLetter => {
             ) {
                 value = Object.keys(value).reduce((acc, key) =>
                     `${acc}
-                    <li class='skill-item'>
-                        <span class='skill-name'>${key}</span>
-                        <span class='exp-years'>${value[key]}</span>
-                    </li>
-                    `, '')
+                <li class='skill-item'>
+                    <span class='skill-name'>${key}</span>
+                    <span class='exp-years'>${value[key]}</span>
+                </li>
+                `, '')
                 value = `<ul class='skill-set-list'>${value}</ul>`
                 key = `<h2>${key}</h2>`
             } else {
                 value = `${value}`
             }
-            return `${acc}<li>${key}${value}</li>`
+            return `${acc}<li class='item'>${key}${value}</li>`
         }, '')
+
+    coverLetterSection.innerHTML = `<div class='me-container'>${reducedValue}</div>`
+
 }
 
 const parseSwot = data => {

@@ -59,44 +59,7 @@
         align-items: center;
     }
 
-        /* .skills-wrapper .skill::after {
-            content: "";
-            position: absolute;
-            border-style: solid;
-            border-color: #555 transparent transparent transparent;
-        } */
-
-    /* .skills-wrapper .skill:nth-child(1) {
-        top: 0;
-        left: 0;
-        
-    } */
-
-    /* .skills-wrapper .skill:nth-child(1):after {
-        top: 47%;
-        right: -2rem;
-        border-width: 1rem;
-        border-style: solid;
-        border-color: #555 transparent transparent transparent;
-        transform: rotate(-90deg);
-    }
-     */
-    /* .skills-wrapper .skill:nth-child(2) {
-        top: 0;
-        left: 50vw;
-    }
-
-    .skills-wrapper .skill:nth-child(3) {
-        top: 10vh;
-        left: 0;
-    }
-
-    .skills-wrapper .skill:nth-child(4) {
-        left: 50vw;
-        top: 10vh;
-    } */
-
-
+     
 /**  Toolltip top*/
 .tooltip-top::after {
     top: 100%;
