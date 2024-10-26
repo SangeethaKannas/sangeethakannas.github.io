@@ -3,7 +3,7 @@ const arrayToListReducerFn = (acc, value) => `${acc}<li>${value}</li>`;
 const arrayToListImgReducerFn = (acc, value) =>
     `${acc}
     <li class='flex skill-list-item'>
-        ${value.img ? `<img src="${value.img}" class='skills-icon' />` : ""}${value.name || ''}
+        ${value.img ? `<img src="${value.img}" class='skill-icon' />` : ""}${value.name || ''}
     </li>`;
 
 const commonReducerFn = (data, options = {}) => {
@@ -57,7 +57,7 @@ const parseWitHeader = (skillName, skills) => {
         <div class="flex">
             <div class='skill'>
                 <h2>${skillName}</h2>
-                <div class='flex flex-wrap'>
+                <div class='flex flex-wrap justify-center'>
                     ${skills.reduce(arrayToListImgReducerFn, '')}
                 </div>
             </div>
@@ -92,7 +92,7 @@ const parseProjects = projects => {
     const reducerFn = (acc, project) => acc + createProject(project)
     projectsTab.innerHTML = `
         <div class='container-fluid'>
-            <div class='card-container'>
+            <div class='card-container flex flex-wrap'>
                 ${projects.reduce(reducerFn, '')}
             </div>
         </div>
@@ -148,7 +148,6 @@ const parseCoverLetter = coverLetter => {
         }, '')
 
     coverLetterSection.innerHTML = `<div class='me-container'>${reducedValue}</div>`
-
 }
 
 const parseSwot = data => {

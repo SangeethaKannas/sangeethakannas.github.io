@@ -19,11 +19,7 @@
     justify-items: right;
 }
 
-.jc-sb {
-    justify-content: space-between;
-}
-
-.jc-end {
+.justify-end {
     justify-content: flex-end;
 }
 
@@ -48,18 +44,23 @@
         height: auto;
     }
 
+    .skills-wrapper .skill h2 {
+        text-align: center;
+    }
+
     .skill-list-item {
         display: flex;
         flex-direction: column;
         margin: 1.5rem;
-        height: 2rem;
-        width: 2rem;
         text-align: center;
         justify-content: center;
         align-items: center;
     }
-
-     
+        
+        .skill-icon {
+            height: 3rem;
+        }
+  
 /**  Toolltip top*/
 .tooltip-top::after {
     top: 100%;

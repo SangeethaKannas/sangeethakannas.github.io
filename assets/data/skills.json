@@ -45,12 +45,6 @@
                 "website": "",
                 "img": "logos/Java.png",
                 "rating": ""
-            },
-            {
-                "name": "Express",
-                "website": "",
-                "img": "",
-                "rating": ""
             }
         ],
         "Database": [
@@ -102,13 +96,7 @@
                 "rating": ""
             }
         ],
-        "Non Functional": [
-            {
-                "name": "Lighthouse",
-                "website": "",
-                "img": "",
-                "rating": ""
-            },
+        "Non-Functional": [
             {
                 "name": "OWASP",
                 "website": "",
