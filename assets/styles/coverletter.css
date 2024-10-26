@@ -1,0 +1,42 @@
+.me-container {
+    display: grid;
+    gap: 1rem;
+    overflow-x: auto;
+    grid-template-columns: auto auto auto;
+    margin: 1rem;
+  }
+  
+    .me-container .item {
+      padding: 10px;
+      border: solid 1px currentColor;
+    }
+  
+  @media screen and (width < 800px) {
+    .me-container  {
+      grid-template-columns: min-content;
+      justify-content: center;
+      align-items: center;
+      background-color: green ;
+    }
+  
+    .me-container .item {
+      padding: 10px;
+      border: solid 1px currentColor;
+    }
+    
+  }
+  
+  .skill-set-list {
+    padding-left: 1rem;
+  }
+  
+  .skill-item {
+    display: flex;
+  }
+  
+  .skill-name {
+    min-width: 12rem;
+    display: inline-block;
+  }
+  
+    

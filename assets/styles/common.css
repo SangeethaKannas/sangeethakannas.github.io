@@ -28,40 +28,6 @@
     line-height: 1.5rem
 }
 
-/*** Skills */
-.skills-wrapper {
-    position: relative;
-    display: grid;
-    grid-auto-flow: column;
-    overflow-y: auto;
-    max-height: 72vh;
-}
-
-    .skills-wrapper .skill {
-        border-radius: 6px;
-        z-index: 1;
-        margin: 1rem;
-        height: auto;
-    }
-
-    .skills-wrapper .skill h2 {
-        text-align: center;
-    }
-
-    .skill-list-item {
-        display: flex;
-        flex-direction: column;
-        margin: 1.5rem;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        font-size: 0.9rem;
-    }
-        
-        .skill-icon {
-            height: 3rem;
-        }
-  
 /**  Toolltip top*/
 .tooltip-top::after {
     top: 100%;
@@ -105,4 +71,75 @@
     top: 50%;
     left: 100%;
     margin-top: -5px;
+}
+
+@media (min-width: 992px) {
+
+    .pl-lg-5,
+    .px-lg-5 {
+        padding-left: 3rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .pr-lg-5,
+    .px-lg-5 {
+        padding-right: 3rem !important;
+    }
+}
+
+.font-22 {
+    font-size: 22px !important;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+
+/*** Margins ***/
+.m-0 {
+    margin: 0 !important;
+}
+
+.mb-4,
+.my-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.mb-2,
+.my-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+@media (min-width: 992px) {
+    .m-lg-3 {
+        margin: 1rem !important;
+    }
+}
+
+/**** Borders ****/
+.border-0 {
+    border: 0 !important;
+}
+
+/***** Text Align *****/
+
+.text-left {
+    text-align: left !important;
+}
+
+/***** Typography ****/
+
+.italic {
+    font-style: italic;
 }

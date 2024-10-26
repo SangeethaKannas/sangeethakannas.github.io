@@ -86,8 +86,6 @@ const createHeader = (key, value, index) => {
 
 }
 
-
-
 // const createExperience = (experience) {
 
 //   simpleViewSection.innerHTML =
