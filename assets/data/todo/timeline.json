@@ -1,0 +1,68 @@
+{
+    "timelines": [
+        {
+            "timeline": "May 23 - Current",
+            "name": "Career break and personal projects",
+            "roles": [
+                "Learning new and latest technologies",
+                "Building personal projects"
+            ]
+        },
+        {
+            "timeline": "Sep 22 - Apr 23"
+        }
+    ],
+    "Timeline": [
+        {
+            "duration": "5-10-2009",
+            "milestonne": "Joined HCL Technologies",
+            "tasks": "Was in bench for six months. Learnt Java, JSP and HTML",
+            "others": "Lost Dad and Changed Room"
+        },
+        {
+            "benchmark": "",
+            "duration": "Cisco Security Manager - First ",
+            "tasks": "Worked as QA for four releases from 4.1 to 4.1.5 and smaller patches 3.1 to 3.9, Learned and trained Rational Functional Testing tool and got Traine awards and Cash prices. Went to Bangalore ( Cient Location ) for a month and created good Rappo with Client, Created AutoIT based test, Ran new automation tests on router module, did performance testing and autoated performance testing using RFT and gave demo to client and provided cooked up numbers",
+            "others": "Put paper for the first time and reverted it, Fought with client manager, fist escalation mail from DU Head. Went to Vijaya hospital twice a year. Waste of time and money. First team outing. A simple solution of. Got my bad teeth repaired and replaced with Rs. 10K. Still got that teeth, Lost dad and funeral attended by many team members, 15 days leave. Understood that if we take leave nothing bad happens, got extra work from manager and put two days leave, after that got an useless advice fro mentor, due to which I satareted leaing early from office. Mgr understood and got Threshold Performance, Invested money in Vinodhth venture, Gave money to Vinoth and Fought with him, Played lot of carrom boards, Freedom based on Trust, saw many team members got out of proejct, got new team members, Shipped 30 kilos of Cashews to Colleage's Brother marriage"
+        },
+        {
+            "milestone": "Cisco Prime Colloboration",
+            "tasks": "Worked as Java Full Stack Engineer",
+            "learnt": "DOJO, Java, Jersey, Postgres, Saiku..., First project in Agile methodology, Charts, Analytics based projects",
+            "others": "Got Married, Threshold Performance, Learned DOJO and entire development done in NOtepad++, Solved an critical bug that one of our teammate was not able to solve, heard a sad story with smiles from my collage, lot of tea and teamouting and firn and cricket, ego waste of time, not much improvement, Got in fight with manager and moved as Shadow resource (Lucky for 8 months),Got scolding for entire team from client manager for not attending meeting over time, Understood corprate and city culture, In order to cut costs cient decided to move from Oracle software to open source technologies, scrum calls and everything is completely new, Many left hcl"
+        },
+        {
+            "milestone": "Bench",
+            "duration": "Few Months",
+            "tasks": "Enjoyed life, met with an accident ( Second chance in life ), was in nativeplace for many months,"
+        },
+        {
+            "milestone": "Cisco iOS Web 16.x",
+            "duration": "2014-2015",
+            "First": "First AngularJS 1.x project, ",
+            "learnt": "AnguarJS,Bootstrap,Behaviour Driven Development",
+            "others": "Got laptop and Put paper after fighting with manager again, Got thrown out of project and reverted, Moved to Sholinganallur office. Started work from home, Become Dad. Went to browsing centeres and attended tea meetings. InfoSec, was happy that my old manager project got cosed and pulled up, created lot of issues and as I did not do unit testing, created shell scripts for automation, learned python, went to bangalore ( client ) for a month, got an image of how cisco engineers works, basics and stupidity and politics, Conducted Scrum meetings and started work from home a lot, my manager did not allow me to go to Bangalore for getting KT, karma code coverage, ony my feature had code coverage of > 85%, had discussion with testing team and other managers at night "
+        },
+        {
+            "milestone": "Cisco Active Advisor - Worked for many sprints and releases",
+            "duration": "2015 to 2018",
+            "tasks": "First Cloud based project. Worked on various projects. Lot of client based projects. Scrum Calls, daylight savings time. Working on jQuery, Created hybrid stack of using angularjs and jquery, Suggested idea of attaching screenshots with feedback  ( optional ). This saves much time of educing thetime of asking screenshots, Created separate Jenkins Jobs for unit testing, learnt Devops, Jenkins and Automatic build failures, created an XSS filter enginer which intercepts al http XHR requests and replaces folowing hTML characters with corresponding unicode , thereby reducing the attack surface area, Undertook Security Sigma training from Cisco, First time worked on .Net and converted the same project o Java for portability to MACOS for about six months",
+            "others": "Attended lot of interviews, Got lot of offers, Put Paper and got awesome increment. Awesome project, clients and managers. Work from home for most of the time. Chennai floods"
+        },
+        {
+            "milestone": "Cisco DNAC Advisor - Next Gen network management tool defined using SDNx etc.",
+            "duration": "Feb 2018",
+            "tasks": "Created new high visibiity module - A plugin for Active Advisor that integrated with APIC em and uploaded the devices from APIC-EM to Actie Advisor cloud, Worked ate nights in order to work in Client timezone, Took interviews for new recruits and mentored them, heard another sad story from Santhosh, understood the UI architecture and suggested ways to improve it, many left HCL Tech, Went to onsite for a month, Understood in detail about docuentation and SQL Injections and other",
+            "learnt": "GitHub Enterprise, moved most of the codebase to GitHub Enterprise, Went to onsite fto help the client team in software deliver, provided necessary details to our offshore team rearding the development happening here and kept them updated, spoke to my Group Project Manager regarding one of colleages who put paper and helped him in his career,",
+            "others": "Created a jenkins job which will check if a build is folowing the coding standards by running JSHInt and CSS int if an issues are found and then build will automatically fail. Never gave any money for birthdays and parting gifts"
+        },
+        {
+            "duration": "",
+            "tasks": ""
+        },
+        {
+            "duration": "",
+            "tasks": ""
+        }
+    ]
+}

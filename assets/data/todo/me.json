@@ -1,0 +1,101 @@
+{
+  "SWOT": {
+    "top-section": {
+      "Strengths": [
+        "Curiosity",
+        "Innovative",
+        "Handled teams across Geolocations",
+        "Started most projects from scratch"
+      ],
+      "Weakness": [
+        "Curiosity on non-important things",
+        "Sometimes loosing my cool"
+      ]
+    },
+    "bottom-section": {
+      "Opportunities": [
+        "Becoming a Technical Arcitect | CTO in startup",
+        "My own new side projects"
+      ],
+      "Threats": [
+        "Not achieved financial freedom",
+        "All risks associated with Global Economics"
+      ]
+    }
+  },
+  "Projects : Why ?": [
+    {
+      "name": "Bench",
+      "link": "Bench",
+      "duation": "March 2013 to December 2014"
+    },
+    {
+      "name": "Cisco Security Manager - 4.1 to 4.4",
+      "link": "https://www.cisco.com/c/en/us/products/security/security-manager/index.html",
+      "duration": "Oct 2009 to Nov 2012",
+      "environment": "Core Java, Swing, JIDE, Tomcat, Hibernate, jUnit, IBM RFT, Eclipse, SVN, AutoIt, Hibernate, JPA, Spring, Apache PoI, JMeter, Visual VM Profiler"
+    }
+  ],
+  "Career Highlight": [
+    "Started a new project in Angular 8 along with two members from scratch",
+    "Planned and implemented the folder structure, dependencies, Unit testcase coverage",
+    "Handled scrum ceremonies (Sprint planning, retro and standups)",
+    "Handled RCAs on major and severe bugs",
+    "Mandated Best practices in code review process and",
+    "Added CSS, ESlinting and prettier formtting as part of CI/CD pipelines"
+  ],
+  "Experience": [
+    {
+      "organization": "HCL Technologies",
+      "duration": "Oct’ 2009 to Present",
+      "title": "Fullstack Lead",
+      "location": "Chennai",
+      "roles": "Started as Lead engineer and Working as team lead and scrum master. Worked in various projects in networking and healthcare domain",
+      "responsibilities": [
+        "Created Slave based Jenkins jobs for load sharing among various Jenkins server and resolved dependencies on multiple jobs",
+        " Improved code quality by conducting code reviews, reducing the LoC, enforcing TDD/BDD  methodology and best practices",
+        "Creating new end-to-end graphical OLAP based reports using MDX, Saiku, Ajax, Dojo",
+        "Developed MDX queries for better querying of OLAP data",
+        "Unit-tested all backend classes using jUnit",
+        "Reviewed of co-developers code, unit test cases and gave positive comments and feedback",
+        "Developed PL/SQL procedures in postgres database for automated OLAP creation",
+        "Executed well under pressure, fixed all known bugs and issues, and identified potential future problems",
+        "Creating BDD specs using jasmine",
+        "Executing them using nodejs, grunt and karma code coverage tools",
+        "Create and develop Controllers, Services and modules in angular js",
+        "Wrote Test plans based on the Software requirements and design",
+        "Automated Application test cases using IBM’s Rational Functional Tester (RFT) tool",
+        "Used AutoIT to automation installation/ un installation test cases on windows",
+        "Provided RFT training to teammates and colleagues"
+      ]
+    },
+    {
+      "organization": "Vida Projects",
+      "duration": "Nov 2007 to Sept 2009",
+      "title": "Software Engineer",
+      "location": "Neyveli",
+      "roles": "Developed three applications in Javabased technologies",
+      "responsibilities": [
+        "Implemented servlets & JSPs for backend and GUI using JavaScript, HTML and CSS",
+        "Unit testing and deploying of the created projects",
+        "Extensively worked with making calls to APIs to fetch the data from the backend as JSON response and parse it on the UI for DOM/CSS Manipulation"
+      ]
+    },
+    {
+      "organization": "Trichy City Corporation",
+      "duration": "Apr 2005 to May 2006",
+      "title": "Asst. System Administrator",
+      "location": "Trichy",
+      "roles": "Developed the nextGen version of accounting and reporting system",
+      "responsibilities": [
+        "Involved in fixing the functional implementations, UI design issues, bugs and feature updates.",
+        "Participate in full-life cycle development. A key developer from version 1 through version 4 (version 1 was Java Swing based client-server, instead of web-based)",
+        "Unit testing and deploying of the created projects",
+        "Create ASP reports which gave more insights and reduced the accounting time by 20%",
+        "Designed Birth and death software that can be used anywhere, anytime",
+        "Extensively worked with making calls to APIs to fetch the data from the backend as JSON response and parse it on the UI"
+      ]
+    }
+  ]
+  
+}
