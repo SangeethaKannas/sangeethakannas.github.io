@@ -81,4 +81,11 @@ const createSocialMediaLink = (value) => `<li>
     </a>
 </li>`
 
-const createHeader = (key, value) => `<h1 class="${key.toLowerCase()}">${value}</h1>`
+const createHeader = (key, value, index) => {
+  if(index === 1) {
+    return `<h1 class="${key.toLowerCase()}">${value}</h1>`
+  } else {
+    return `<h2 class="${key.toLowerCase()}">${value}</h2>`
+  }
+
+}

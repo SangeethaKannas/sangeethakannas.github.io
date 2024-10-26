@@ -111,7 +111,7 @@ const parseQuestionFn = data => {
 const parseMyDetailsFn = myDetails => {
     const aboutMeDetails = myDetails['AboutMe']
     meDetailsSection.innerHTML = Object.keys(aboutMeDetails)
-        .reduce((acc, key) => `${acc}${createHeader(key, aboutMeDetails[key])}`, '')
+        .reduce((acc, key, index) => `${acc}${createHeader(key, aboutMeDetails[key], index + 1)}`, '')
 
     const contactsList = myDetails['Contacts']
     contactsSection.innerHTML = contactsList

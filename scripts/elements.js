@@ -4,6 +4,8 @@ const socialMediaSection = document.querySelector('.social-media-list')
 const allQuestionsElement = document.getElementById('all-questions')
 const projectsTab = document.getElementById('projects-tab')
 const tabsElement = document.querySelector('.tabs')
+const tabsHeaderElement = document.querySelector('.tabs-header')
+
 const skillsContent = document.getElementById('skills-content')
 const ideasArticle = document.getElementById('ideas-article')
 const linksElement = document.getElementById('links')

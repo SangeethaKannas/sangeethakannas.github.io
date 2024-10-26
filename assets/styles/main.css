@@ -7,6 +7,11 @@ main {
   padding: 0rem 1rem;
 }
 
+.role {
+  font-style: italic;
+  font-weight: 500;
+}
+
 .user-name {
   padding: 1rem;
   font-size: 2rem;
@@ -34,36 +39,6 @@ main {
   content: ".";
 }
 
-.contact-list {
-  margin: 10;
-  padding: 0;
-}
-
-.contact-list li {
-  margin-top: 10px;
-  display: inline;
-}
-
-.contact-list li a {
-  padding: 3px;
-}
-
-.contact-list li a:hover {
-  background-color: #ddd;
-}
-
-.contact-list li a .fa {
-  padding-right: 3px;
-}
-
-.experience ul ul {
-  display: none;
-}
-
-.experience ul li:hover>ul {
-  display: block;
-}
-
 input {
   display: none;
 }
@@ -78,8 +53,8 @@ input+label {
   font-size: 0.9rem;
 }
 
-input:checked+label {
-  border-bottom: 2px solid green;
+input:checked + label {
+  border-bottom: 2px solid currentColor;
   margin: 0 0.5rem;
 }
 
@@ -94,7 +69,9 @@ input~.tab {
 }
 
 .tabs .tab-label:hover {
-  border-bottom: 2px solid #ace7ac;
+  border-bottom: 2px solid rgb(68, 65, 65);
+  opacity: 0.75;
+  font-size: 1rem;
 }
 
 #about-me:checked~.about-me,
@@ -111,13 +88,11 @@ input~.tab {
 }
 
 .logo {
-  min-width: 3rem;
-  min-height: 3rem;
-  max-height: 3rem;
-  max-width: 3rem;
+  min-width: 5rem;
+  min-height: 5rem;
+  max-height: 5rem;
+  max-width: 5rem;
   margin: 0.3rem 0.1rem;
-  height: 25px;
-  width: 25px;
   font-size: xxx-large;
 }
 
@@ -184,6 +159,7 @@ input~.tab {
   justify-content: center;
   flex-grow: 1;
   padding: 1rem 2rem;
+  padding-bottom: 0;
 }
 
 .contacts {
@@ -293,7 +269,7 @@ input~.tab {
 #projects-tab,
 .about-me {
   max-height: 79vh;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .grid-label {
@@ -312,9 +288,9 @@ input~.tab {
 .me-container {
   display: grid;
   gap: 1rem;
-  overflow-x: scroll;
+  overflow-x: auto;
   grid-template-columns: auto auto auto;
-
+  margin: 1rem;
 }
 
 .me-container .item {
